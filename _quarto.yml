@@ -3,9 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "MelonMundi"
-  description: "Plataforma de gestão agrícola, análise estatística e rastreabilidade técnica baseada em dados."
+  title: "MelonMundi – Global Solutions"
+  description: "Plataforma institucional de gestão agrícola em produção de cucurbitáceas e rastreabilidade técnica baseada em dados."
   site-url: "https://marlenildo.github.io/melonmundi-site-publico"
+  favicon: assets/img/favicon.png
 
   navbar:
     background: light
@@ -34,3 +35,11 @@ format:
     toc: true
     smooth-scroll: true
     link-external-newwindow: true
+
+    # SEO & social sharing
+    open-graph: true
+    twitter-card: true
+
+    # Usabilidade (opcional, já validado)
+    reader-mode: true
+    page-navigation: true
