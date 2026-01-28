@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "MelonMundi"
+  description: "Plataforma de gestão agrícola, análise estatística e rastreabilidade técnica baseada em dados."
+  site-url: "https://marlenildo.github.io/melonmundi-site-publico"
+
+  navbar:
+    background: light
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Sobre"
+        href: about.qmd
+
+    right:
+      - text: "Login"
+        href: https://acervo.melonmundi.local/login
+        icon: box-arrow-in-right
+
+  page-footer:
+    left: "© 2026 MelonMundi"
+    right:
+      - text: "GitHub"
+        href: https://github.com/Marlenildo
+
+format:
+  html:
+    lang: pt-BR
+    theme: cosmo
+    css: assets/css/custom.css
+    toc: true
+    smooth-scroll: true
+    link-external-newwindow: true

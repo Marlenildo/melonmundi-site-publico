@@ -1,0 +1,14 @@
+---
+title: "MelonMundi – Gestão agrícola baseada em dados"
+description: "Plataforma institucional focada em análise estatística, rastreabilidade técnica e suporte à decisão no agronegócio."
+---
+
+## Agricultura, dados e tecnologia
+
+O **MelonMundi** é uma plataforma voltada à integração entre **ciência de dados**, **experimentação agrícola** e **gestão técnica de campo**.
+
+O site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.
+
+<a class="btn btn-primary btn-lg" href="https://acervo.melonmundi.local/login">
+🔐 Acessar o sistema
+</a>

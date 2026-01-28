@@ -1,0 +1,15 @@
+---
+title: "Sobre o MelonMundi"
+---
+
+O **MelonMundi** nasceu com o objetivo de integrar **dados, ciência e tomada de decisão no agronegócio**.
+
+A plataforma é utilizada para:
+
+- Projetos de pesquisa
+- Gestão de experimentos
+- Aplicações técnicas em campo
+- Apoio à decisão agronômica
+
+> Este site é **público e institucional**.  
+> O acesso ao sistema requer autenticação.

@@ -1,0 +1,21 @@
+Package: melonmundi.site.publico
+Title: MelonMundi Public Website
+Version: 0.1.0
+Authors@R: 
+    person("Marlenildo", "Melo", role = c("aut", "cre"))
+Description: Website público institucional da plataforma MelonMundi.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+
+
+
+Package: melonmundi.site.publico
+Type: Website
+Title: MelonMundi Public Institutional Website
+Version: 0.1.0
+Authors@R:
+    person("Marlenildo", "Melo", role = c("aut", "cre"))
+Description: Website público institucional da plataforma MelonMundi, desenvolvido com Quarto e R.
+License: MIT
+Encoding: UTF-8
