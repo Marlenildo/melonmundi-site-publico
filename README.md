@@ -18,9 +18,10 @@ O site é publicado automaticamente via **GitHub Pages**, a partir do diretório
 
 ## Segurança
 
-Este repositório **não contém autenticação, dados sensíveis ou lógica de backend**.
+Este repositório **não contém autenticação, dados sensíveis ou lógica de backend**.  
 Todo o acesso autenticado ocorre em sistemas externos.
 
 ## Licença
 
-MIT License.
+Este projeto é distribuído sob a licença **MIT**.  
+Consulte o arquivo [`LICENSE`](LICENSE) para mais detalhes.
