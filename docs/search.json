@@ -19,5 +19,19 @@
     "title": "MelonMundi – Gestão agrícola baseada em dados",
     "section": "",
     "text": "O MelonMundi é uma plataforma voltada à integração entre ciência de dados, experimentação agrícola e gestão técnica de campo.\nO site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.\n 🔐 Acessar o sistema"
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "Estrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
   }
 ]

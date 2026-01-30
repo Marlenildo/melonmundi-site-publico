@@ -3,35 +3,48 @@ project:
   output-dir: docs
 
 website:
-  title: "MelonMundi – Global Solutions"
   description: "Plataforma institucional de gestão agrícola em produção de cucurbitáceas e rastreabilidade técnica baseada em dados."
   site-url: "https://marlenildo.github.io/melonmundi-site-publico"
   favicon: assets/img/favicon.png
+  search: false
+  page-navigation: true
 
   navbar:
-    background: light
+    pinned: true
+    collapse: true
+    # collapse-below: lg
+    background: none
+    foreground: "#548238"
+    logo: "assets/img/nova_logomm.png"
+    logo-alt: "MelonMundi - Global Solutions logo."
+    toggle-position: right
     left:
-      - text: "Início"
+      - text: "Página Incial"
         href: index.qmd
-      - text: "Sobre"
+      - text: "Quem Somos"
         href: about.qmd
-
     right:
       - text: "Login"
         href: https://acervo.melonmundi.local/login
         icon: box-arrow-in-right
 
   page-footer:
-    left: "© 2026 MelonMundi"
-    right:
-      - text: "GitHub"
-        href: https://github.com/Marlenildo
+    right: "&copy; 2026 MelonMundi - Global Solutions"
+    left: "![](assets/img/nova_logomm.png){width=60px}"
+    center:
+      - text: "Página Inicial"
+        href: index.qmd
+      - text: "Quem Somos"
+        href: about.qmd
+      - text: "Privacidade"
+        href: privacy.qmd
+      - text: "Termos de Uso"
+        href: terms.qmd
 
 format:
   html:
     lang: pt-BR
-    theme: cosmo
-    css: assets/css/custom.css
+    css: assets/css/styles.css
     toc: true
     smooth-scroll: true
     link-external-newwindow: true
