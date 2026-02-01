@@ -9,7 +9,6 @@
   --bg-light: #ffffff;
 }
 
-
 /* =========================================================
    BASE GLOBAL
    ========================================================= */
@@ -20,12 +19,10 @@ body {
   color: var(--text-dark);
 }
 
-
 /* =========================================================
-   LINKS (SEM AZUL / SEM SUBLINHADO)
+   LINKS
    ========================================================= */
-a,
-a:visited {
+a {
   color: var(--primary);
   text-decoration: none;
 }
@@ -36,55 +33,32 @@ a:hover {
 }
 
 /* =========================================================
-   NAVBAR — BRANCA / SEM LINHA / SEM SOMBRA
+   NAVBAR
    ========================================================= */
 .navbar {
   background-color: #ffffff !important;
-
-  /* ↓ reduz a altura */
   padding: 4px 12px;
-
   border: none !important;
   box-shadow: none !important;
 }
 
-
-
-/* Links padrão (não selecionados) */
 .navbar .nav-link {
   color: var(--text-muted) !important;
   font-weight: 500;
   padding: 10px 14px;
-  margin: 0 4px;
-  background: none;
-  border-radius: 0;
   transition: color 0.2s ease;
 }
 
-/* Hover */
-.navbar .nav-link:hover {
-  color: var(--primary) !important;
-  background: none;
-  text-decoration: none;
-}
-
-/* Aba ativa (selecionada) */
+.navbar .nav-link:hover,
 .navbar .nav-link.active {
   color: var(--primary) !important;
-  font-weight: 600;
-  background: none;
-  box-shadow: none;
 }
 
-/* Logo */
 .navbar-brand img {
   max-height: 60px;
 }
 
-
-/* =========================================================
-   BOTÃO LOGIN (ÚLTIMO ITEM À DIREITA)
-   ========================================================= */
+/* Login */
 .navbar .navbar-nav.ms-auto .nav-item:last-child .nav-link {
   background-color: var(--primary);
   color: #ffffff !important;
@@ -93,7 +67,6 @@ a:hover {
   padding: 10px 18px;
 }
 
-/* Hover do login */
 .navbar .navbar-nav.ms-auto .nav-item:last-child .nav-link:hover {
   background-color: var(--secondary);
   color: var(--text-dark) !important;
@@ -109,33 +82,229 @@ h1, h2, h3 {
 }
 
 /* =========================================================
-   CARDS / BOXES (conteúdo institucional)
+   SEÇÕES
    ========================================================= */
-.card,
-.callout {
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  margin-bottom: 20px;
+/* =========================================================
+   COLUMN-SCREEN — VARIAÇÕES DE COR (QUARTO)
+   ========================================================= */
+
+.column-screen {
+  padding: 80px 20px;
+}
+
+/* Branco — texto institucional */
+.screen-white {
+  background-color: #ffffff;
+}
+
+/* Cinza — grids, time */
+.screen-soft {
+  background-color: #f5f6f7;
+}
+
+/* Verde claro — missão, visão, valores */
+.screen-accent {
+  background-color: #f1f7ed;
 }
 
 /* =========================================================
-   BOTÕES GERAIS
+   TÍTULO PADRÃO DAS SEÇÕES
    ========================================================= */
-.btn-primary {
-  background-color: var(--primary);
-  border: none;
-  color: white;
-  font-weight: 600;
-  padding: 10px 18px;
-  border-radius: 10px;
-  transition: 0.25s;
+
+.section-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 40px;
+  letter-spacing: -0.02em;
 }
 
-.btn-primary:hover {
-  background-color: var(--secondary);
+/* =========================================================
+   TEXTO INSTITUCIONAL
+   ========================================================= */
+
+.lead-text {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.7;
   color: var(--text-dark);
+}
+
+/* =========================================================
+   GRID PADRÃO
+   ========================================================= */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+/* =========================================================
+   CARD INSTITUCIONAL (GENÉRICO)
+   ========================================================= */
+
+.card-mm {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+  overflow: hidden;
+
+  display: flex;                 /* 🔑 */
+  flex-direction: column;        /* 🔑 */
+  align-items: center;           /* 🔑 centraliza tudo */
+  text-align: center;            /* 🔑 garante alinhamento */
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+
+.card-mm:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.14);
+}
+
+/* Imagem (quando existir) */
+.card-mm img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+
+/* =========================================================
+   CARD-MM — TÍTULO E CARGO (TIME)
+   ========================================================= */
+
+/* Nome da pessoa */
+.card-mm h3,
+.card-mm h4 {
+  width: 100%;              /* 🔑 ESSENCIAL */
+  margin: 22px 0 6px;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1.25;
+  text-align: center;
+}
+
+
+
+/* Cargo */
+.card-mm .role {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted); /* 🔑 cinza claro */
+  margin-bottom: 12px;
+}
+
+
+.card-mm p {
+  width: 100%;
+  max-width: 90%;
+  text-align: center;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .column-screen {
+    padding: 60px 16px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .card-mm img {
+    height: auto;
+    max-height: 320px;
+    object-fit: contain;
+    background-color: #f2f2f2;
+  }
+}
+
+
+/* =========================================================
+   GRID
+   ========================================================= */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* =========================================================
+   CARD INSTITUCIONAL (MISSÃO / VISÃO / VALORES / TIME)
+   ========================================================= */
+.team-card {
+  background: #ffffff;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+  overflow: hidden;
+  transition: transform 0.25s ease, 
+  box-shadow 0.25s ease;
+}
+
+/* Hover */
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.14);
+}
+
+/* Imagem (somente cards com foto) */
+.team-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+/* Conteúdo */
+.team-card h1,
+.team-card h4 {
+  margin-top: 18px;
+  margin-bottom: 6px;
+  padding: 0 16px;
+  font-weight: 600;
+  color: var(--primary);
+  text-align: center;
+}
+
+.team-card h3 {
+  text-align: center;
+}
+
+.team-card .role {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.team-card p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  padding: 0 16px 18px;
+}
+
+/* =========================================================
+   MOBILE — IMAGENS SEM CORTE
+   ========================================================= */
+@media (max-width: 768px) {
+  .team-card img {
+    height: auto;
+    max-height: 320px;
+    object-fit: contain;
+    background-color: #f5f5f5;
+  }
 }
 
 /* =========================================================
@@ -146,4 +315,49 @@ h1, h2, h3 {
   border-top: 1px solid #e0e0e0;
   color: #6c757d;
   font-size: 14px;
+}
+
+
+/* =========================================================
+   IDENTIDADE VISUAL — BLOCO CENTRAL
+   ========================================================= */
+
+.identity-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.identity-logo {
+  width: 280px;           /* 🔑 maior e elegante */
+  max-width: 90%;
+  margin-bottom: 24px;
+}
+
+.identity-text {
+  max-width: 640px;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+
+/* =========================================================
+   ÍCONES — CARDS INSTITUCIONAIS
+   ========================================================= */
+
+.card-icon {
+  font-size: 2.6rem;
+  color: var(--primary);
+  margin: 26px auto 14px;
+  display: block;
+}
+
+.team-card:hover .card-icon {
+  color: var(--secondary);
+  transform: scale(1.08);
+  transition: 0.25s ease;
 }

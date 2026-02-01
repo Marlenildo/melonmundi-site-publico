@@ -19,12 +19,12 @@ website:
     logo-alt: "MelonMundi - Global Solutions logo."
     toggle-position: right
     left:
-      - text: "Página Incial"
+      - text: "Página Inicial"
         href: index.qmd
       - text: "Quem Somos"
         href: about.qmd
     right:
-      - text: "Login"
+      - text: "Entrar"
         href: https://acervo.melonmundi.local/login
         icon: box-arrow-in-right
 
@@ -56,3 +56,7 @@ format:
     # Usabilidade (opcional, já validado)
     reader-mode: true
     page-navigation: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+

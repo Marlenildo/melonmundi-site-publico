@@ -2,21 +2,21 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Sobre o MelonMundi",
+    "title": "",
     "section": "",
-    "text": "O MelonMundi nasceu com o objetivo de integrar dados, ciência e tomada de decisão no agronegócio.\nA plataforma é utilizada para:\n\nProjetos de pesquisa\nGestão de experimentos\nAplicações técnicas em campo\nApoio à decisão agronômica\n\n\nEste site é público e institucional.\nO acesso ao sistema requer autenticação."
+    "text": "Conheça a MelonMundi\n\n\nSomos um grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora.\nAtuamos desde o planejamento de fazendas produtoras até a etapa final do transporte, oferecendo suporte técnico baseado em dados, experiência de campo e rigor científico.\nDesenvolvemos projetos direcionados à obtenção de conclusões técnicas sólidas sobre manejo de cucurbitáceas, sempre com foco em produtividade, sustentabilidade e rentabilidade.\n\n\n\n\n\n\nNossa essência\n\n\n\n\n\nMissão\n\n\nPromover o desenvolvimento de projetos em cucurbitáceas mais competitivos, humanos, saudáveis e rentáveis, transformando conhecimento em resultados concretos.\n\n\n\n\n\nVisão\n\n\nSer referência em pesquisa, consultoria e desenvolvimento de tecnologias para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes.\n\n\n\n\n\nValores\n\n\nIndependência\n\n\nIntegridade\n\n\nHonestidade\n\n\nRigor técnico\n\n\n\n\n\n\n\n\nNossa identidade visual\n\n\n\n\nA logomarca representa a abrangência global dos nossos serviços. As cores refletem a cultura de maior importância — o melão — e o globo simboliza as ramas do meloeiro sustentando o mundo.\n\n\n\n\n\n\n\nConheça nosso time\n\n\n\n\n\nLuis Álvarez\n\n\nFundador e Diretor\n\n\nCoordenador de projetos, orientador técnico e avaliador de campo.\n\n\n\n\n\nJuliana Carla\n\n\nAdministração e Finanças\n\n\nEngenheira Civil, responsável pela administração e finanças.\n\n\n\n\n\nMarlenildo Melo\n\n\nDesenho experimental e análise de dados\n\n\nEngenheiro Agrônomo, Doutor em Fitotecnia.\n\n\n\n\n\nGeinilson Oliveira\n\n\nAvaliador de campo\n\n\nTécnico em agropecuária e monitor técnico em MIPD."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "MelonMundi – Gestão agrícola baseada em dados",
+    "title": "MelonMundi – Global Solutions",
     "section": "",
     "text": "O MelonMundi é uma plataforma voltada à integração entre ciência de dados, experimentação agrícola e gestão técnica de campo.\nO site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.\n 🔐 Acessar o sistema"
   },
   {
     "objectID": "index.html#agricultura-dados-e-tecnologia",
     "href": "index.html#agricultura-dados-e-tecnologia",
-    "title": "MelonMundi – Gestão agrícola baseada em dados",
+    "title": "MelonMundi – Global Solutions",
     "section": "",
     "text": "O MelonMundi é uma plataforma voltada à integração entre ciência de dados, experimentação agrícola e gestão técnica de campo.\nO site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.\n 🔐 Acessar o sistema"
   },
@@ -33,5 +33,82 @@
     "title": "Changelog",
     "section": "",
     "text": "Estrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+  },
+  {
+    "objectID": "about.html#nossa-missão",
+    "href": "about.html#nossa-missão",
+    "title": "Conheça a MelonMundi",
+    "section": "Nossa Missão",
+    "text": "Nossa Missão\n\nPromover o desenvolvimento de projetos em cucurbitáceas mais competitivos, humanos, saudáveis e rentáveis.\nTransformar conhecimento e informação em resultados financeiros para nossos clientes e para nossa organização."
+  },
+  {
+    "objectID": "about.html#nossa-visão",
+    "href": "about.html#nossa-visão",
+    "title": "Conheça a MelonMundi",
+    "section": "Nossa Visão",
+    "text": "Nossa Visão\n\nSer uma empresa de referência em pesquisa, consultoria e desenvolvimento de tecnologias para produção de cucurbitáceas.\nTrabalhar continuamente para gerar valor técnico e econômico aos nossos clientes.\nEstar à frente dos projetos mais desafiadores e inovadores da nossa área de atuação."
+  },
+  {
+    "objectID": "about.html#nossos-valores",
+    "href": "about.html#nossos-valores",
+    "title": "Conheça a MelonMundi",
+    "section": "Nossos Valores",
+    "text": "Nossos Valores\n\nIndependência Integridade Honestidade Rigor Técnico"
+  },
+  {
+    "objectID": "about.html#nossa-identidade-visual",
+    "href": "about.html#nossa-identidade-visual",
+    "title": "Conheça a MelonMundi",
+    "section": "Nossa identidade visual",
+    "text": "Nossa identidade visual\n\n\nA logomarca representa a abrangência global dos nossos serviços.\nAs cores refletem a cultura de maior importância — o melão — e o globo simboliza as ramas do meloeiro sustentando o mundo."
+  },
+  {
+    "objectID": "about.html#conheça-nosso-time",
+    "href": "about.html#conheça-nosso-time",
+    "title": "Conheça a MelonMundi",
+    "section": "Conheça nosso time",
+    "text": "Conheça nosso time\n\n\n\n\nLuis Álvarez\n\n\nFundador e Diretor\n\n\nCoordenador de projetos, orientador técnico e avaliador de campo.\n\n\n\n\n\nJuliana Carla\n\n\nAdministração e Finanças\n\n\nEngenheira Civil, responsável pela administração, finanças e projetos de construções rurais.\n\n\n\n\n\nMarlenildo Melo\n\n\nDesenho experimental e análise de dados\n\n\nEngenheiro Agrônomo e Administrador. Doutor em Fitotecnia.\n\n\n\n\n\nGeinilson Oliveira\n\n\nAvaliador de campo\n\n\nTécnico em agropecuária e monitor técnico em MIPD."
+  },
+  {
+    "objectID": "about.html#quem-somos",
+    "href": "about.html#quem-somos",
+    "title": "Conheça a MelonMundi",
+    "section": "Quem somos",
+    "text": "Quem somos\n::: :::\n::: {.column-screen .section section-light} ::: column-body\nSomos um grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora.\nAtuamos desde o planejamento de fazendas produtoras até a etapa final do transporte, oferecendo suporte técnico baseado em dados, experiência de campo e rigor científico.\nDesenvolvemos projetos direcionados à obtenção de conclusões técnicas sólidas sobre manejo de cucurbitáceas, sempre com foco em produtividade, sustentabilidade e rentabilidade.\n::: :::\n::: {.column-screen .section section-accent} ::: column-body"
+  },
+  {
+    "objectID": "about2.html",
+    "href": "about2.html",
+    "title": "",
+    "section": "",
+    "text": "Quem somos\n\n\n\n\n\nSomos um grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora.\nAssessoramos desde o planejamento de uma fazenda produtora até o final do transporte.\nDesenvolvemos projetos direcionados a obtenção de conclusões sobre manejo para cucurbitáceas.\n\n\n\n\n\nNossa Missão\n\n\nPromover o desenvolvimento de projetos em cucurbitáceas que se tornem mais competitivos, humanos, saudáveis e rentáveis.\nTransformar conhecimento e informação em resultados financeiros para nossos clientes e nossa organização.\n\n\n\n\n\n\nNossa Visão\n\n\nSer uma empresa de referência em pesquisa, consultoria e desenvolvimento de tecnologias para produção de cucurbitáceas.\nTrabalhar constantemente para gerar valor para nossos clientes.\nEstar à frente dos projetos mais desafiantes e inovadores da nossa área.\n\n\n\n\n\n\nNossa Missão\n\n\n\n\nPromover o desenvolvimento de projetos em cucurbitáceas que se tornem mais competitivos, humanos, saudáveis e rentáveis.\nTransformar conhecimento e informação em resultados financeiros para nossos clientes e nossa organização.\n\n\n\n\n\n\nNossos Valores\n\n\n\nIndependência\n\n\nIntegridade\n\n\nHonestidade\n\n\nRigor\n\n\n\n\n\n\n\n\nNossa logo\n\n\n\nA logo representa a abrangência de nossos serviços que etão presentes em todo o mundo. A cores representam a cultura de maior importância que é o melão. O suporte do globo representa as ramas do meloeiro.\n\n\n\n\n\n\n\n\nConheça nosso time\n\n\n\n\n\n\n\n\n\nLuis Álvarez\n\n\nFundador e diretor\n\nCoordenador de trabalho, orientador e avaliador de campo.\n\n\n\n\n\n\n\n\n\nJuliana Carla\n\n\nAdministração e finanças\n\nEngenheira Civil. Responsável pela administração, finanças e projetos de construções rurais.\n\n\n\n\n\n\n\n\n\nMarlenildo Melo\n\n\nDesenho experimental e análise de dados\n\nEngenheiro Agrônomo e Administrador. Doutor em Fitotecnia. Responsável por desenho experimental, sistema de informação e análise de dados.\n\n\n\n\n\n\n\n\n\nGeinilson Oliveira\n\n\nAvaliador de campo\n\nTécnico em agropecuária. Monitor técnico MIPD e avaliador de campo."
+  },
+  {
+    "objectID": "about.html#conheça-nosso-time-1",
+    "href": "about.html#conheça-nosso-time-1",
+    "title": "Conheça a MelonMundi",
+    "section": "Conheça nosso time",
+    "text": "Conheça nosso time\n\n\n\n\nLuis Álvarez\n\n\nFundador e Diretor\n\n\nCoordenador de projetos, orientador técnico e avaliador de campo.\n\n\n\n\n\nJuliana Carla\n\n\nAdministração e Finanças\n\n\nEngenheira Civil, responsável pela administração, finanças e projetos de construções rurais.\n\n\n\n\n\nMarlenildo Melo\n\n\nDesenho experimental e análise de dados\n\n\nEngenheiro Agrônomo e Administrador. Doutor em Fitotecnia.\n\n\n\n\n\nGeinilson Oliveira\n\n\nAvaliador de campo\n\n\nTécnico em agropecuária e monitor técnico em MIPD."
+  },
+  {
+    "objectID": "about.html#nossa-essência",
+    "href": "about.html#nossa-essência",
+    "title": "Conheça a MelonMundi",
+    "section": "Nossa Essência",
+    "text": "Nossa Essência\n\n\n\nNossa Missão\n\n\nPromover o desenvolvimento de projetos em cucurbitáceas mais competitivos, humanos, saudáveis e rentáveis, transformando conhecimento em resultados concretos.\n\n\n\n\nNossa Visão\n\n\nSer referência em pesquisa, consultoria e desenvolvimento de tecnologias para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes.\n\n\n\n\nNossos Valores\n\n\nIndependência\n\n\nIntegridade\n\n\nHonestidade\n\n\nRigor"
+  },
+  {
+    "objectID": "terms.html",
+    "href": "terms.html",
+    "title": "Termos e Condições de Uso",
+    "section": "",
+    "text": "Termos e Condições de Uso\nAtualizado em 6 de maio de 2024.\nAo acessar e utilizar este website e as ferramentas fornecidas, você concorda com os seguintes termos e condições. Se você não concordar com estes termos, por favor, não utilize este site.\n1. Uso do Site e das Ferramentas\n1.1. Este site e as ferramentas fornecidas são destinados apenas para uso pessoal e não comercial. Você concorda em utilizá-los apenas para os fins previstos e de acordo com todas as leis e regulamentos aplicáveis.\n1.2. Você concorda em não utilizar este site de forma que possa danificar, desabilitar, sobrecarregar ou prejudicar de qualquer forma a sua funcionalidade ou a funcionalidade das ferramentas fornecidas.\n2. Propriedade Intelectual\n2.1. Todo o conteúdo deste site, incluindo, mas não se limitando a textos, imagens, gráficos, logotipos e software, é de propriedade da MelonMundi ou de seus licenciadores e está protegido por leis de direitos autorais e outras leis de propriedade intelectual.\n2.2. Você concorda em não copiar, reproduzir, distribuir, transmitir, exibir, vender, licenciar ou explorar de qualquer forma o conteúdo deste site sem a autorização prévia por escrito da MelonMundi.\n3. Responsabilidade\n3.1. Este site e as ferramentas fornecidas são fornecidos “como estão” e “conforme disponível”, sem garantias de qualquer tipo, expressas ou implícitas. A MelonMundi não garante que este site será livre de erros ou que o acesso a ele será ininterrupto.\n3.2. Em nenhuma circunstância a MelonMundi será responsável por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes do uso ou da impossibilidade de uso deste site ou das ferramentas fornecidas.\n4. Links para Sites de Terceiros\n4.1. Este site pode conter links para sites de terceiros que não são controlados ou operados pela MelonMundi. A inclusão de qualquer link não implica em endosso por parte da MelonMundi e não somos responsáveis pelo conteúdo ou pela política de privacidade de tais sites.\n5. Alterações nos Termos e Condições\n5.1. A MelonMundi reserva-se o direito de atualizar ou modificar estes termos e condições a qualquer momento, sem aviso prévio. O uso continuado deste site após tais alterações constituirá a sua aceitação dessas alterações.\n6. Lei Aplicável\n6.1. Estes termos e condições serão regidos e interpretados de acordo com as leis do [inserir país ou estado], sem levar em consideração os princípios de conflitos de leis.\n7. Contato\n7.1. Se tiver alguma dúvida sobre estes termos e condições de uso, entre em contato conosco através do e-mail administrativo@melonmundi.com.\nEstes Termos e Condições de Uso foram atualizados pela última vez em 6 de maio de 2024."
+  },
+  {
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "Aviso de Privacidade e Uso de Dados da MelonMundi",
+    "section": "",
+    "text": "Atualizado em 06 de maio de 2024.\nNós agradecemos a você por escolher a MelonMundi e por nos confiar como parceiros na melhoria dos serviços oferecidos.\nQueremos que você saiba, de forma clara e direta, a quais informações e dados nós temos acesso e o que fazemos com eles. Por isso, este Aviso de Privacidade foi elaborado. Recomendamos que você o leia com atenção e, caso tenha qualquer dúvida, fique à vontade para entrar em contato conosco, será um prazer lhe atender! Basta enviar um e-mail para administrativo@melonmundi.com ou enviar uma mensagem para o WhatsApp da MelonMundi.\n1. Quem somos\nA MelonMundi está comprometida em proteger a sua privacidade e em cumprir com todas as leis e regulamentos aplicáveis, incluindo a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/18). Esta Política de Privacidade descreve como coletamos, usamos, protegemos e compartilhamos suas informações pessoais quando você utiliza nosso site e as ferramentas fornecidas.\n2. Coleta de Informações\nNão coletamos intencionalmente informações pessoais identificáveis dos usuários deste site ou das ferramentas fornecidas, exceto quando fornecidas voluntariamente pelos usuários para utilizar as funcionalidades das ferramentas. As informações inseridas pelos usuários são coletadas apenas para o propósito específico de fornecer a funcionalidade das ferramentas e ajudar os usuários na tomada de decisões relacionadas à agricultura.\n3. Uso de Informações\nAs informações inseridas pelos usuários nas ferramentas fornecidas são utilizadas exclusivamente para fornecer a funcionalidade das ferramentas e melhorar a experiência do usuário. Não utilizamos essas informações para qualquer outro propósito sem o consentimento expresso do usuário.\n4. Armazenamento e Segurança de Informações\nAs informações inseridas pelos usuários nas ferramentas fornecidas não são armazenadas em nossos servidores ou em qualquer outro local. Elas são processadas apenas durante a sessão em que as ferramentas são utilizadas e são excluídas após o encerramento da sessão. Implementamos medidas de segurança adequadas para proteger as informações durante o uso das ferramentas.\n5. Uso de Navegação e Cookies\nUtilizamos cookies para melhorar a experiência do usuário e personalizar o conteúdo do site de acordo com as preferências do usuário. Cookies são pequenos arquivos de texto que são armazenados no dispositivo do usuário quando o site é acessado. Eles são usados para lembrar informações de sessão, como preferências de idioma, e para coletar informações sobre a interação do usuário com o site, como páginas visitadas e tempo gasto em cada página.\n6. Consentimento e Controle do Usuário\nAo utilizar este site e as ferramentas fornecidas, você concorda com os termos desta Política de Privacidade e com o uso de cookies. Os usuários têm o direito de recusar ou desativar cookies em seus navegadores, no entanto, isso pode afetar a funcionalidade do site.\n7. Alterações na Política de Privacidade\nEsta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças em nossas práticas de privacidade ou em conformidade com a legislação aplicável. Quaisquer alterações significativas serão destacadas neste site.\n8. Contato\nSe tiver alguma dúvida sobre esta Política de Privacidade ou sobre o uso de cookies, entre em contato conosco através do e-mail administrativo@melonmundi.com.\nEsta Política de Privacidade foi atualizada pela última vez em 06 de maio de 2024."
   }
 ]

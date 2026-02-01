@@ -1,15 +1,133 @@
 ---
-title: "Sobre o MelonMundi"
+title: ""
 ---
 
-O **MelonMundi** nasceu com o objetivo de integrar **dados, ciência e tomada de decisão no agronegócio**.
+::: {.column-screen .screen-white}
+::: {.column-body}
 
-A plataforma é utilizada para:
+<div class="section-title">Conheça a MelonMundi</div>
 
-- Projetos de pesquisa
-- Gestão de experimentos
-- Aplicações técnicas em campo
-- Apoio à decisão agronômica
+<div class="lead-text">
+Somos um grupo multidisciplinar com dedicação exclusiva às culturas de
+**melão**, **melancia** e **abóbora**.
 
-> Este site é **público e institucional**.  
-> O acesso ao sistema requer autenticação.
+Atuamos desde o planejamento de fazendas produtoras até a etapa final do
+transporte, oferecendo suporte técnico baseado em dados, experiência de
+campo e rigor científico.
+
+Desenvolvemos projetos direcionados à obtenção de
+**conclusões técnicas sólidas sobre manejo de cucurbitáceas**, sempre com
+foco em produtividade, sustentabilidade e rentabilidade.
+</div>
+
+:::
+:::
+
+
+::: {.column-screen .screen-accent}
+::: {.column-body}
+
+<div class="section-title">Nossa essência</div>
+
+<div class="card-grid">
+
+<div class="card-mm">
+<i class="fa-solid fa-bullseye card-icon"></i>
+<h3>Missão</h3>
+<p>
+Promover o desenvolvimento de projetos em cucurbitáceas mais competitivos,
+humanos, saudáveis e rentáveis, transformando conhecimento em resultados
+concretos.
+</p>
+</div>
+
+<div class="card-mm">
+  <i class="fa-solid fa-eye card-icon"></i>
+<h3>Visão</h3>
+<p>
+Ser referência em pesquisa, consultoria e desenvolvimento de tecnologias
+para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes.
+</p>
+</div>
+
+<div class="card-mm">
+  <i class="fa-solid fa-gem card-icon"></i>
+<h3>Valores</h3>
+<p>Independência</p>
+<p>Integridade</p>
+<p>Honestidade</p>
+<p>Rigor técnico</p>
+</div>
+
+</div>
+
+:::
+:::
+
+
+
+
+::: {.column-screen .screen-white}
+::: {.column-body}
+
+<div class="section-title">Nossa identidade visual</div>
+
+<div class="identity-block">
+  <img src="assets/img/nova_logomm.png"
+       alt="Logomarca MelonMundi"
+       class="identity-logo">
+
+  <p class="identity-text">
+    A logomarca representa a abrangência global dos nossos serviços.<br>
+    As cores refletem a cultura de maior importância — o melão — e o globo
+    simboliza as ramas do meloeiro sustentando o mundo.
+  </p>
+</div>
+
+:::
+:::
+
+
+
+
+
+::: {.column-screen .screen-soft}
+::: {.column-body}
+
+<div class="section-title">Conheça nosso time</div>
+
+<div class="card-grid">
+
+<div class="card-mm">
+<img src="assets/img/luis.jpg" alt="Luis Álvarez">
+<h3>Luis Álvarez</h3>
+<p class="role">Fundador e Diretor</p>
+<p>Coordenador de projetos, orientador técnico e avaliador de campo.</p>
+</div>
+
+<div class="card-mm">
+<img src="assets/img/juliana.png" alt="Juliana Carla">
+<h3>Juliana Carla</h3>
+<p class="role">Administração e Finanças</p>
+<p>Engenheira Civil, responsável pela administração e finanças.</p>
+</div>
+
+<div class="card-mm">
+<img src="assets/img/marlenildo.png" alt="Marlenildo Melo">
+<h3>Marlenildo Melo</h3>
+<p class="role">Desenho experimental e análise de dados</p>
+<p>Engenheiro Agrônomo, Doutor em Fitotecnia.</p>
+</div>
+
+<div class="card-mm">
+<img src="assets/img/geinilson.png" alt="Geinilson Oliveira">
+<h3>Geinilson Oliveira</h3>
+<p class="role">Avaliador de campo</p>
+<p>Técnico em agropecuária e monitor técnico em MIPD.</p>
+</div>
+
+</div>
+
+:::
+:::
+
