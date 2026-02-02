@@ -29,8 +29,8 @@ website:
         icon: box-arrow-in-right
 
   page-footer:
-    right: "&copy; 2026 MelonMundi - Global Solutions"
-    left: "![](assets/img/nova_logomm.png){width=60px}"
+    right: "Copyright &copy; 2026 MelonMundi - Global Solutions"
+    left: "![](assets/img/nova_logomm.png){width=80px}"
     center:
       - text: "Página Inicial"
         href: index.qmd
@@ -56,6 +56,9 @@ format:
     # Usabilidade (opcional, já validado)
     reader-mode: true
     page-navigation: true
+    include-after-body:
+      - text: |
+          <script src="assets/js/scroll-reveal.js"></script>
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

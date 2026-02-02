@@ -107,6 +107,23 @@ h1, h2, h3 {
   background-color: #f1f7ed;
 }
 
+/* Verde cor primária — missão, visão, valores */
+.screen-primary {
+  background-color: var(--primary);
+}
+
+/* =========================================================
+   SCREEN PRIMARY — TÍTULOS EM BRANCO
+   ========================================================= */
+
+.screen-primary .section-title,
+.screen-primary h1,
+.screen-primary h2,
+.screen-primary h3 {
+  color: #ffffff;
+}
+
+
 /* =========================================================
    TÍTULO PADRÃO DAS SEÇÕES
    ========================================================= */
@@ -159,6 +176,15 @@ h1, h2, h3 {
 
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+.card-body {
+  padding: 16px 14px 20px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
 
 .card-mm:hover {
@@ -171,7 +197,9 @@ h1, h2, h3 {
   width: 100%;
   height: 220px;
   object-fit: cover;
+  display: block;
 }
+
 
 
 /* =========================================================
@@ -245,12 +273,17 @@ h1, h2, h3 {
 .team-card {
   background: #ffffff;
   border-radius: 14px;
-  text-align: center;
   box-shadow: 0 6px 18px rgba(0,0,0,0.10);
   overflow: hidden;
-  transition: transform 0.25s ease, 
-  box-shadow 0.25s ease;
+
+  display: flex;              /* 🔑 */
+  flex-direction: column;     /* 🔑 */
+  align-items: center;        /* 🔑 */
+  text-align: center;         /* 🔑 */
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+
 
 /* Hover */
 .team-card:hover {
@@ -360,4 +393,54 @@ h1, h2, h3 {
   color: var(--secondary);
   transform: scale(1.08);
   transition: 0.25s ease;
+}
+
+
+/* =========================================================
+   QUARTO — REMOVER ÂNCORA DE TÍTULOS DENTRO DE CARDS
+   ========================================================= */
+
+.card-mm h1 .anchorjs-link,
+.card-mm h2 .anchorjs-link,
+.card-mm h3 .anchorjs-link,
+.card-mm h4 .anchorjs-link,
+.team-card h1 .anchorjs-link,
+.team-card h2 .anchorjs-link,
+.team-card h3 .anchorjs-link,
+.team-card h4 .anchorjs-link {
+  display: none;
+}
+
+
+.about-split {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.fa-beat {
+ --fa-animation-duration: 2s; 
+}
+
+
+/* =========================================================
+   SCROLL REVEAL — BASE
+   ========================================================= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
 }
