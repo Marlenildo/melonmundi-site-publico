@@ -18,27 +18,35 @@ unindo ciência, experiência de campo e tomada de decisão baseada em dados.
 <div class="card-grid">
 
 <div class="card-mm reveal">
+<div class="card-body">
 <i class="fa-solid fa-seedling fa-beat card-icon"></i>
 <h3>Especialização</h3>
 <p>Somos um grupo multidisciplinar com dedicação exclusiva às culturas de **melão**, **melancia** e **abóbora.**</p>
 </div>
+</div>
 
 <div class="card-mm reveal">
+<div class="card-body">
 <i class="fa-solid fa-map-location-dot fa-beat card-icon"></i>
 <h3>Planejamento</h3>
 <p>Atuamos do planejamento da fazenda ao transporte e pós-colheita.</p>
 </div>
+</div>
 
 <div class="card-mm reveal">
+<div class="card-body">
 <i class="fa-solid fa-chart-line fa-beat card-icon"></i>
 <h3>Base técnica</h3>
 <p>Oferecemos suporte técnico baseado em dados, experiência de campo e rigor científico.</p>
 </div>
+</div>
 
 <div class="card-mm reveal">
+<div class="card-body">
 <i class="fa-solid fa-check-double fa-beat card-icon"></i>
 <h3>Conclusão técnica</h3>
 <p>Desenvolvemos projetos direcionados à obtenção de conclusões técnicas sólidas sobre manejo de cucurbitáceas, sempre com foco em produtividade, sustentabilidade e rentabilidade.</p>
+</div>
 </div>
 
 </div>
@@ -142,9 +150,11 @@ para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes
 
 <div class="card-mm reveal">
 <img src="assets/img/juliana.png" alt="Juliana Carla">
+<div class="card-body">
 <h3>Juliana Carla</h3>
 <p class="role">Administração e Finanças</p>
 <p>Engenheira Civil, responsável pela administração e finanças.</p>
+</div>
 </div>
 
 <div class="card-mm reveal">
