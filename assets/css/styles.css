@@ -116,6 +116,11 @@ h1, h2, h3 {
   background-color: var(--primary);
 }
 
+/* Verde cor primária — missão, visão, valores */
+.screen-secondary {
+  background-color: var(--secondary);
+}
+
 /* =========================================================
    SCREEN PRIMARY — TÍTULOS EM BRANCO
    ========================================================= */

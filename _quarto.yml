@@ -12,7 +12,7 @@ website:
   navbar:
     pinned: true
     collapse: true
-    # collapse-below: lg
+    collapse-below: lg
     background: none
     foreground: "#548238"
     logo: "assets/img/nova_logomm.png"
@@ -25,7 +25,7 @@ website:
         href: about.qmd
     right:
       - text: "Entrar"
-        href: https://acervo.melonmundi.local/login
+        href: http://acervo.melonmundi.local:8000/oauth2/start
         icon: box-arrow-in-right
 
   page-footer:
