@@ -25,7 +25,8 @@ website:
         href: about.qmd
     right:
       - text: "Entrar"
-        href: http://acervo.melonmundi.local:8000/oauth2/start
+        href: acervo.qmd
+        # href: http://acervo.melonmundi.local:8000/oauth2/start
         icon: box-arrow-in-right
 
   page-footer:
