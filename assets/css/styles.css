@@ -76,6 +76,27 @@ a:hover {
   color: var(--text-dark) !important;
 }
 
+
+/* =========================================================
+   NAVBAR DROPDOWN
+   ========================================================= */
+.dropdown-menu {
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.dropdown-item {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+
 /* =========================================================
    TÍTULOS
    ========================================================= */

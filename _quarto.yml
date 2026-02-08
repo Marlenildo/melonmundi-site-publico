@@ -1,6 +1,7 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
+lang: pt-BR
 
 website:
   description: "Plataforma institucional de gestão agrícola em produção de cucurbitáceas e rastreabilidade técnica baseada em dados."
@@ -8,6 +9,17 @@ website:
   favicon: assets/img/favicon.png
   search: false
   page-navigation: true
+  cookie-consent:
+    type: express
+    style: headline
+    language: pt
+    title: "Cookies e privacidade"
+    description: "Este site utiliza cookies essenciais para garantir o funcionamento adequado e melhorar a sua experiência de navegação."
+    accept-label: "Aceitar"
+    decline-label: "Recusar"
+    learn-more-label: "Saiba mais"
+    learn-more-url: "/privacy.html"
+   
 
   navbar:
     pinned: true
@@ -22,7 +34,13 @@ website:
       - text: "Página Inicial"
         href: index.qmd
       - text: "Quem Somos"
-        href: about.qmd
+        href: sobre-nos.qmd
+      - text: "Mais"
+        menu:
+          - text: "Política de Privacidade"
+            href: politica-de-privacidade.qmd
+          - text: "Termos de Uso"
+            href: termos-de-uso.qmd
     right:
       - text: "Entrar"
         href: acervo.qmd
@@ -34,13 +52,13 @@ website:
     left: "![](assets/img/nova_logomm.png){width=80px}"
     center:
       - text: "Página Inicial"
-        href: index.qmd
+        href: /index.html
       - text: "Quem Somos"
-        href: about.qmd
+        href: /sobre-nos.html
       - text: "Privacidade"
-        href: privacy.qmd
+        href: /politica-de-privacidade.html
       - text: "Termos de Uso"
-        href: terms.qmd
+        href: /termos-de-uso.html
 
 format:
   html:

@@ -1,0 +1,394 @@
+/* =========================================================
+   DESIGN SYSTEM — MELONMUNDI
+   ========================================================= */
+:root {
+  --primary: #548238;
+  --secondary: #FFC000;
+  --text-dark: #264653;
+  --text-muted: #8a8a8a;
+  --bg-light: #ffffff;
+}
+
+/* =========================================================
+   BASE GLOBAL
+   ========================================================= */
+body {
+  background-color: var(--bg-light);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont,
+               'Segoe UI', Roboto, Arial, sans-serif;
+  color: var(--text-dark);
+}
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+.navbar {
+  background-color: #ffffff !important;
+  padding: 4px 12px;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar .nav-link {
+  color: var(--text-muted) !important;
+  font-weight: 500;
+  padding: 10px 14px;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--primary) !important;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+/* Login */
+.navbar .navbar-nav.ms-auto .nav-item:last-child .nav-link {
+  background-color: var(--primary);
+  color: #ffffff !important;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 18px;
+  text-align: center;
+  align-items: center;           /* 🔑 centraliza vertical */
+  justify-content: center;       /* 🔑 centraliza horizontal */
+  gap: 8px;                      /* espaço entre ícone e texto */
+}
+
+.navbar .navbar-nav.ms-auto .nav-item:last-child .nav-link:hover {
+  background-color: var(--secondary);
+  color: var(--text-dark) !important;
+}
+
+
+/* =========================================================
+   NAVBAR DROPDOWN
+   ========================================================= */
+.dropdown-menu {
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.dropdown-item {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   TÍTULOS
+   ========================================================= */
+h1, h2, h3 {
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* =========================================================
+   SEÇÕES
+   ========================================================= */
+/* =========================================================
+   COLUMN-SCREEN — VARIAÇÕES DE COR (QUARTO)
+   ========================================================= */
+
+.column-screen {
+  padding: 80px 20px;
+}
+
+/* Branco — texto institucional */
+.screen-white {
+  background-color: #ffffff;
+}
+
+/* Cinza — grids, time */
+.screen-soft {
+  background-color: #f5f6f7;
+}
+
+/* Verde claro — missão, visão, valores */
+.screen-accent {
+  background-color: #f1f7ed;
+}
+
+/* Verde cor primária — missão, visão, valores */
+.screen-primary {
+  background-color: var(--primary);
+}
+
+/* Verde cor primária — missão, visão, valores */
+.screen-secondary {
+  background-color: var(--secondary);
+}
+
+/* =========================================================
+   SCREEN PRIMARY — TÍTULOS EM BRANCO
+   ========================================================= */
+
+.screen-primary .section-title,
+.screen-primary h1,
+.screen-primary h2,
+.screen-primary h3 {
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   TÍTULO PADRÃO DAS SEÇÕES
+   ========================================================= */
+
+.section-title {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 40px;
+  letter-spacing: -0.02em;
+}
+
+/* =========================================================
+   TEXTO INSTITUCIONAL
+   ========================================================= */
+
+.lead-text {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+/* =========================================================
+   GRID PADRÃO
+   ========================================================= */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+
+/* =========================================================
+   CARD INSTITUCIONAL (GENÉRICO)
+   ========================================================= */
+
+.card-mm {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
+  overflow: hidden;
+
+  display: flex;                 /* 🔑 */
+  flex-direction: column;        /* 🔑 */
+  align-items: center;           /* 🔑 centraliza tudo */
+  text-align: center;            /* 🔑 garante alinhamento */
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-body {
+  padding: 16px 14px 20px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.card-mm:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.14);
+}
+
+/* Imagem (quando existir) */
+.card-mm img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+/* =========================================================
+   CARD-MM — TÍTULO E CARGO (TIME)
+   ========================================================= */
+
+/* Nome da pessoa */
+.card-mm h3,
+.card-mm h4 {
+  width: 100%;              /* 🔑 ESSENCIAL */
+  margin: 22px 0 6px;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1.25;
+  text-align: center;
+}
+
+
+
+/* Cargo */
+.card-mm .role {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted); /* 🔑 cinza claro */
+  margin-bottom: 12px;
+}
+
+
+.card-mm p {
+  width: 100%;
+  max-width: 90%;
+  text-align: center;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .column-screen {
+    padding: 60px 16px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .card-mm img {
+    height: auto;
+    max-height: 320px;
+    object-fit: contain;
+    background-color: #f2f2f2;
+  }
+}
+
+
+/* =========================================================
+   RODAPÉ
+   ========================================================= */
+.page-footer {
+  background-color: #ffffff;
+  border-top: 1px solid #e0e0e0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+
+/* =========================================================
+   IDENTIDADE VISUAL — BLOCO CENTRAL
+   ========================================================= */
+
+.identity-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.identity-logo {
+  width: 280px;           /* 🔑 maior e elegante */
+  max-width: 90%;
+  margin-bottom: 24px;
+}
+
+.identity-text {
+  max-width: 640px;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+
+
+/* =========================================================
+   ÍCONES — CARDS INSTITUCIONAIS
+   ========================================================= */
+
+.card-icon {
+  font-size: 2.6rem;
+  color: var(--primary);
+  margin: 26px auto 14px;
+  display: block;
+}
+
+.team-card:hover .card-icon {
+  color: var(--secondary);
+  transform: scale(1.08);
+  transition: 0.25s ease;
+}
+
+
+/* =========================================================
+   QUARTO — REMOVER ÂNCORA DE TÍTULOS DENTRO DE CARDS
+   ========================================================= */
+
+.card-mm h1 .anchorjs-link,
+.card-mm h2 .anchorjs-link,
+.card-mm h3 .anchorjs-link,
+.card-mm h4 .anchorjs-link,
+.team-card h1 .anchorjs-link,
+.team-card h2 .anchorjs-link,
+.team-card h3 .anchorjs-link,
+.team-card h4 .anchorjs-link {
+  display: none;
+}
+
+
+.about-split {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.fa-beat {
+ --fa-animation-duration: 2s; 
+}
+
+
+/* =========================================================
+   SCROLL REVEAL — BASE
+   ========================================================= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
