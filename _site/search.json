@@ -39,28 +39,28 @@
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.\n\n\n\n\n\nAjuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.\n\n\n\n\n\nCorreção dos links de Termos de Uso e Política de Privacidade\nInclusão dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\nAjuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": "Ajuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional"
+    "text": "Correção dos links de Termos de Uso e Política de Privacidade\nInclusão dos links legais no menu da navbar para melhor acessibilidade"
   },
   {
     "objectID": "CHANGELOG.html#section-1",
     "href": "CHANGELOG.html#section-1",
     "title": "Changelog",
     "section": "",
-    "text": "Ajuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak"
+    "text": "Ajuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional"
   },
   {
     "objectID": "CHANGELOG.html#section-2",
     "href": "CHANGELOG.html#section-2",
     "title": "Changelog",
     "section": "",
-    "text": "Estrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+    "text": "Ajuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak"
   },
   {
     "objectID": "sobre-nos.html",
@@ -68,5 +68,12 @@
     "title": "",
     "section": "",
     "text": "Conheça a MelonMundi\n\n\nAtuamos de forma integrada em toda a cadeia produtiva de cucurbitáceas, unindo ciência, experiência de campo e tomada de decisão baseada em dados.\n\n\n\n\n\n\n\nEspecialização\n\n\nSomos um grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora.\n\n\n\n\n\n\n\nPlanejamento\n\n\nAtuamos do planejamento da fazenda ao transporte e pós-colheita.\n\n\n\n\n\n\n\nBase técnica\n\n\nOferecemos suporte técnico baseado em dados, experiência de campo e rigor científico.\n\n\n\n\n\n\n\nConclusão técnica\n\n\nDesenvolvemos projetos direcionados à obtenção de conclusões técnicas sólidas sobre manejo de cucurbitáceas, sempre com foco em produtividade, sustentabilidade e rentabilidade.\n\n\n\n\n\n\n\n\n\nNossa essência\n\n\n\n\n\n\nMissão\n\n\nPromover o desenvolvimento de projetos em cucurbitáceas mais competitivos, humanos, saudáveis e rentáveis, transformando conhecimento em resultados concretos.\n\n\n\n\n\n\n\nVisão\n\n\nSer referência em pesquisa, consultoria e desenvolvimento de tecnologias para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes.\n\n\n\n\n\n\n\nValores\n\n\nIndependência\n\n\nIntegridade\n\n\nHonestidade\n\n\nRigor técnico\n\n\n\n\n\n\n\n\n\nNossa identidade visual\n\n\n\n\nA logomarca representa a abrangência global dos nossos serviços. As cores refletem a cultura de maior importância — o melão — e o globo simboliza as ramas do meloeiro sustentando o mundo.\n\n\n\n\n\n\n\nConheça nosso time\n\n\n\n\n\n\nLuis Álvarez\n\n\nFundador e Diretor\n\n\nCoordenador de projetos, orientador técnico e avaliador de campo.\n\n\n\n\n\n\n\nJuliana Carla\n\n\nAdministração e Finanças\n\n\nEngenheira Civil, responsável pela administração e finanças.\n\n\n\n\n\n\n\nMarlenildo Melo\n\n\nDesenho experimental e análise de dados\n\n\nEngenheiro Agrônomo, Doutor em Fitotecnia.\n\n\n\n\n\n\n\nGeinilson Oliveira\n\n\nAvaliador de campo\n\n\nTécnico em agropecuária e monitor técnico em MIPD."
+  },
+  {
+    "objectID": "CHANGELOG.html#section-3",
+    "href": "CHANGELOG.html#section-3",
+    "title": "Changelog",
+    "section": "",
+    "text": "Estrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
   }
 ]
