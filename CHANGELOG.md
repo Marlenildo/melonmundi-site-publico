@@ -2,6 +2,13 @@
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 
+## [1.0.3] - 2026-02-08
+### Changed
+- Navbar ajustada para modo translúcido
+- Melhoria visual na sobreposição com o conteúdo de fundo
+- Padronização do estilo visual do topo do site
+
+---
 ## [1.0.2] - 2026-02-06
 ### Fixed
 - Correção dos links de **Termos de Uso** e **Política de Privacidade**

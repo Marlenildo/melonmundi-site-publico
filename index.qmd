@@ -9,6 +9,6 @@ O **MelonMundi** é uma plataforma voltada à integração entre **ciência de d
 
 O site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.
 
-<a class="btn btn-primary btn-lg" href="https://acervo.melonmundi.local/login">
+<a class="btn btn-primary btn-lg" href="http://acervo.melonmundi.local/login">
 🔐 Acessar o sistema
 </a>

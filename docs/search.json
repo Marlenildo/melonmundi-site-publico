@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MelonMundi – Global Solutions",
-    "section": "",
-    "text": "O MelonMundi é uma plataforma voltada à integração entre ciência de dados, experimentação agrícola e gestão técnica de campo.\nO site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.\n 🔐 Acessar o sistema"
-  },
-  {
-    "objectID": "index.html#agricultura-dados-e-tecnologia",
-    "href": "index.html#agricultura-dados-e-tecnologia",
-    "title": "MelonMundi – Global Solutions",
-    "section": "",
-    "text": "O MelonMundi é uma plataforma voltada à integração entre ciência de dados, experimentação agrícola e gestão técnica de campo.\nO site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.\n 🔐 Acessar o sistema"
-  },
-  {
     "objectID": "termos-de-uso.html",
     "href": "termos-de-uso.html",
     "title": "Termos e Condições de Uso",
@@ -28,25 +14,18 @@
     "text": "Atualizado em 06 de maio de 2024.\nNós agradecemos a você por escolher a MelonMundi e por nos confiar como parceiros na melhoria dos serviços oferecidos.\nQueremos que você saiba, de forma clara e direta, a quais informações e dados nós temos acesso e o que fazemos com eles. Por isso, este Aviso de Privacidade foi elaborado. Recomendamos que você o leia com atenção e, caso tenha qualquer dúvida, fique à vontade para entrar em contato conosco, será um prazer lhe atender! Basta enviar um e-mail para administrativo@melonmundi.com ou enviar uma mensagem para o WhatsApp da MelonMundi.\n1. Quem somos\nA MelonMundi está comprometida em proteger a sua privacidade e em cumprir com todas as leis e regulamentos aplicáveis, incluindo a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/18). Esta Política de Privacidade descreve como coletamos, usamos, protegemos e compartilhamos suas informações pessoais quando você utiliza nosso site e as ferramentas fornecidas.\n2. Coleta de Informações\nNão coletamos intencionalmente informações pessoais identificáveis dos usuários deste site ou das ferramentas fornecidas, exceto quando fornecidas voluntariamente pelos usuários para utilizar as funcionalidades das ferramentas. As informações inseridas pelos usuários são coletadas apenas para o propósito específico de fornecer a funcionalidade das ferramentas e ajudar os usuários na tomada de decisões relacionadas à agricultura.\n3. Uso de Informações\nAs informações inseridas pelos usuários nas ferramentas fornecidas são utilizadas exclusivamente para fornecer a funcionalidade das ferramentas e melhorar a experiência do usuário. Não utilizamos essas informações para qualquer outro propósito sem o consentimento expresso do usuário.\n4. Armazenamento e Segurança de Informações\nAs informações inseridas pelos usuários nas ferramentas fornecidas não são armazenadas em nossos servidores ou em qualquer outro local. Elas são processadas apenas durante a sessão em que as ferramentas são utilizadas e são excluídas após o encerramento da sessão. Implementamos medidas de segurança adequadas para proteger as informações durante o uso das ferramentas.\n5. Uso de Navegação e Cookies\nUtilizamos cookies para melhorar a experiência do usuário e personalizar o conteúdo do site de acordo com as preferências do usuário. Cookies são pequenos arquivos de texto que são armazenados no dispositivo do usuário quando o site é acessado. Eles são usados para lembrar informações de sessão, como preferências de idioma, e para coletar informações sobre a interação do usuário com o site, como páginas visitadas e tempo gasto em cada página.\n6. Consentimento e Controle do Usuário\nAo utilizar este site e as ferramentas fornecidas, você concorda com os termos desta Política de Privacidade e com o uso de cookies. Os usuários têm o direito de recusar ou desativar cookies em seus navegadores, no entanto, isso pode afetar a funcionalidade do site.\n7. Alterações na Política de Privacidade\nEsta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças em nossas práticas de privacidade ou em conformidade com a legislação aplicável. Quaisquer alterações significativas serão destacadas neste site.\n8. Contato\nSe tiver alguma dúvida sobre esta Política de Privacidade ou sobre o uso de cookies, entre em contato conosco através do e-mail administrativo@melonmundi.com.\nEsta Política de Privacidade foi atualizada pela última vez em 06 de maio de 2024."
   },
   {
-    "objectID": "acervo.html",
-    "href": "acervo.html",
-    "title": "Acervo MelonMundi",
-    "section": "",
-    "text": "Em breve você poderá acessar o Acervo MelonMUndi\n 🔐 Acessar o sistema"
-  },
-  {
     "objectID": "CHANGELOG.html",
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.\n\n\n\n\n\nCorreção dos links de Termos de Uso e Política de Privacidade\nInclusão dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\nAjuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.\n\n\n\n\n\nNavbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": "Correção dos links de Termos de Uso e Política de Privacidade\nInclusão dos links legais no menu da navbar para melhor acessibilidade"
+    "text": "Navbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade"
   },
   {
     "objectID": "CHANGELOG.html#section-1",
@@ -68,6 +47,27 @@
     "title": "Changelog",
     "section": "",
     "text": "Estrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+  },
+  {
+    "objectID": "acervo.html",
+    "href": "acervo.html",
+    "title": "Acervo MelonMundi",
+    "section": "",
+    "text": "Em breve você poderá acessar o Acervo MelonMUndi\n 🔐 Acessar o sistema"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MelonMundi – Global Solutions",
+    "section": "",
+    "text": "O MelonMundi é uma plataforma voltada à integração entre ciência de dados, experimentação agrícola e gestão técnica de campo.\nO site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.\n 🔐 Acessar o sistema"
+  },
+  {
+    "objectID": "index.html#agricultura-dados-e-tecnologia",
+    "href": "index.html#agricultura-dados-e-tecnologia",
+    "title": "MelonMundi – Global Solutions",
+    "section": "",
+    "text": "O MelonMundi é uma plataforma voltada à integração entre ciência de dados, experimentação agrícola e gestão técnica de campo.\nO site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.\n 🔐 Acessar o sistema"
   },
   {
     "objectID": "sobre-nos.html",

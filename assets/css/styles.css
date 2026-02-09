@@ -35,13 +35,20 @@ a:hover {
 /* =========================================================
    NAVBAR
    ========================================================= */
-.navbar {
-  background-color: #ffffff !important;
-  padding: 4px 12px;
-  border: none !important;
-  box-shadow: none !important;
-}
+/*.navbar {
+/*  background-color: #ffffff !important;
+/*  padding: 4px 12px;
+/*  border: none !important;
+/*  box-shadow: none !important;
+/*}
 
+/* Navbar translúcida */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: none !important;
+}
 .navbar .nav-link {
   color: var(--text-muted) !important;
   font-weight: 500;
