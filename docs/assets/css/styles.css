@@ -83,6 +83,27 @@ a:hover {
   color: var(--text-dark) !important;
 }
 
+@media (max-width: 991.98px) {
+  .navbar {
+    position: relative;
+  }
+
+  .navbar .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    margin-top: 8px;
+    padding: 12px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
+  }
+}
+
 /* Home no topo: navbar transparente sobre o hero */
 .home-page.home-at-top #quarto-header {
   background: transparent !important;
@@ -146,6 +167,36 @@ a:hover {
 
 .home-page.home-at-top #quarto-header .navbar .navbar-toggler-icon {
   filter: brightness(0) invert(1);
+}
+
+@media (max-width: 991.98px) {
+  .home-page.home-at-top #quarto-header .navbar .navbar-collapse {
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .home-page.home-at-top #quarto-header .navbar .navbar-collapse .nav-link {
+    color: var(--text-muted) !important;
+    text-shadow: none;
+  }
+
+  .home-page.home-at-top #quarto-header .navbar .navbar-collapse .nav-link:hover,
+  .home-page.home-at-top #quarto-header .navbar .navbar-collapse .nav-link.active {
+    color: var(--primary) !important;
+  }
+
+  .home-page.home-at-top #quarto-header .navbar .navbar-collapse .navbar-nav.ms-auto .nav-item:last-child .nav-link {
+    background-color: var(--primary);
+    border: 1px solid transparent;
+    color: #ffffff !important;
+  }
+
+  .home-page.home-at-top #quarto-header .navbar .navbar-collapse .navbar-nav.ms-auto .nav-item:last-child .nav-link:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: var(--text-dark) !important;
+  }
 }
 
 
