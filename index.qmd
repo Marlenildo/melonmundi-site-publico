@@ -1,6 +1,7 @@
 ---
 title: ""
 description: "Ecossistema MelonMundi para conteúdo técnico, apps especializados e decisão agrícola orientada por dados em melão e melancia."
+body-classes: home-page home-at-top
 ---
 
 <section class="column-screen screen-home-hero">

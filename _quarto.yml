@@ -79,6 +79,8 @@ format:
       - text: |
           <script src="assets/js/scroll-reveal.js"></script>
       - text: |
+          <script src="assets/js/home-navbar-scroll.js"></script>
+      - text: |
           <script src="assets/js/home-carousel.js"></script>
     include-in-header:
       - text: |
