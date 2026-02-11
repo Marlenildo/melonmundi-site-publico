@@ -673,13 +673,18 @@ h1, h2, h3 {
   align-items: center;
 }
 
+.app-screen-carousel-wrap .mm-carousel {
+  max-width: 1240px;
+  width: 100%;
+}
+
 .app-screen {
-  min-height: 450px;
+  min-height: 520px;
   width: 100%;
   background: transparent;
   border: 0;
   box-shadow: none;
-  padding: 8px 12px;
+  padding: 18px 8px;
   display: grid;
   grid-template-columns: 1fr 1.15fr;
   gap: 24px;
@@ -705,11 +710,8 @@ h1, h2, h3 {
 
 .app-screen-media {
   position: relative;
-  min-height: 340px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 18px;
+  min-height: 390px;
+  display: block;
   perspective: 1000px;
 }
 
@@ -742,12 +744,14 @@ h1, h2, h3 {
 
 .desktop-frame {
   position: relative;
-  width: min(520px, 100%);
+  width: min(560px, 92%);
   aspect-ratio: 16 / 10;
   border-radius: 20px;
   padding-top: 24px;
   background: linear-gradient(180deg, #1e1f23 0 22px, #111 22px);
-  transform: rotateY(-8deg);
+  transform: rotateX(6deg) rotateY(-4deg);
+  margin: 92px auto 0;
+  z-index: 2;
 }
 
 .desktop-frame::before {
@@ -761,13 +765,28 @@ h1, h2, h3 {
   box-shadow: 14px 0 0 #febc2e, 28px 0 0 #28c840;
 }
 
+.tablet-frame {
+  position: absolute;
+  right: 2%;
+  top: 40px;
+  width: 240px;
+  aspect-ratio: 4 / 3;
+  border-radius: 18px;
+  transform: rotateY(-16deg);
+  z-index: 1;
+  border: 2px solid #2f2f2f;
+}
+
 .phone-frame {
-  position: relative;
-  width: 146px;
+  position: absolute;
+  left: 2%;
+  top: 68px;
+  width: 132px;
   aspect-ratio: 9 / 19.5;
   border-radius: 24px;
   border: 2px solid #2f2f2f;
-  transform: rotateY(14deg) translateY(6px);
+  transform: rotateY(18deg);
+  z-index: 3;
 }
 
 .phone-frame::before {
@@ -871,17 +890,26 @@ h1, h2, h3 {
   }
 
   .app-screen-media {
-    min-height: 280px;
-    justify-content: space-between;
+    min-height: 320px;
   }
 
   .desktop-frame {
-    width: calc(100% - 140px);
+    width: min(100%, 520px);
+    margin-top: 72px;
+    transform: none;
+  }
+
+  .tablet-frame {
+    width: 170px;
+    right: 4px;
+    top: 28px;
     transform: none;
   }
 
   .phone-frame {
-    width: 132px;
+    width: 106px;
+    left: 4px;
+    top: 58px;
     transform: none;
   }
 }

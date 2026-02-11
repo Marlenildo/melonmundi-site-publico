@@ -50,6 +50,7 @@ description: "Ecossistema MelonMundi para conteudo tecnico, apps especializados 
 </div>
 <div class="app-screen-media">
 <div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de computador"></div>
+<div class="device-frame tablet-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de tablet"></div>
 <div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de celular"></div>
 </div>
 </div>
@@ -64,6 +65,7 @@ description: "Ecossistema MelonMundi para conteudo tecnico, apps especializados 
 </div>
 <div class="app-screen-media">
 <div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de computador"></div>
+<div class="device-frame tablet-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de tablet"></div>
 <div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de celular"></div>
 </div>
 </div>
@@ -78,6 +80,7 @@ description: "Ecossistema MelonMundi para conteudo tecnico, apps especializados 
 </div>
 <div class="app-screen-media">
 <div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de computador"></div>
+<div class="device-frame tablet-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de tablet"></div>
 <div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de celular"></div>
 </div>
 </div>
