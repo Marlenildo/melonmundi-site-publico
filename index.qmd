@@ -1,14 +1,104 @@
 ---
-title: "MelonMundi – Global Solutions"
-description: "Plataforma institucional focada em análise estatística, rastreabilidade técnica e suporte à decisão no agronegócio."
+title: ""
+description: "Ecossistema MelonMundi para conteudo tecnico, apps especializados e decisao agricola orientada por dados em melao e melancia."
 ---
 
-## Agricultura, dados e tecnologia
+<section class="column-screen screen-home-hero">
+<div class="column-body">
+<div class="hero-panel reveal">
+<p class="hero-kicker">Ecossistema MelonMundi</p>
+<h1 class="hero-title">Dados, campo e decisao tecnica para <span>melao e melancia</span></h1>
+<p class="hero-subtitle">O site publico e o ponto de entrada para conhecer a MelonMundi. Com login unico, voce acessa o acervo restrito com conteudo tecnico em Bookdown e aplicativos praticos para rotina de campo.</p>
+<div class="hero-actions"><a class="btn btn-hero-primary" href="acervo.qmd"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a><a class="btn btn-hero-secondary" href="sobre-nos.qmd"><i class="fa-solid fa-users"></i> Quem Somos</a></div>
+</div>
+</div>
+</section>
 
-O **MelonMundi** é uma plataforma voltada à integração entre **ciência de dados**, **experimentação agrícola** e **gestão técnica de campo**.
+<section class="column-screen screen-white">
+<div class="column-body">
+<div class="section-title reveal">O que a MelonMundi oferece</div>
+<div class="offer-carousel-wrap reveal">
+<button class="mm-carousel-btn prev" type="button" data-carousel-prev="ofertas" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+<div class="mm-carousel" data-carousel="ofertas" data-autoplay="4200" data-slides-desktop="1" data-slides-mobile="1">
+<div class="mm-carousel-track">
+<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-book-open-reader card-icon"></i><h3>Acervo tecnico</h3><p>Conteudo estruturado em Bookdown com materiais exclusivos sobre manejo, avaliacao e interpretacao tecnica.</p></div></div></article>
+<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-magnifying-glass-chart card-icon"></i><h3>Analise orientada por dados</h3><p>Desenho experimental, leitura estatistica e suporte a decisoes operacionais com foco em resultado de campo.</p></div></div></article>
+<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-mobile-screen-button card-icon"></i><h3>Apps praticos</h3><p>Ferramentas para consulta rapida e estimativas produtivas conectadas ao dia a dia da equipe tecnica.</p></div></div></article>
+<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-user-check card-icon"></i><h3>Login unico</h3><p>Uma autenticacao para acessar o acervo e os aplicativos restritos do ecossistema MelonMundi.</p></div></div></article>
+</div>
+</div>
+<button class="mm-carousel-btn next" type="button" data-carousel-next="ofertas" aria-label="Proximo"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+<div class="mm-carousel-dots" data-carousel-dots="ofertas" aria-hidden="true"></div>
+</div>
+</section>
 
-O site apresenta informações institucionais e fornece acesso ao sistema por meio de autenticação externa.
+<section class="column-screen screen-accent">
+<div class="column-body-inset">
+<div class="section-title reveal">Aplicativos em destaque</div>
+<p class="app-intro reveal">Acesso direto para a pagina de apps do acervo.</p>
+<div class="app-screen-carousel-wrap reveal">
+<button class="mm-carousel-btn prev" type="button" data-carousel-prev="apps-screens" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+<div class="mm-carousel" data-carousel="apps-screens" data-autoplay="5200" data-slides-desktop="1" data-slides-mobile="1">
+<div class="mm-carousel-track">
+<article class="mm-slide">
+<div class="app-screen">
+<div class="app-screen-copy">
+<h3>Agrofito</h3>
+<p>Consulta de produtos registrados para melao, melancia e produtos liberados para qualquer cultura com base oficial do AGROFIT/MAPA.</p>
+<span class="app-tag">Base oficial AGROFIT</span>
+<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/">Acessar no acervo</a>
+</div>
+<div class="app-screen-media">
+<div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de computador"></div>
+<div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de celular"></div>
+</div>
+</div>
+</article>
+<article class="mm-slide">
+<div class="app-screen">
+<div class="app-screen-copy">
+<h3>Calculadora de Frutas</h3>
+<p>Estimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projecao de colheita.</p>
+<span class="app-tag">Estimativa produtiva</span>
+<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/">Acessar no acervo</a>
+</div>
+<div class="app-screen-media">
+<div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de computador"></div>
+<div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de celular"></div>
+</div>
+</div>
+</article>
+<article class="mm-slide">
+<div class="app-screen">
+<div class="app-screen-copy">
+<h3>Novos apps em evolucao</h3>
+<p>O ecossistema esta em expansao continua com novas solucoes para monitoramento, recomendacao e validacao tecnica.</p>
+<span class="app-tag">Roadmap ativo</span>
+<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/">Ver apps no acervo</a>
+</div>
+<div class="app-screen-media">
+<div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de computador"></div>
+<div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de celular"></div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<button class="mm-carousel-btn next" type="button" data-carousel-next="apps-screens" aria-label="Proximo"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+<div class="mm-carousel-dots" data-carousel-dots="apps-screens" aria-hidden="true"></div>
+</div>
+</section>
 
-<a class="btn btn-primary btn-lg" href="http://acervo.melonmundi.local/login">
-🔐 Acessar o sistema
-</a>
+<section class="column-screen screen-primary">
+<div class="column-body">
+<div class="section-title reveal">Como funciona o acesso</div>
+<div class="journey-grid">
+<div class="journey-step reveal"><div class="journey-step-number">1</div><h3>Conheca o site publico</h3><p>Entenda o posicionamento da MelonMundi, equipe e solucoes tecnicas para cucurbitaceas.</p></div>
+<div class="journey-step reveal"><div class="journey-step-number">2</div><h3>Faca login unico</h3><p>Use sua autenticacao para entrar no acervo e habilitar acesso aos aplicativos restritos.</p></div>
+<div class="journey-step reveal"><div class="journey-step-number">3</div><h3>Acesse conteudo + apps</h3><p>Consulte materiais tecnicos e ferramentas digitais em um unico fluxo de trabalho.</p></div>
+</div>
+<div class="home-cta reveal"><a class="btn btn-hero-secondary" href="acervo.qmd"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ir para o Acervo</a></div>
+</div>
+</section>
