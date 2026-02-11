@@ -645,9 +645,9 @@ h1, h2, h3 {
 
 .app-link-btn {
   margin-top: auto;
-  background: #ffffff;
-  color: var(--primary);
-  border: 1px solid #d7e5c9;
+  background: var(--primary);
+  color: #ffffff;
+  border: 1px solid #4a7032;
   border-radius: 999px;
   padding: 10px 16px;
   font-size: 0.9rem;
@@ -655,11 +655,14 @@ h1, h2, h3 {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
 
 .app-link-btn:hover {
-  background: #f2f6ef;
-  color: #3f632a;
+  background: #3f632a;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
 }
 
 .app-intro {
