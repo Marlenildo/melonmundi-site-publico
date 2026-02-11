@@ -674,12 +674,12 @@ h1, h2, h3 {
 }
 
 .app-screen {
-  min-height: 420px;
-  background: #ffffff;
-  border-radius: 18px;
-  border: 1px solid #d8e4ca;
-  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.10);
-  padding: 28px;
+  min-height: 450px;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 8px 12px;
   display: grid;
   grid-template-columns: 1fr 1.15fr;
   gap: 24px;
@@ -706,6 +706,23 @@ h1, h2, h3 {
 .app-screen-media {
   position: relative;
   min-height: 340px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 18px;
+  perspective: 1000px;
+}
+
+.app-screen-media::after {
+  content: "";
+  position: absolute;
+  left: 6%;
+  right: 6%;
+  bottom: 8px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.16);
+  filter: blur(6px);
 }
 
 .device-frame {
@@ -730,6 +747,7 @@ h1, h2, h3 {
   border-radius: 20px;
   padding-top: 24px;
   background: linear-gradient(180deg, #1e1f23 0 22px, #111 22px);
+  transform: rotateY(-8deg);
 }
 
 .desktop-frame::before {
@@ -744,13 +762,12 @@ h1, h2, h3 {
 }
 
 .phone-frame {
-  position: absolute;
-  width: 160px;
+  position: relative;
+  width: 146px;
   aspect-ratio: 9 / 19.5;
   border-radius: 24px;
-  right: 0;
-  bottom: -10px;
   border: 2px solid #2f2f2f;
+  transform: rotateY(14deg) translateY(6px);
 }
 
 .phone-frame::before {
@@ -855,15 +872,16 @@ h1, h2, h3 {
 
   .app-screen-media {
     min-height: 280px;
+    justify-content: space-between;
   }
 
   .desktop-frame {
-    width: 100%;
+    width: calc(100% - 140px);
+    transform: none;
   }
 
   .phone-frame {
     width: 132px;
-    right: 6px;
-    bottom: -4px;
+    transform: none;
   }
 }
