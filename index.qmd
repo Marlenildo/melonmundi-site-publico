@@ -46,7 +46,7 @@ description: "Ecossistema MelonMundi para conteudo tecnico, apps especializados 
 <h3>Agrofito</h3>
 <p>Consulta de produtos registrados para melao, melancia e produtos liberados para qualquer cultura com base oficial do AGROFIT/MAPA.</p>
 <span class="app-tag">Base oficial AGROFIT</span>
-<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/">Acessar no acervo</a>
+<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ver app no Acervo</a>
 </div>
 <div class="app-screen-media">
 <div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de computador"></div>
@@ -61,7 +61,7 @@ description: "Ecossistema MelonMundi para conteudo tecnico, apps especializados 
 <h3>Calculadora de Frutas</h3>
 <p>Estimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projecao de colheita.</p>
 <span class="app-tag">Estimativa produtiva</span>
-<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/">Acessar no acervo</a>
+<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ver app no Acervo</a>
 </div>
 <div class="app-screen-media">
 <div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de computador"></div>
@@ -76,7 +76,7 @@ description: "Ecossistema MelonMundi para conteudo tecnico, apps especializados 
 <h3>Novos apps em evolucao</h3>
 <p>O ecossistema esta em expansao continua com novas solucoes para monitoramento, recomendacao e validacao tecnica.</p>
 <span class="app-tag">Roadmap ativo</span>
-<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/">Ver apps no acervo</a>
+<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ver app no Acervo</a>
 </div>
 <div class="app-screen-media">
 <div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de computador"></div>

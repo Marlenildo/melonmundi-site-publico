@@ -645,17 +645,21 @@ h1, h2, h3 {
 
 .app-link-btn {
   margin-top: auto;
-  background: var(--primary);
-  color: #ffffff;
+  background: #ffffff;
+  color: var(--primary);
+  border: 1px solid #d7e5c9;
   border-radius: 999px;
-  padding: 8px 14px;
+  padding: 10px 16px;
   font-size: 0.9rem;
   font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .app-link-btn:hover {
-  background: #3f632a;
-  color: #ffffff;
+  background: #f2f6ef;
+  color: #3f632a;
 }
 
 .app-intro {
