@@ -43,8 +43,9 @@ website:
             href: termos-de-uso.qmd
     right:
       - text: "Entrar"
-        href: acervo.qmd
+        # href: acervo.qmd
         # href: http://acervo.melonmundi.local:8000/oauth2/start
+        href: https://acervo.marlenildo.site
         icon: box-arrow-in-right
 
   page-footer:
