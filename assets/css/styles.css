@@ -88,6 +88,15 @@ a:hover {
     position: relative;
   }
 
+  .navbar .navbar-toggler,
+  .navbar .navbar-toggler:focus,
+  .navbar .navbar-toggler:active,
+  .navbar .navbar-toggler:focus-visible {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
   .navbar .navbar-collapse {
     position: absolute;
     top: 100%;
@@ -162,7 +171,10 @@ a:hover {
 }
 
 .home-page.home-at-top #quarto-header .navbar .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.6);
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent;
 }
 
 .home-page.home-at-top #quarto-header .navbar .navbar-toggler-icon {
