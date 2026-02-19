@@ -5,7 +5,7 @@ lang: pt-BR
 
 website:
   description: "Plataforma institucional de gestão agrícola em produção de cucurbitáceas e rastreabilidade técnica baseada em dados."
-  site-url: "https://marlenildo.github.io/melonmundi-site-publico"
+  site-url: "https://marlenildo.site"
   favicon: assets/img/favicon.png
   search: false
   page-navigation: true
@@ -88,14 +88,15 @@ format:
           <!-- Matomo -->
           <script>
             var _paq = window._paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
             _paq.push(['trackPageView']);
             _paq.push(['enableLinkTracking']);
             (function() {
-              var u = "https://admin.marlenildo.site/";
-              _paq.push(['setTrackerUrl', u + 'matomo.php']);
-              _paq.push(['setSiteId', '1']);
-              var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-              g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+              var u="//admin.marlenildo.site/matomo/";
+              _paq.push(['setTrackerUrl', u+'matomo.php']);
+              _paq.push(['setSiteId', '2']);
+              var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+              g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
             })();
           </script>
           <!-- End Matomo Code -->
