@@ -50,7 +50,7 @@ website:
         icon: box-arrow-in-right
 
   page-footer:
-    right: "Copyright &copy; 2026 Marlenildo Ferreira Melo · Licenciado sob MIT"
+    right: "Copyright &copy; 2026 MelonMundi - Global Solutions · Licenciado sob MIT"
     left: "![](assets/img/nova_logomm.png){width=80px}"
     center:
       - text: "Página Inicial"

@@ -137,74 +137,81 @@
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo. ## [1.0.10] - 2026-02-19 ### Changed - Corrigida a codificação de textos com caracteres quebrados (acentos) em páginas principais e de configuração. - Padronizado o layout visual de política de privacidade, termos de uso e licença com o mesmo design. - Renomeado o menu da navbar de Mais para Informações e adicionado o link Licença.\n\n\n\n\n\n\nRodapé atualizado para refletir a licença MIT: Copyright © 2026 Marlenildo Ferreira Melo · Licenciado sob MIT.\nAdicionado link Licença no rodapé, junto aos links institucionais.\nCriada a página licenca.qmd com explicação e texto completo da licença MIT.\n\n\n\n\n\n\n\n\n\nAtualizado o texto do destaque da home para Bem-vindo à MelonMundi! no card principal.\n\n\n\n\n\n\n\n\n\nRemovido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone.\n\n\n\n\n\n\n\n\n\nAtualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/.\n\n\n\n\n\n\n\n\n\nDefine o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador.\n\n\n\n\n\n\n\n\n\nConfigurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking.\n\n\n\n\n\n\n\n\n\nNavbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo. ## [1.0.11] - 2026-02-19 ### Fixed - Adicionado vercel.json para forçar publicação do conteúdo estático da pasta docs/ na Vercel, evitando servir snapshot desatualizado.\n\n\n\n\n\n\nCorrigida a codificação de textos com caracteres quebrados (acentos) em páginas principais e de configuração.\nPadronizado o layout visual de política de privacidade, termos de uso e licença com o mesmo design.\nRenomeado o menu da navbar de Mais para Informações e adicionado o link Licença.\n\n\n\n\n\n\n\n\n\nRodapé atualizado para refletir a licença MIT: Copyright © 2026 Marlenildo Ferreira Melo · Licenciado sob MIT.\nAdicionado link Licença no rodapé, junto aos links institucionais.\nCriada a página licenca.qmd com explicação e texto completo da licença MIT.\n\n\n\n\n\n\n\n\n\nAtualizado o texto do destaque da home para Bem-vindo à MelonMundi! no card principal.\n\n\n\n\n\n\n\n\n\nRemovido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone.\n\n\n\n\n\n\n\n\n\nAtualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/.\n\n\n\n\n\n\n\n\n\nDefine o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador.\n\n\n\n\n\n\n\n\n\nConfigurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking.\n\n\n\n\n\n\n\n\n\nNavbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": "Rodapé atualizado para refletir a licença MIT: Copyright © 2026 Marlenildo Ferreira Melo · Licenciado sob MIT.\nAdicionado link Licença no rodapé, junto aos links institucionais.\nCriada a página licenca.qmd com explicação e texto completo da licença MIT."
+    "text": "Corrigida a codificação de textos com caracteres quebrados (acentos) em páginas principais e de configuração.\nPadronizado o layout visual de política de privacidade, termos de uso e licença com o mesmo design.\nRenomeado o menu da navbar de Mais para Informações e adicionado o link Licença."
   },
   {
     "objectID": "CHANGELOG.html#section-1",
     "href": "CHANGELOG.html#section-1",
     "title": "Changelog",
     "section": "",
-    "text": "Atualizado o texto do destaque da home para Bem-vindo à MelonMundi! no card principal."
+    "text": "Rodapé atualizado para refletir a licença MIT: Copyright © 2026 Marlenildo Ferreira Melo · Licenciado sob MIT.\nAdicionado link Licença no rodapé, junto aos links institucionais.\nCriada a página licenca.qmd com explicação e texto completo da licença MIT."
   },
   {
     "objectID": "CHANGELOG.html#section-2",
     "href": "CHANGELOG.html#section-2",
     "title": "Changelog",
     "section": "",
-    "text": "Removido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone."
+    "text": "Atualizado o texto do destaque da home para Bem-vindo à MelonMundi! no card principal."
   },
   {
     "objectID": "CHANGELOG.html#section-3",
     "href": "CHANGELOG.html#section-3",
     "title": "Changelog",
     "section": "",
-    "text": "Atualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/."
+    "text": "Removido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone."
   },
   {
     "objectID": "CHANGELOG.html#section-4",
     "href": "CHANGELOG.html#section-4",
     "title": "Changelog",
     "section": "",
-    "text": "Define o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador."
+    "text": "Atualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/."
   },
   {
     "objectID": "CHANGELOG.html#section-5",
     "href": "CHANGELOG.html#section-5",
     "title": "Changelog",
     "section": "",
-    "text": "Configurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking."
+    "text": "Define o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador."
   },
   {
     "objectID": "CHANGELOG.html#section-6",
     "href": "CHANGELOG.html#section-6",
     "title": "Changelog",
     "section": "",
-    "text": "Navbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade"
+    "text": "Configurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking."
   },
   {
     "objectID": "CHANGELOG.html#section-7",
     "href": "CHANGELOG.html#section-7",
     "title": "Changelog",
     "section": "",
-    "text": "Ajuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional"
+    "text": "Navbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade"
   },
   {
     "objectID": "CHANGELOG.html#section-8",
     "href": "CHANGELOG.html#section-8",
     "title": "Changelog",
     "section": "",
-    "text": "Ajuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak"
+    "text": "Ajuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional"
   },
   {
     "objectID": "CHANGELOG.html#section-9",
     "href": "CHANGELOG.html#section-9",
+    "title": "Changelog",
+    "section": "",
+    "text": "Ajuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-10",
+    "href": "CHANGELOG.html#section-10",
     "title": "Changelog",
     "section": "",
     "text": "Estrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"

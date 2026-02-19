@@ -1,31 +1,37 @@
-Ôªø# Changelog
+# Changelog
 
-Todas as mudan√ßas relevantes deste projeto ser√£o documentadas neste arquivo.
+Todas as mudanÁas relevantes deste projeto ser„o documentadas neste arquivo.
+## [1.0.12] - 2026-02-19
+### Changed
+- Ajustado texto do rodapÈ para identidade institucional: `Copyright © 2026 MelonMundi - Global Solutions ∑ Licenciado sob MIT`.
+
+---
+
 ## [1.0.11] - 2026-02-19
 ### Fixed
-- Adicionado `vercel.json` para for√ßar publica√ß√£o do conte√∫do est√°tico da pasta `docs/` na Vercel, evitando servir snapshot desatualizado.
+- Adicionado `vercel.json` para forÁar publicaÁ„o do conte˙do est·tico da pasta `docs/` na Vercel, evitando servir snapshot desatualizado.
 
 ---
 
 ## [1.0.10] - 2026-02-19
 ### Changed
-- Corrigida a codifica√ß√£o de textos com caracteres quebrados (acentos) em p√°ginas principais e de configura√ß√£o.
-- Padronizado o layout visual de `pol√≠tica de privacidade`, `termos de uso` e `licen√ßa` com o mesmo design.
-- Renomeado o menu da navbar de `Mais` para `Informa√ß√µes` e adicionado o link `Licen√ßa`.
+- Corrigida a codificaÁ„o de textos com caracteres quebrados (acentos) em p·ginas principais e de configuraÁ„o.
+- Padronizado o layout visual de `polÌtica de privacidade`, `termos de uso` e `licenÁa` com o mesmo design.
+- Renomeado o menu da navbar de `Mais` para `InformaÁıes` e adicionado o link `LicenÁa`.
 
 ---
 
 ## [1.0.9] - 2026-02-19
 ### Changed
-- Rodap√© atualizado para refletir a licen√ßa MIT: `Copyright ¬© 2026 Marlenildo Ferreira Melo ¬∑ Licenciado sob MIT`.
-- Adicionado link `Licen√ßa` no rodap√©, junto aos links institucionais.
-- Criada a p√°gina `licenca.qmd` com explica√ß√£o e texto completo da licen√ßa MIT.
+- RodapÈ atualizado para refletir a licenÁa MIT: `Copyright © 2026 Marlenildo Ferreira Melo ∑ Licenciado sob MIT`.
+- Adicionado link `LicenÁa` no rodapÈ, junto aos links institucionais.
+- Criada a p·gina `licenca.qmd` com explicaÁ„o e texto completo da licenÁa MIT.
 
 ---
 
 ## [1.0.8] - 2026-02-19
 ### Changed
-- Atualizado o texto do destaque da home para `Bem-vindo √† MelonMundi!` no card principal.
+- Atualizado o texto do destaque da home para `Bem-vindo ‡ MelonMundi!` no card principal.
 
 ---
 
@@ -57,41 +63,41 @@ Todas as mudan√ßas relevantes deste projeto ser√£o documentadas neste arquivo.
 
 ## [1.0.3] - 2026-02-08
 ### Changed
-- Navbar ajustada para modo transl√∫cido
-- Melhoria visual na sobreposi√ß√£o com o conte√∫do de fundo
-- Padroniza√ß√£o do estilo visual do topo do site
+- Navbar ajustada para modo transl˙cido
+- Melhoria visual na sobreposiÁ„o com o conte˙do de fundo
+- PadronizaÁ„o do estilo visual do topo do site
 
 ---
 ## [1.0.2] - 2026-02-06
 ### Fixed
-- Corre√ß√£o dos links de **Termos de Uso** e **Pol√≠tica de Privacidade**
-- Inclus√£o dos links legais no menu da navbar para melhor acessibilidade
+- CorreÁ„o dos links de **Termos de Uso** e **PolÌtica de Privacidade**
+- Inclus„o dos links legais no menu da navbar para melhor acessibilidade
 
 ---
 
 ## [1.0.1] - 2026-02-06
 ### Changed
-- Ajuste do layout da p√°gina **Sobre** para `column-page`
-- Melhoria na leitura e organiza√ß√£o do conte√∫do institucional
+- Ajuste do layout da p·gina **Sobre** para `column-page`
+- Melhoria na leitura e organizaÁ„o do conte˙do institucional
 
 ---
 
 ## [1.0.0] - 2026-02-05
 ### Changed
-- Ajuste do bot√£o **Entrar** para integra√ß√£o com o fluxo de autentica√ß√£o (oauth2-proxy)
-- Atualiza√ß√£o da URL de login do ecossistema MelonMundi
+- Ajuste do bot„o **Entrar** para integraÁ„o com o fluxo de autenticaÁ„o (oauth2-proxy)
+- AtualizaÁ„o da URL de login do ecossistema MelonMundi
 
 ### Added
-- Tela provis√≥ria de login com aviso ao usu√°rio
-- Prepara√ß√£o do site p√∫blico para integra√ß√£o definitiva com Keycloak
+- Tela provisÛria de login com aviso ao usu·rio
+- PreparaÁ„o do site p˙blico para integraÁ„o definitiva com Keycloak
 
 ---
 
 ## [0.1.0] - 2026-01-27
 ### Added
-- Estrutura inicial do site p√∫blico
-- Configura√ß√£o do Quarto
-- P√°gina inicial e p√°gina Sobre
-- SEO b√°sico
-- Bot√£o de login externo
+- Estrutura inicial do site p˙blico
+- ConfiguraÁ„o do Quarto
+- P·gina inicial e p·gina Sobre
+- SEO b·sico
+- Bot„o de login externo
 
