@@ -1,15 +1,20 @@
+ï»¿---
+title: "LicenÃ§a"
+description: "InformaÃ§Ãµes sobre a licenÃ§a MIT aplicada ao site pÃºblico MelonMundi."
+body-classes: legal-page
 ---
-title: "Licença"
-description: "Informações sobre a licença MIT aplicada ao site público MelonMundi."
----
 
-## Licença do Projeto
+<section class="column-screen screen-white">
+<div class="column-body">
+<div class="legal-panel">
 
-Este site é distribuído sob a **Licença MIT**.
+<p class="legal-updated"><strong>Atualizado em:</strong> 19 de fevereiro de 2026</p>
 
-Em termos práticos, isso permite uso, cópia, modificação e distribuição do software, desde que o aviso de copyright e a licença sejam mantidos.
+Este projeto Ã© distribuÃ­do sob a **LicenÃ§a MIT**.
 
-## Texto da Licença MIT
+Em termos prÃ¡ticos, a MIT permite uso, cÃ³pia, modificaÃ§Ã£o e distribuiÃ§Ã£o do software, desde que o aviso de copyright e o texto da licenÃ§a sejam preservados.
+
+## Texto da LicenÃ§a MIT
 
 ```text
 MIT License
@@ -35,6 +40,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Arquivo Oficial
+## Arquivo oficial
 
-O texto oficial também está no arquivo `LICENSE` na raiz do repositório.
+O texto oficial tambÃ©m estÃ¡ disponÃ­vel no arquivo `LICENSE` na raiz do repositÃ³rio.
+
+</div>
+</div>
+</section>

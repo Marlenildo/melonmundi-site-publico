@@ -1,4 +1,4 @@
-project:
+﻿project:
   type: website
   output-dir: docs
 lang: pt-BR
@@ -34,12 +34,14 @@ website:
         href: index.qmd
       - text: "Quem Somos"
         href: sobre-nos.qmd
-      - text: "Mais"
+      - text: "Informações"
         menu:
           - text: "Política de Privacidade"
             href: politica-de-privacidade.qmd
           - text: "Termos de Uso"
             href: termos-de-uso.qmd
+          - text: "Licença"
+            href: licenca.qmd
     right:
       - text: "Entrar"
         # href: acervo.qmd
@@ -103,3 +105,4 @@ format:
           <!-- End Matomo Code -->
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+

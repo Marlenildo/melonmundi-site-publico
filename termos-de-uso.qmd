@@ -1,45 +1,54 @@
+﻿---
+title: "Termos de Uso"
+description: "Condições de uso do site público e das ferramentas da MelonMundi."
+body-classes: legal-page
 ---
-title: "Termos e Condições de Uso"
----
 
-**Termos e Condições de Uso**
+<section class="column-screen screen-white">
+<div class="column-body">
+<div class="legal-panel">
 
-Atualizado em 6 de maio de 2024.
+<p class="legal-updated"><strong>Atualizado em:</strong> 06 de maio de 2024</p>
 
-Ao acessar e utilizar este website e as ferramentas fornecidas, você concorda com os seguintes termos e condições. Se você não concordar com estes termos, por favor, não utilize este site.
+Ao acessar e utilizar este site, você concorda com os termos abaixo.
 
-**1. Uso do Site e das Ferramentas**
+## 1. Uso do site e das ferramentas
 
-1.1. Este site e as ferramentas fornecidas são destinados apenas para uso pessoal e não comercial. Você concorda em utilizá-los apenas para os fins previstos e de acordo com todas as leis e regulamentos aplicáveis.
+1. O uso é destinado às finalidades informadas na plataforma.
+2. É proibido utilizar o site de forma que comprometa segurança, disponibilidade ou integridade das informações.
 
-1.2. Você concorda em não utilizar este site de forma que possa danificar, desabilitar, sobrecarregar ou prejudicar de qualquer forma a sua funcionalidade ou a funcionalidade das ferramentas fornecidas.
+## 2. Propriedade intelectual
 
-**2. Propriedade Intelectual**
+Todo o conteúdo deste site (textos, imagens, marcas, layout, materiais e software) pertence à MelonMundi e/ou aos respectivos licenciadores, salvo indicação em contrário.
 
-2.1. Todo o conteúdo deste site, incluindo, mas não se limitando a textos, imagens, gráficos, logotipos e software, é de propriedade da MelonMundi ou de seus licenciadores e está protegido por leis de direitos autorais e outras leis de propriedade intelectual.
+A reprodução ou redistribuição sem autorização prévia está sujeita à legislação aplicável.
 
-2.2. Você concorda em não copiar, reproduzir, distribuir, transmitir, exibir, vender, licenciar ou explorar de qualquer forma o conteúdo deste site sem a autorização prévia por escrito da MelonMundi.
+## 3. Limitação de responsabilidade
 
-**3. Responsabilidade**
+O site e as ferramentas são disponibilizados no estado em que se encontram.
 
-3.1. Este site e as ferramentas fornecidas são fornecidos "como estão" e "conforme disponível", sem garantias de qualquer tipo, expressas ou implícitas. A MelonMundi não garante que este site será livre de erros ou que o acesso a ele será ininterrupto.
+A MelonMundi não garante ausência total de indisponibilidade, interrupções ou erros e não se responsabiliza por danos indiretos decorrentes de uso inadequado ou indisponibilidade de terceiros.
 
-3.2. Em nenhuma circunstância a MelonMundi será responsável por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes do uso ou da impossibilidade de uso deste site ou das ferramentas fornecidas.
+## 4. Links para terceiros
 
-**4. Links para Sites de Terceiros**
+Este site pode conter links para serviços externos. A MelonMundi não controla o conteúdo nem as políticas desses serviços de terceiros.
 
-4.1. Este site pode conter links para sites de terceiros que não são controlados ou operados pela MelonMundi. A inclusão de qualquer link não implica em endosso por parte da MelonMundi e não somos responsáveis pelo conteúdo ou pela política de privacidade de tais sites.
+## 5. Alterações dos termos
 
-**5. Alterações nos Termos e Condições**
+Estes Termos de Uso podem ser atualizados a qualquer momento.
 
-5.1. A MelonMundi reserva-se o direito de atualizar ou modificar estes termos e condições a qualquer momento, sem aviso prévio. O uso continuado deste site após tais alterações constituirá a sua aceitação dessas alterações.
+A continuidade de uso após a publicação de alterações representa concordância com a versão vigente.
 
-**6. Lei Aplicável**
+## 6. Legislação aplicável
 
-6.1. Estes termos e condições serão regidos e interpretados de acordo com as leis do \[inserir país ou estado\], sem levar em consideração os princípios de conflitos de leis.
+Estes termos serão interpretados conforme a legislação brasileira, observadas as normas aplicáveis.
 
-**7. Contato**
+## 7. Contato
 
-7.1. Se tiver alguma dúvida sobre estes termos e condições de uso, entre em contato conosco através do e-mail **administrativo\@melonmundi.com**.
+Dúvidas sobre estes termos podem ser enviadas para:
 
-Estes Termos e Condições de Uso foram atualizados pela última vez em 6 de maio de 2024.
+- E-mail: **administrativo@melonmundi.com**
+
+</div>
+</div>
+</section>

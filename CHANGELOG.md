@@ -1,17 +1,25 @@
-# Changelog
+﻿# Changelog
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
+## [1.0.10] - 2026-02-19
+### Changed
+- Corrigida a codificação de textos com caracteres quebrados (acentos) em páginas principais e de configuração.
+- Padronizado o layout visual de `política de privacidade`, `termos de uso` e `licença` com o mesmo design.
+- Renomeado o menu da navbar de `Mais` para `Informações` e adicionado o link `Licença`.
+
+---
+
 ## [1.0.9] - 2026-02-19
 ### Changed
-- Rodap� atualizado para refletir a licen�a MIT: `Copyright � 2026 Marlenildo Ferreira Melo � Licenciado sob MIT`.
-- Adicionado link `Licen�a` no rodap�, junto aos links institucionais.
-- Criada a p�gina `licenca.qmd` com explica��o e texto completo da licen�a MIT.
+- Rodapé atualizado para refletir a licença MIT: `Copyright © 2026 Marlenildo Ferreira Melo · Licenciado sob MIT`.
+- Adicionado link `Licença` no rodapé, junto aos links institucionais.
+- Criada a página `licenca.qmd` com explicação e texto completo da licença MIT.
 
 ---
 
 ## [1.0.8] - 2026-02-19
 ### Changed
-- Atualizado o texto do destaque da home para `Bem-vindo � MelonMundi!` no card principal.
+- Atualizado o texto do destaque da home para `Bem-vindo à MelonMundi!` no card principal.
 
 ---
 
@@ -80,3 +88,4 @@ Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 - Página inicial e página Sobre
 - SEO básico
 - Botão de login externo
+

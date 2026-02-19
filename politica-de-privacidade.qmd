@@ -1,44 +1,67 @@
+﻿---
+title: "Política de Privacidade"
+description: "Diretrizes de privacidade e uso de dados da MelonMundi."
+body-classes: legal-page
 ---
-title: "Aviso de Privacidade e Uso de Dados da MelonMundi"
-editor: visual
----
 
-Atualizado em 06 de maio de 2024.
+<section class="column-screen screen-white">
+<div class="column-body">
+<div class="legal-panel">
 
-Nós agradecemos a você por escolher a MelonMundi e por nos confiar como parceiros na melhoria dos serviços oferecidos.
+<p class="legal-updated"><strong>Atualizado em:</strong> 06 de maio de 2024</p>
 
-Queremos que você saiba, de forma clara e direta, a quais informações e dados nós temos acesso e o que fazemos com eles. Por isso, este Aviso de Privacidade foi elaborado. Recomendamos que você o leia com atenção e, caso tenha qualquer dúvida, fique à vontade para entrar em contato conosco, será um prazer lhe atender! Basta enviar um e-mail para **administrativo\@melonmundi.com** ou enviar uma mensagem para o WhatsApp da MelonMundi.
+Agradecemos por escolher a MelonMundi e confiar em nosso trabalho.
 
-**1. Quem somos**
+Este documento explica, de forma clara e direta, quais dados podem ser tratados durante o uso do site e das ferramentas oferecidas.
 
-A MelonMundi está comprometida em proteger a sua privacidade e em cumprir com todas as leis e regulamentos aplicáveis, incluindo a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/18). Esta Política de Privacidade descreve como coletamos, usamos, protegemos e compartilhamos suas informações pessoais quando você utiliza nosso site e as ferramentas fornecidas.
+## 1. Quem somos
 
-**2. Coleta de Informações**
+A MelonMundi está comprometida com a proteção da privacidade e com o cumprimento da legislação aplicável, incluindo a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
 
-Não coletamos intencionalmente informações pessoais identificáveis dos usuários deste site ou das ferramentas fornecidas, exceto quando fornecidas voluntariamente pelos usuários para utilizar as funcionalidades das ferramentas. As informações inseridas pelos usuários são coletadas apenas para o propósito específico de fornecer a funcionalidade das ferramentas e ajudar os usuários na tomada de decisões relacionadas à agricultura.
+## 2. Coleta de informações
 
-**3. Uso de Informações**
+Não coletamos intencionalmente dados pessoais sensíveis ou identificáveis além do necessário para o funcionamento das funcionalidades oferecidas.
 
-As informações inseridas pelos usuários nas ferramentas fornecidas são utilizadas exclusivamente para fornecer a funcionalidade das ferramentas e melhorar a experiência do usuário. Não utilizamos essas informações para qualquer outro propósito sem o consentimento expresso do usuário.
+Quando o usuário fornece dados de forma voluntária para usar uma ferramenta, esses dados são utilizados apenas para a finalidade da própria ferramenta.
 
-**4. Armazenamento e Segurança de Informações**
+## 3. Uso das informações
 
-As informações inseridas pelos usuários nas ferramentas fornecidas não são armazenadas em nossos servidores ou em qualquer outro local. Elas são processadas apenas durante a sessão em que as ferramentas são utilizadas e são excluídas após o encerramento da sessão. Implementamos medidas de segurança adequadas para proteger as informações durante o uso das ferramentas.
+As informações fornecidas são usadas exclusivamente para:
 
-**5. Uso de Navegação e Cookies**
+- executar a funcionalidade solicitada;
+- melhorar a experiência de uso;
+- apoiar análises técnicas relacionadas ao objetivo da plataforma.
 
-Utilizamos cookies para melhorar a experiência do usuário e personalizar o conteúdo do site de acordo com as preferências do usuário. Cookies são pequenos arquivos de texto que são armazenados no dispositivo do usuário quando o site é acessado. Eles são usados para lembrar informações de sessão, como preferências de idioma, e para coletar informações sobre a interação do usuário com o site, como páginas visitadas e tempo gasto em cada página.
+Não utilizamos dados para finalidades incompatíveis sem base legal adequada.
 
-**6. Consentimento e Controle do Usuário**
+## 4. Armazenamento e segurança
 
-Ao utilizar este site e as ferramentas fornecidas, você concorda com os termos desta Política de Privacidade e com o uso de cookies. Os usuários têm o direito de recusar ou desativar cookies em seus navegadores, no entanto, isso pode afetar a funcionalidade do site.
+Os dados processados pelas ferramentas seguem medidas de segurança compatíveis com o contexto de uso.
 
-**7. Alterações na Política de Privacidade**
+Quando aplicável, os dados são processados durante a sessão e descartados ao término da execução da funcionalidade.
 
-Esta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças em nossas práticas de privacidade ou em conformidade com a legislação aplicável. Quaisquer alterações significativas serão destacadas neste site.
+## 5. Cookies e navegação
 
-**8. Contato**
+Este site utiliza cookies essenciais para funcionamento, preferências e melhoria da experiência.
 
-Se tiver alguma dúvida sobre esta Política de Privacidade ou sobre o uso de cookies, entre em contato conosco através do e-mail **administrativo\@melonmundi.com**.
+Você pode recusar ou desativar cookies no navegador, ciente de que algumas funcionalidades podem ser afetadas.
 
-Esta Política de Privacidade foi atualizada pela última vez em 06 de maio de 2024.
+## 6. Consentimento e controle do usuário
+
+Ao utilizar o site, você declara ciência desta Política de Privacidade.
+
+Você pode ajustar preferências de cookies e, quando aplicável, solicitar esclarecimentos pelo e-mail de contato.
+
+## 7. Atualizações desta política
+
+Esta política pode ser revisada periodicamente para refletir melhorias operacionais, mudanças legais ou regulatórias.
+
+## 8. Contato
+
+Em caso de dúvidas sobre privacidade e tratamento de dados, entre em contato:
+
+- E-mail: **administrativo@melonmundi.com**
+
+</div>
+</div>
+</section>

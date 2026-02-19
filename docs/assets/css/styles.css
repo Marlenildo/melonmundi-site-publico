@@ -987,6 +987,43 @@ h1, h2, h3 {
   text-align: center;
 }
 
+/* =========================================================
+   LEGAL PAGES
+   ========================================================= */
+.legal-page .legal-panel {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 28px;
+  background: #ffffff;
+  border: 1px solid #e6ecdf;
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+.legal-page .legal-updated {
+  color: #4a6a58;
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+}
+
+.legal-page .legal-panel h2 {
+  margin-top: 24px;
+  font-size: 1.35rem;
+}
+
+.legal-page .legal-panel p,
+.legal-page .legal-panel li {
+  line-height: 1.65;
+  color: #2d4b3d;
+}
+
+@media (max-width: 768px) {
+  .legal-page .legal-panel {
+    padding: 20px 16px;
+    border-radius: 12px;
+  }
+}
+
 @media (max-width: 768px) {
   .screen-home-hero {
     min-height: 72vh;
