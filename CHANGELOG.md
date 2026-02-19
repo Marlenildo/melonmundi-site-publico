@@ -1,6 +1,12 @@
 # Changelog
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
+## [1.0.8] - 2026-02-19
+### Changed
+- Atualizado o texto do destaque da home para `Bem-vindo � MelonMundi!` no card principal.
+
+---
+
 ## [1.0.7] - 2026-02-19
 ### Fixed
 - Removido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone.
