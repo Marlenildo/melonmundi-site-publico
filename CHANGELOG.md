@@ -2,6 +2,12 @@
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 
+## [1.0.5] - 2026-02-19
+### Changed
+- Define o titulo da home (`index.qmd`) como `Pagina Inicial` para corrigir o texto exibido na aba do navegador.
+
+---
+
 ## [1.0.4] - 2026-02-19
 ### Changed
 - Configurado `favicon.ico` em `_quarto.yml` para padronizar o icone do navegador no site publico.
