@@ -1,6 +1,12 @@
 ﻿# Changelog
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
+## [1.0.11] - 2026-02-19
+### Fixed
+- Adicionado `vercel.json` para forçar publicação do conteúdo estático da pasta `docs/` na Vercel, evitando servir snapshot desatualizado.
+
+---
+
 ## [1.0.10] - 2026-02-19
 ### Changed
 - Corrigida a codificação de textos com caracteres quebrados (acentos) em páginas principais e de configuração.
