@@ -1,6 +1,14 @@
 # Changelog
 
 Todas as mudanÃ§as relevantes deste projeto serÃ£o documentadas neste arquivo.
+## [1.0.9] - 2026-02-19
+### Changed
+- Rodapé atualizado para refletir a licença MIT: `Copyright © 2026 Marlenildo Ferreira Melo · Licenciado sob MIT`.
+- Adicionado link `Licença` no rodapé, junto aos links institucionais.
+- Criada a página `licenca.qmd` com explicação e texto completo da licença MIT.
+
+---
+
 ## [1.0.8] - 2026-02-19
 ### Changed
 - Atualizado o texto do destaque da home para `Bem-vindo à MelonMundi!` no card principal.

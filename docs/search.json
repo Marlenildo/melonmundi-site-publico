@@ -14,60 +14,11 @@
     "text": "Atualizado em 06 de maio de 2024.\nNós agradecemos a você por escolher a MelonMundi e por nos confiar como parceiros na melhoria dos serviços oferecidos.\nQueremos que você saiba, de forma clara e direta, a quais informações e dados nós temos acesso e o que fazemos com eles. Por isso, este Aviso de Privacidade foi elaborado. Recomendamos que você o leia com atenção e, caso tenha qualquer dúvida, fique à vontade para entrar em contato conosco, será um prazer lhe atender! Basta enviar um e-mail para administrativo@melonmundi.com ou enviar uma mensagem para o WhatsApp da MelonMundi.\n1. Quem somos\nA MelonMundi está comprometida em proteger a sua privacidade e em cumprir com todas as leis e regulamentos aplicáveis, incluindo a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/18). Esta Política de Privacidade descreve como coletamos, usamos, protegemos e compartilhamos suas informações pessoais quando você utiliza nosso site e as ferramentas fornecidas.\n2. Coleta de Informações\nNão coletamos intencionalmente informações pessoais identificáveis dos usuários deste site ou das ferramentas fornecidas, exceto quando fornecidas voluntariamente pelos usuários para utilizar as funcionalidades das ferramentas. As informações inseridas pelos usuários são coletadas apenas para o propósito específico de fornecer a funcionalidade das ferramentas e ajudar os usuários na tomada de decisões relacionadas à agricultura.\n3. Uso de Informações\nAs informações inseridas pelos usuários nas ferramentas fornecidas são utilizadas exclusivamente para fornecer a funcionalidade das ferramentas e melhorar a experiência do usuário. Não utilizamos essas informações para qualquer outro propósito sem o consentimento expresso do usuário.\n4. Armazenamento e Segurança de Informações\nAs informações inseridas pelos usuários nas ferramentas fornecidas não são armazenadas em nossos servidores ou em qualquer outro local. Elas são processadas apenas durante a sessão em que as ferramentas são utilizadas e são excluídas após o encerramento da sessão. Implementamos medidas de segurança adequadas para proteger as informações durante o uso das ferramentas.\n5. Uso de Navegação e Cookies\nUtilizamos cookies para melhorar a experiência do usuário e personalizar o conteúdo do site de acordo com as preferências do usuário. Cookies são pequenos arquivos de texto que são armazenados no dispositivo do usuário quando o site é acessado. Eles são usados para lembrar informações de sessão, como preferências de idioma, e para coletar informações sobre a interação do usuário com o site, como páginas visitadas e tempo gasto em cada página.\n6. Consentimento e Controle do Usuário\nAo utilizar este site e as ferramentas fornecidas, você concorda com os termos desta Política de Privacidade e com o uso de cookies. Os usuários têm o direito de recusar ou desativar cookies em seus navegadores, no entanto, isso pode afetar a funcionalidade do site.\n7. Alterações na Política de Privacidade\nEsta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças em nossas práticas de privacidade ou em conformidade com a legislação aplicável. Quaisquer alterações significativas serão destacadas neste site.\n8. Contato\nSe tiver alguma dúvida sobre esta Política de Privacidade ou sobre o uso de cookies, entre em contato conosco através do e-mail administrativo@melonmundi.com.\nEsta Política de Privacidade foi atualizada pela última vez em 06 de maio de 2024."
   },
   {
-    "objectID": "CHANGELOG.html",
-    "href": "CHANGELOG.html",
-    "title": "Changelog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Página Inicial",
     "section": "",
-    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.\n\n\n\n\n\nAtualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/.\n\n\n\n\n\n\n\n\n\nDefine o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador.\n\n\n\n\n\n\n\n\n\nConfigurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking.\n\n\n\n\n\n\n\n\n\nNavbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
-  },
-  {
-    "objectID": "CHANGELOG.html#section",
-    "href": "CHANGELOG.html#section",
-    "title": "Changelog",
-    "section": "",
-    "text": "Atualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/."
-  },
-  {
-    "objectID": "CHANGELOG.html#section-1",
-    "href": "CHANGELOG.html#section-1",
-    "title": "Changelog",
-    "section": "",
-    "text": "Define o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador."
-  },
-  {
-    "objectID": "CHANGELOG.html#section-2",
-    "href": "CHANGELOG.html#section-2",
-    "title": "Changelog",
-    "section": "",
-    "text": "Configurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking."
-  },
-  {
-    "objectID": "CHANGELOG.html#section-3",
-    "href": "CHANGELOG.html#section-3",
-    "title": "Changelog",
-    "section": "",
-    "text": "Navbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-4",
-    "href": "CHANGELOG.html#section-4",
-    "title": "Changelog",
-    "section": "",
-    "text": "Ajuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-5",
-    "href": "CHANGELOG.html#section-5",
-    "title": "Changelog",
-    "section": "",
-    "text": "Ajuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak"
-  },
-  {
-    "objectID": "CHANGELOG.html#section-6",
-    "href": "CHANGELOG.html#section-6",
-    "title": "Changelog",
-    "section": "",
-    "text": "Estrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+    "text": "Bem-vindo � MelonMundi!\n\n\nDados, campo e decisão técnica para melão e melancia\n\n\nO site público é o ponto de entrada para conhecer a MelonMundi. Com login único, você acessa o acervo restrito com conteúdo técnico em Bookdown e aplicativos práticos para a rotina de campo.\n\n\n Entrar no Acervo Quem Somos\n\n\n\n\n\n\n\nO que a MelonMundi oferece\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo técnico\n\n\nConteúdo estruturado em Bookdown com materiais exclusivos sobre manejo, avaliação e interpretação técnica.\n\n\n\n\n\n\n\n\n\nAnálise orientada por dados\n\n\nDesenho experimental, leitura estatística e suporte a decisões operacionais com foco em resultado de campo.\n\n\n\n\n\n\n\n\n\nApps práticos\n\n\nFerramentas para consulta rápida e estimativas produtivas conectadas ao dia a dia da equipe técnica.\n\n\n\n\n\n\n\n\n\nLogin único\n\n\nUma autenticação para acessar o acervo e os aplicativos restritos do ecossistema MelonMundi.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAplicativos em destaque\n\n\n\n\n\n\n\n\n\n\n\nAgrofito\n\n\nConsulta de produtos registrados para melão, melancia e produtos liberados para qualquer cultura, com base oficial do AGROFIT/MAPA.\n\nBase oficial AGROFIT  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculadora de Frutas\n\n\nEstimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projeção de colheita.\n\nEstimativa produtiva  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNovos apps em evolução\n\n\nO ecossistema está em expansão contínua, com novas soluções para monitoramento, recomendação e validação técnica.\n\nRoadmap ativo  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComo funciona o acesso\n\n\n\n\n1\n\n\nConheça o site público\n\n\nEntenda o posicionamento da MelonMundi, equipe e soluções técnicas para cucurbitáceas.\n\n\n\n\n2\n\n\nFaça login único\n\n\nUse sua autenticação para entrar no acervo e habilitar acesso aos aplicativos restritos.\n\n\n\n\n3\n\n\nAcesse conteúdo + apps\n\n\nConsulte materiais técnicos e ferramentas digitais em um único fluxo de trabalho.\n\n\n\n\n Ir para o Acervo"
   },
   {
     "objectID": "acervo.html",
@@ -77,11 +28,102 @@
     "text": "Em breve você poderá acessar o Acervo MelonMUndi\n 🔐 Acessar o sistema"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Página Inicial",
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
     "section": "",
-    "text": "Ecossistema MelonMundi\n\n\nDados, campo e decisão técnica para melão e melancia\n\n\nO site público é o ponto de entrada para conhecer a MelonMundi. Com login único, você acessa o acervo restrito com conteúdo técnico em Bookdown e aplicativos práticos para a rotina de campo.\n\n\n Entrar no Acervo Quem Somos\n\n\n\n\n\n\n\nO que a MelonMundi oferece\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo técnico\n\n\nConteúdo estruturado em Bookdown com materiais exclusivos sobre manejo, avaliação e interpretação técnica.\n\n\n\n\n\n\n\n\n\nAnálise orientada por dados\n\n\nDesenho experimental, leitura estatística e suporte a decisões operacionais com foco em resultado de campo.\n\n\n\n\n\n\n\n\n\nApps práticos\n\n\nFerramentas para consulta rápida e estimativas produtivas conectadas ao dia a dia da equipe técnica.\n\n\n\n\n\n\n\n\n\nLogin único\n\n\nUma autenticação para acessar o acervo e os aplicativos restritos do ecossistema MelonMundi.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAplicativos em destaque\n\n\n\n\n\n\n\n\n\n\n\nAgrofito\n\n\nConsulta de produtos registrados para melão, melancia e produtos liberados para qualquer cultura, com base oficial do AGROFIT/MAPA.\n\nBase oficial AGROFIT  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculadora de Frutas\n\n\nEstimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projeção de colheita.\n\nEstimativa produtiva  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNovos apps em evolução\n\n\nO ecossistema está em expansão contínua, com novas soluções para monitoramento, recomendação e validação técnica.\n\nRoadmap ativo  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComo funciona o acesso\n\n\n\n\n1\n\n\nConheça o site público\n\n\nEntenda o posicionamento da MelonMundi, equipe e soluções técnicas para cucurbitáceas.\n\n\n\n\n2\n\n\nFaça login único\n\n\nUse sua autenticação para entrar no acervo e habilitar acesso aos aplicativos restritos.\n\n\n\n\n3\n\n\nAcesse conteúdo + apps\n\n\nConsulte materiais técnicos e ferramentas digitais em um único fluxo de trabalho.\n\n\n\n\n Ir para o Acervo"
+    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo. ## [1.0.9] - 2026-02-19 ### Changed - Rodap� atualizado para refletir a licen�a MIT: Copyright � 2026 Marlenildo Ferreira Melo � Licenciado sob MIT. - Adicionado link Licen�a no rodap�, junto aos links institucionais. - Criada a p�gina licenca.qmd com explica��o e texto completo da licen�a MIT.\n\n\n\n\n\n\nAtualizado o texto do destaque da home para Bem-vindo � MelonMundi! no card principal.\n\n\n\n\n\n\n\n\n\nRemovido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone.\n\n\n\n\n\n\n\n\n\nAtualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/.\n\n\n\n\n\n\n\n\n\nDefine o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador.\n\n\n\n\n\n\n\n\n\nConfigurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking.\n\n\n\n\n\n\n\n\n\nNavbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+  },
+  {
+    "objectID": "CHANGELOG.html#section",
+    "href": "CHANGELOG.html#section",
+    "title": "Changelog",
+    "section": "",
+    "text": "Atualizado o texto do destaque da home para Bem-vindo � MelonMundi! no card principal."
+  },
+  {
+    "objectID": "CHANGELOG.html#section-1",
+    "href": "CHANGELOG.html#section-1",
+    "title": "Changelog",
+    "section": "",
+    "text": "Removido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone."
+  },
+  {
+    "objectID": "CHANGELOG.html#section-2",
+    "href": "CHANGELOG.html#section-2",
+    "title": "Changelog",
+    "section": "",
+    "text": "Atualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/."
+  },
+  {
+    "objectID": "CHANGELOG.html#section-3",
+    "href": "CHANGELOG.html#section-3",
+    "title": "Changelog",
+    "section": "",
+    "text": "Define o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador."
+  },
+  {
+    "objectID": "CHANGELOG.html#section-4",
+    "href": "CHANGELOG.html#section-4",
+    "title": "Changelog",
+    "section": "",
+    "text": "Configurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking."
+  },
+  {
+    "objectID": "CHANGELOG.html#section-5",
+    "href": "CHANGELOG.html#section-5",
+    "title": "Changelog",
+    "section": "",
+    "text": "Navbar ajustada para modo translúcido\nMelhoria visual na sobreposição com o conteúdo de fundo\nPadronização do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correção dos links de Termos de Uso e Política de Privacidade - Inclusão dos links legais no menu da navbar para melhor acessibilidade"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-6",
+    "href": "CHANGELOG.html#section-6",
+    "title": "Changelog",
+    "section": "",
+    "text": "Ajuste do layout da página Sobre para column-page\nMelhoria na leitura e organização do conteúdo institucional"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-7",
+    "href": "CHANGELOG.html#section-7",
+    "title": "Changelog",
+    "section": "",
+    "text": "Ajuste do botão Entrar para integração com o fluxo de autenticação (oauth2-proxy)\nAtualização da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisória de login com aviso ao usuário\nPreparação do site público para integração definitiva com Keycloak"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-8",
+    "href": "CHANGELOG.html#section-8",
+    "title": "Changelog",
+    "section": "",
+    "text": "Estrutura inicial do site público\nConfiguração do Quarto\nPágina inicial e página Sobre\nSEO básico\nBotão de login externo"
+  },
+  {
+    "objectID": "licenca.html",
+    "href": "licenca.html",
+    "title": "Licen�a",
+    "section": "",
+    "text": "Este site � distribu�do sob a Licen�a MIT.\nEm termos pr�ticos, isso permite uso, c�pia, modifica��o e distribui��o do software, desde que o aviso de copyright e a licen�a sejam mantidos."
+  },
+  {
+    "objectID": "licenca.html#licena-do-projeto",
+    "href": "licenca.html#licena-do-projeto",
+    "title": "Licen�a",
+    "section": "",
+    "text": "Este site � distribu�do sob a Licen�a MIT.\nEm termos pr�ticos, isso permite uso, c�pia, modifica��o e distribui��o do software, desde que o aviso de copyright e a licen�a sejam mantidos."
+  },
+  {
+    "objectID": "licenca.html#texto-da-licena-mit",
+    "href": "licenca.html#texto-da-licena-mit",
+    "title": "Licen�a",
+    "section": "Texto da Licen�a MIT",
+    "text": "Texto da Licen�a MIT\nMIT License\n\nCopyright (c) 2026 Marlenildo Ferreira Melo\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "objectID": "licenca.html#arquivo-oficial",
+    "href": "licenca.html#arquivo-oficial",
+    "title": "Licen�a",
+    "section": "Arquivo Oficial",
+    "text": "Arquivo Oficial\nO texto oficial tamb�m est� no arquivo LICENSE na raiz do reposit�rio."
   },
   {
     "objectID": "sobre-nos.html",
