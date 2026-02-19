@@ -2,6 +2,13 @@
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 
+## [1.0.4] - 2026-02-19
+### Changed
+- Configurado `favicon.ico` em `_quarto.yml` para padronizar o icone do navegador no site publico.
+- Mantida a instrumentacao Matomo do site publico com `siteId=2` apontando para endpoint publico de tracking.
+
+---
+
 ## [1.0.3] - 2026-02-08
 ### Changed
 - Navbar ajustada para modo translúcido
