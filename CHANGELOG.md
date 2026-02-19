@@ -1,6 +1,12 @@
 # Changelog
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
+## [1.0.13] - 2026-02-19
+### Changed
+- Home configurada com `title-block: false` em `index.qmd`, removendo o título visual `Página Inicial` do conteúdo e mantendo o nome na aba do navegador.
+
+---
+
 ## [1.0.12] - 2026-02-19
 ### Changed
 - Ajustado texto do rodapé para identidade institucional: `Copyright © 2026 MelonMundi - Global Solutions · Licenciado sob MIT`.
