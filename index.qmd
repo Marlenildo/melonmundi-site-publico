@@ -9,8 +9,10 @@ body-classes: home-page home-at-top
 <div class="column-body">
 <div class="hero-panel reveal">
 <p class="hero-kicker">Bem-vindo à MelonMundi!</p>
-<h1 class="hero-title">Dados, campo e decisão técnica para <span>melão e melancia</span></h1>
-<p class="hero-subtitle">O site público é o ponto de entrada para conhecer a MelonMundi. Com login único, você acessa o acervo restrito com conteúdo técnico em Bookdown e aplicativos práticos para a rotina de campo.</p>
+<h1 class="hero-title">Somos um grupo multidisciplinar com
+dedicação exclusiva às <span>culturas de melão,
+melancia e abóbora</span></h1>
+<p class="hero-subtitle">Assessoramos desde o planejamento de uma fazenda produtora até a etapa final de transporte do produto. Tenha acesso a contéudo exclusivo e aplicativos práticos para a rotina de campo.</p>
 <div class="hero-actions"><a class="btn btn-hero-primary" href="https://acervo.marlenildo.site"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a><a class="btn btn-hero-secondary" href="sobre-nos.qmd"><i class="fa-solid fa-users"></i> Quem Somos</a></div>
 </div>
 </div>
