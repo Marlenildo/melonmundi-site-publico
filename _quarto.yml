@@ -6,7 +6,7 @@ lang: pt-BR
 website:
   title: "MelonMundi Global Solutions | Soluções inovadoras em melão, melancia e abóbora"
   description: "Plataforma institucional de gestão agrícola em produção de cucurbitáceas e rastreabilidade técnica baseada em dados."
-  site-url: "https://marlenildo.site"
+  site-url: "https://melonmundi.com"
   favicon: assets/img/favicon.ico
   search: false
   page-navigation: true
@@ -47,7 +47,7 @@ website:
       - text: "Entrar"
         # href: acervo.qmd
         # href: http://acervo.melonmundi.local:8000/oauth2/start
-        href: https://acervo.marlenildo.site
+        href: https://acervo.melonmundi.com
         icon: box-arrow-in-right
 
   page-footer:
@@ -96,7 +96,7 @@ format:
             _paq.push(['trackPageView']);
             _paq.push(['enableLinkTracking']);
             (function() {
-              var u="//acervo.marlenildo.site/matomo/";
+              var u="//acervo.melonmundi.com/matomo/";
               _paq.push(['setTrackerUrl', u+'matomo.php']);
               _paq.push(['setSiteId', '2']);
               var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
