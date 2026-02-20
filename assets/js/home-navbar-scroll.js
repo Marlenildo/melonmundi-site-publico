@@ -1,6 +1,14 @@
 (() => {
   const body = document.body;
-  if (!body || !body.classList.contains("home-page")) return;
+  if (!body) return;
+
+  const path = window.location.pathname.toLowerCase();
+  const isHome = path === "/" || path.endsWith("/index.html");
+  if (isHome && !body.classList.contains("home-page")) {
+    body.classList.add("home-page", "home-at-top");
+  }
+
+  if (!body.classList.contains("home-page")) return;
   const header = document.getElementById("quarto-header");
 
   const syncHeaderOffset = () => {

@@ -1,9 +1,16 @@
 # Changelog
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
+## [1.0.16] - 2026-02-20
+### Fixed
+- Restaurado o comportamento original da home: navbar transparente no topo e translúcida ao rolar, com cores corretas para links e ícone hambúrguer.
+- Removido o título extra exibido ao lado da logo na navbar.
+- Mantido o fluxo de scripts/CSS da home no padrão anterior, sem mudanças de layout indesejadas.
+
+---
 ## [1.0.15] - 2026-02-20
 ### Changed
-- Definido website.title: "Página Inicial" em _quarto.yml para corrigir o nome exibido na aba do navegador na home.
+- Definido o titulo do site no _quarto.yml para corrigir o nome exibido na aba do navegador na home.
 - Ajustado index.qmd para manter front matter simples (apenas metadados essenciais da página).
 - Atualizados links da home para acesso direto ao acervo externo (https://acervo.marlenildo.site).
 - Removida a página local acervo.qmd e seu artefato docs/acervo.html.
@@ -126,4 +133,5 @@ Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 - Página inicial e página Sobre
 - SEO básico
 - Botão de login externo
+
 

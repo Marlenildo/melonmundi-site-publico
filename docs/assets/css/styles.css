@@ -135,7 +135,7 @@ a:hover {
   padding-top: 0 !important;
 }
 
-#title-block-header {
+.home-page #title-block-header {
   display: none !important;
   margin: 0 !important;
   padding: 0 !important;
