@@ -126,99 +126,106 @@
     "text": "Bem-vindo à MelonMundi!\n\n\nDados, campo e decisão técnica para melão e melancia\n\n\nO site público é o ponto de entrada para conhecer a MelonMundi. Com login único, você acessa o acervo restrito com conteúdo técnico em Bookdown e aplicativos práticos para a rotina de campo.\n\n\n Entrar no Acervo Quem Somos\n\n\n\n\n\n\n\nO que a MelonMundi oferece\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo técnico\n\n\nConteúdo estruturado em Bookdown com materiais exclusivos sobre manejo, avaliação e interpretação técnica.\n\n\n\n\n\n\n\n\n\nAnálise orientada por dados\n\n\nDesenho experimental, leitura estatística e suporte a decisões operacionais com foco em resultado de campo.\n\n\n\n\n\n\n\n\n\nApps práticos\n\n\nFerramentas para consulta rápida e estimativas produtivas conectadas ao dia a dia da equipe técnica.\n\n\n\n\n\n\n\n\n\nLogin único\n\n\nUma autenticação para acessar o acervo e os aplicativos restritos do ecossistema MelonMundi.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAplicativos em destaque\n\n\n\n\n\n\n\n\n\n\n\nAgrofito\n\n\nConsulta de produtos registrados para melão, melancia e produtos liberados para qualquer cultura, com base oficial do AGROFIT/MAPA.\n\nBase oficial AGROFIT  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculadora de Frutas\n\n\nEstimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projeção de colheita.\n\nEstimativa produtiva  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNovos apps em evolução\n\n\nO ecossistema está em expansão contínua, com novas soluções para monitoramento, recomendação e validação técnica.\n\nRoadmap ativo  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComo funciona o acesso\n\n\n\n\n1\n\n\nConheça o site público\n\n\nEntenda o posicionamento da MelonMundi, equipe e soluções técnicas para cucurbitáceas.\n\n\n\n\n2\n\n\nFaça login único\n\n\nUse sua autenticação para entrar no acervo e habilitar acesso aos aplicativos restritos.\n\n\n\n\n3\n\n\nAcesse conteúdo + apps\n\n\nConsulte materiais técnicos e ferramentas digitais em um único fluxo de trabalho.\n\n\n\n\n Ir para o Acervo"
   },
   {
-    "objectID": "acervo.html",
-    "href": "acervo.html",
-    "title": "Acervo MelonMundi",
-    "section": "",
-    "text": "Em breve você poderá acessar o Acervo MelonMUndi\n 🔐 Acessar o sistema"
-  },
-  {
     "objectID": "CHANGELOG.html",
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "Todas as mudan�as relevantes deste projeto ser�o documentadas neste arquivo. ## [1.0.12] - 2026-02-19 ### Changed - Ajustado texto do rodap� para identidade institucional: Copyright � 2026 MelonMundi - Global Solutions � Licenciado sob MIT.\n\n\n\n\n\n\nAdicionado vercel.json para for�ar publica��o do conte�do est�tico da pasta docs/ na Vercel, evitando servir snapshot desatualizado.\n\n\n\n\n\n\n\n\n\nCorrigida a codifica��o de textos com caracteres quebrados (acentos) em p�ginas principais e de configura��o.\nPadronizado o layout visual de pol�tica de privacidade, termos de uso e licen�a com o mesmo design.\nRenomeado o menu da navbar de Mais para Informa��es e adicionado o link Licen�a.\n\n\n\n\n\n\n\n\n\nRodap� atualizado para refletir a licen�a MIT: Copyright � 2026 Marlenildo Ferreira Melo � Licenciado sob MIT.\nAdicionado link Licen�a no rodap�, junto aos links institucionais.\nCriada a p�gina licenca.qmd com explica��o e texto completo da licen�a MIT.\n\n\n\n\n\n\n\n\n\nAtualizado o texto do destaque da home para Bem-vindo � MelonMundi! no card principal.\n\n\n\n\n\n\n\n\n\nRemovido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone.\n\n\n\n\n\n\n\n\n\nAtualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/.\n\n\n\n\n\n\n\n\n\nDefine o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador.\n\n\n\n\n\n\n\n\n\nConfigurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking.\n\n\n\n\n\n\n\n\n\nNavbar ajustada para modo transl�cido\nMelhoria visual na sobreposi��o com o conte�do de fundo\nPadroniza��o do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Corre��o dos links de Termos de Uso e Pol�tica de Privacidade - Inclus�o dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da p�gina Sobre para column-page\nMelhoria na leitura e organiza��o do conte�do institucional\n\n\n\n\n\n\n\n\n\nAjuste do bot�o Entrar para integra��o com o fluxo de autentica��o (oauth2-proxy)\nAtualiza��o da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provis�ria de login com aviso ao usu�rio\nPrepara��o do site p�blico para integra��o definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site p�blico\nConfigura��o do Quarto\nP�gina inicial e p�gina Sobre\nSEO b�sico\nBot�o de login externo"
+    "text": "Todas as mudan�as relevantes deste projeto ser�o documentadas neste arquivo. ## [1.0.14] - 2026-02-20 ### Fixed - Corrigida a remocao do titulo visual da home publica com title-block-style none em index.qmd. - Aplicada a mesma estrategia na pagina inicial do acervo (acervo.qmd) para ocultar o bloco visual de titulo. - Mantidos title e description no front matter para preservar SEO e metadados sociais (aba do navegador, Open Graph e Twitter Card).\n\n\n\n\n\n\nHome configurada com title-block: false em index.qmd, removendo o t�tulo visual P�gina Inicial do conte�do e mantendo o nome na aba do navegador.\n\n\n\n\n\n\n\n\n\nAjustado texto do rodap� para identidade institucional: Copyright � 2026 MelonMundi - Global Solutions � Licenciado sob MIT.\n\n\n\n\n\n\n\n\n\nAdicionado vercel.json para for�ar publica��o do conte�do est�tico da pasta docs/ na Vercel, evitando servir snapshot desatualizado.\n\n\n\n\n\n\n\n\n\nCorrigida a codifica��o de textos com caracteres quebrados (acentos) em p�ginas principais e de configura��o.\nPadronizado o layout visual de pol�tica de privacidade, termos de uso e licen�a com o mesmo design.\nRenomeado o menu da navbar de Mais para Informa��es e adicionado o link Licen�a.\n\n\n\n\n\n\n\n\n\nRodap� atualizado para refletir a licen�a MIT: Copyright � 2026 Marlenildo Ferreira Melo � Licenciado sob MIT.\nAdicionado link Licen�a no rodap�, junto aos links institucionais.\nCriada a p�gina licenca.qmd com explica��o e texto completo da licen�a MIT.\n\n\n\n\n\n\n\n\n\nAtualizado o texto do destaque da home para Bem-vindo � MelonMundi! no card principal.\n\n\n\n\n\n\n\n\n\nRemovido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone.\n\n\n\n\n\n\n\n\n\nAtualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/.\n\n\n\n\n\n\n\n\n\nDefine o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador.\n\n\n\n\n\n\n\n\n\nConfigurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking.\n\n\n\n\n\n\n\n\n\nNavbar ajustada para modo transl�cido\nMelhoria visual na sobreposi��o com o conte�do de fundo\nPadroniza��o do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Corre��o dos links de Termos de Uso e Pol�tica de Privacidade - Inclus�o dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da p�gina Sobre para column-page\nMelhoria na leitura e organiza��o do conte�do institucional\n\n\n\n\n\n\n\n\n\nAjuste do bot�o Entrar para integra��o com o fluxo de autentica��o (oauth2-proxy)\nAtualiza��o da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provis�ria de login com aviso ao usu�rio\nPrepara��o do site p�blico para integra��o definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site p�blico\nConfigura��o do Quarto\nP�gina inicial e p�gina Sobre\nSEO b�sico\nBot�o de login externo"
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": "Adicionado vercel.json para for�ar publica��o do conte�do est�tico da pasta docs/ na Vercel, evitando servir snapshot desatualizado."
+    "text": "Home configurada com title-block: false em index.qmd, removendo o t�tulo visual P�gina Inicial do conte�do e mantendo o nome na aba do navegador."
   },
   {
     "objectID": "CHANGELOG.html#section-1",
     "href": "CHANGELOG.html#section-1",
     "title": "Changelog",
     "section": "",
-    "text": "Corrigida a codifica��o de textos com caracteres quebrados (acentos) em p�ginas principais e de configura��o.\nPadronizado o layout visual de pol�tica de privacidade, termos de uso e licen�a com o mesmo design.\nRenomeado o menu da navbar de Mais para Informa��es e adicionado o link Licen�a."
+    "text": "Ajustado texto do rodap� para identidade institucional: Copyright � 2026 MelonMundi - Global Solutions � Licenciado sob MIT."
   },
   {
     "objectID": "CHANGELOG.html#section-2",
     "href": "CHANGELOG.html#section-2",
     "title": "Changelog",
     "section": "",
-    "text": "Rodap� atualizado para refletir a licen�a MIT: Copyright � 2026 Marlenildo Ferreira Melo � Licenciado sob MIT.\nAdicionado link Licen�a no rodap�, junto aos links institucionais.\nCriada a p�gina licenca.qmd com explica��o e texto completo da licen�a MIT."
+    "text": "Adicionado vercel.json para for�ar publica��o do conte�do est�tico da pasta docs/ na Vercel, evitando servir snapshot desatualizado."
   },
   {
     "objectID": "CHANGELOG.html#section-3",
     "href": "CHANGELOG.html#section-3",
     "title": "Changelog",
     "section": "",
-    "text": "Atualizado o texto do destaque da home para Bem-vindo � MelonMundi! no card principal."
+    "text": "Corrigida a codifica��o de textos com caracteres quebrados (acentos) em p�ginas principais e de configura��o.\nPadronizado o layout visual de pol�tica de privacidade, termos de uso e licen�a com o mesmo design.\nRenomeado o menu da navbar de Mais para Informa��es e adicionado o link Licen�a."
   },
   {
     "objectID": "CHANGELOG.html#section-4",
     "href": "CHANGELOG.html#section-4",
     "title": "Changelog",
     "section": "",
-    "text": "Removido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone."
+    "text": "Rodap� atualizado para refletir a licen�a MIT: Copyright � 2026 Marlenildo Ferreira Melo � Licenciado sob MIT.\nAdicionado link Licen�a no rodap�, junto aos links institucionais.\nCriada a p�gina licenca.qmd com explica��o e texto completo da licen�a MIT."
   },
   {
     "objectID": "CHANGELOG.html#section-5",
     "href": "CHANGELOG.html#section-5",
     "title": "Changelog",
     "section": "",
-    "text": "Atualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/."
+    "text": "Atualizado o texto do destaque da home para Bem-vindo � MelonMundi! no card principal."
   },
   {
     "objectID": "CHANGELOG.html#section-6",
     "href": "CHANGELOG.html#section-6",
     "title": "Changelog",
     "section": "",
-    "text": "Define o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador."
+    "text": "Removido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone."
   },
   {
     "objectID": "CHANGELOG.html#section-7",
     "href": "CHANGELOG.html#section-7",
     "title": "Changelog",
     "section": "",
-    "text": "Configurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking."
+    "text": "Atualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/."
   },
   {
     "objectID": "CHANGELOG.html#section-8",
     "href": "CHANGELOG.html#section-8",
     "title": "Changelog",
     "section": "",
-    "text": "Navbar ajustada para modo transl�cido\nMelhoria visual na sobreposi��o com o conte�do de fundo\nPadroniza��o do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Corre��o dos links de Termos de Uso e Pol�tica de Privacidade - Inclus�o dos links legais no menu da navbar para melhor acessibilidade"
+    "text": "Define o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador."
   },
   {
     "objectID": "CHANGELOG.html#section-9",
     "href": "CHANGELOG.html#section-9",
     "title": "Changelog",
     "section": "",
-    "text": "Ajuste do layout da p�gina Sobre para column-page\nMelhoria na leitura e organiza��o do conte�do institucional"
+    "text": "Configurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking."
   },
   {
     "objectID": "CHANGELOG.html#section-10",
     "href": "CHANGELOG.html#section-10",
     "title": "Changelog",
     "section": "",
-    "text": "Ajuste do bot�o Entrar para integra��o com o fluxo de autentica��o (oauth2-proxy)\nAtualiza��o da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provis�ria de login com aviso ao usu�rio\nPrepara��o do site p�blico para integra��o definitiva com Keycloak"
+    "text": "Navbar ajustada para modo transl�cido\nMelhoria visual na sobreposi��o com o conte�do de fundo\nPadroniza��o do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Corre��o dos links de Termos de Uso e Pol�tica de Privacidade - Inclus�o dos links legais no menu da navbar para melhor acessibilidade"
   },
   {
     "objectID": "CHANGELOG.html#section-11",
     "href": "CHANGELOG.html#section-11",
+    "title": "Changelog",
+    "section": "",
+    "text": "Ajuste do layout da p�gina Sobre para column-page\nMelhoria na leitura e organiza��o do conte�do institucional"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-12",
+    "href": "CHANGELOG.html#section-12",
+    "title": "Changelog",
+    "section": "",
+    "text": "Ajuste do bot�o Entrar para integra��o com o fluxo de autentica��o (oauth2-proxy)\nAtualiza��o da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provis�ria de login com aviso ao usu�rio\nPrepara��o do site p�blico para integra��o definitiva com Keycloak"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-13",
+    "href": "CHANGELOG.html#section-13",
     "title": "Changelog",
     "section": "",
     "text": "Estrutura inicial do site p�blico\nConfigura��o do Quarto\nP�gina inicial e p�gina Sobre\nSEO b�sico\nBot�o de login externo"
@@ -247,7 +254,7 @@
   {
     "objectID": "sobre-nos.html",
     "href": "sobre-nos.html",
-    "title": "",
+    "title": "Página Inicial",
     "section": "",
     "text": "Conheça a MelonMundi\n\n\nAtuamos de forma integrada em toda a cadeia produtiva de cucurbitáceas, unindo ciência, experiência de campo e tomada de decisão baseada em dados.\n\n\n\n\n\n\n\nEspecialização\n\n\nSomos um grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora.\n\n\n\n\n\n\n\nPlanejamento\n\n\nAtuamos do planejamento da fazenda ao transporte e pós-colheita.\n\n\n\n\n\n\n\nBase técnica\n\n\nOferecemos suporte técnico baseado em dados, experiência de campo e rigor científico.\n\n\n\n\n\n\n\nConclusão técnica\n\n\nDesenvolvemos projetos direcionados à obtenção de conclusões técnicas sólidas sobre manejo de cucurbitáceas, sempre com foco em produtividade, sustentabilidade e rentabilidade.\n\n\n\n\n\n\n\n\n\nNossa essência\n\n\n\n\n\n\nMissão\n\n\nPromover o desenvolvimento de projetos em cucurbitáceas mais competitivos, humanos, saudáveis e rentáveis, transformando conhecimento em resultados concretos.\n\n\n\n\n\n\n\nVisão\n\n\nSer referência em pesquisa, consultoria e desenvolvimento de tecnologias para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes.\n\n\n\n\n\n\n\nValores\n\n\nIndependência\n\n\nIntegridade\n\n\nHonestidade\n\n\nRigor técnico\n\n\n\n\n\n\n\n\n\nNossa identidade visual\n\n\n\n\nA logomarca representa a abrangência global dos nossos serviços. As cores refletem a cultura de maior importância — o melão — e o globo simboliza as ramas do meloeiro sustentando o mundo.\n\n\n\n\n\n\n\nConheça nosso time\n\n\n\n\n\n\nLuis Álvarez\n\n\nFundador e Diretor\n\n\nCoordenador de projetos, orientador técnico e avaliador de campo.\n\n\n\n\n\n\n\nJuliana Carla\n\n\nAdministração e Finanças\n\n\nEngenheira Civil, responsável pela administração e finanças.\n\n\n\n\n\n\n\nMarlenildo Melo\n\n\nDesenho experimental e análise de dados\n\n\nEngenheiro Agrônomo, Doutor em Fitotecnia.\n\n\n\n\n\n\n\nGeinilson Oliveira\n\n\nAvaliador de campo\n\n\nTécnico em agropecuária e monitor técnico em MIPD."
   }

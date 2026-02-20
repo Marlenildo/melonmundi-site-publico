@@ -4,6 +4,7 @@
 lang: pt-BR
 
 website:
+  title: "Página Inicial"
   description: "Plataforma institucional de gestão agrícola em produção de cucurbitáceas e rastreabilidade técnica baseada em dados."
   site-url: "https://marlenildo.site"
   favicon: assets/img/favicon.ico

@@ -1,13 +1,13 @@
 ﻿---
 title: "Página Inicial"
 description: "Ecossistema MelonMundi para conteúdo técnico, apps especializados e decisão agrícola orientada por dados em melão e melancia."
-format:
-  html:
-    title-block-style: none
-    body-classes:
-      - home-page
-      - home-at-top
 ---
+
+
+
+
+
+
 
 <section class="column-screen screen-home-hero">
 <div class="column-body">
@@ -15,7 +15,7 @@ format:
 <p class="hero-kicker">Bem-vindo à MelonMundi!</p>
 <h1 class="hero-title">Dados, campo e decisão técnica para <span>melão e melancia</span></h1>
 <p class="hero-subtitle">O site público é o ponto de entrada para conhecer a MelonMundi. Com login único, você acessa o acervo restrito com conteúdo técnico em Bookdown e aplicativos práticos para a rotina de campo.</p>
-<div class="hero-actions"><a class="btn btn-hero-primary" href="acervo.qmd"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a><a class="btn btn-hero-secondary" href="sobre-nos.qmd"><i class="fa-solid fa-users"></i> Quem Somos</a></div>
+<div class="hero-actions"><a class="btn btn-hero-primary" href="https://acervo.marlenildo.site"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a><a class="btn btn-hero-secondary" href="sobre-nos.qmd"><i class="fa-solid fa-users"></i> Quem Somos</a></div>
 </div>
 </div>
 </section>
@@ -107,7 +107,9 @@ format:
 <div class="journey-step reveal"><div class="journey-step-number">2</div><h3>Faça login único</h3><p>Use sua autenticação para entrar no acervo e habilitar acesso aos aplicativos restritos.</p></div>
 <div class="journey-step reveal"><div class="journey-step-number">3</div><h3>Acesse conteúdo + apps</h3><p>Consulte materiais técnicos e ferramentas digitais em um único fluxo de trabalho.</p></div>
 </div>
-<div class="home-cta reveal"><a class="btn btn-hero-secondary" href="acervo.qmd"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ir para o Acervo</a></div>
+<div class="home-cta reveal"><a class="btn btn-hero-secondary" href="https://acervo.marlenildo.site"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ir para o Acervo</a></div>
 </div>
 </section>
+
+
 
