@@ -65,6 +65,10 @@ a:hover {
   max-height: 60px;
 }
 
+.navbar-title {
+  display: none !important;
+}
+
 /* Login */
 .navbar .navbar-nav.ms-auto .nav-item:last-child .nav-link {
   background-color: var(--primary);
