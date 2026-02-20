@@ -1,6 +1,14 @@
 # Changelog
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
+## [1.0.14] - 2026-02-20
+### Fixed
+- Corrigida a remocao do titulo visual da home publica com title-block-style none em index.qmd.
+- Aplicada a mesma estrategia na pagina inicial do acervo (acervo.qmd) para ocultar o bloco visual de titulo.
+- Mantidos title e description no front matter para preservar SEO e metadados sociais (aba do navegador, Open Graph e Twitter Card).
+
+---
+
 ## [1.0.13] - 2026-02-19
 ### Changed
 - Home configurada com `title-block: false` em `index.qmd`, removendo o título visual `Página Inicial` do conteúdo e mantendo o nome na aba do navegador.

@@ -1,6 +1,9 @@
 ---
 title: "Acervo MelonMundi"
-format: html
+description: "Portal de entrada do Acervo MelonMundi para conteúdos técnicos e aplicativos restritos."
+format:
+  html:
+    title-block-style: none
 ---
 
 Em breve você poderá acessar o **Acervo MelonMUndi**
