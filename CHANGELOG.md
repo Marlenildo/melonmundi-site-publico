@@ -2,6 +2,11 @@
 
 Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 
+## [1.0.19] - 2026-02-20
+### Changed
+- Atualizado o tracking Matomo do site publico para `siteId=3` em `_quarto.yml` e artefatos em `docs/`, alinhando com a configuracao atual do Matomo (IDs 1 e 3).
+
+---
 ## [1.0.18] - 2026-02-20
 ### Changed
 - Migracao de dominio principal para https://melonmundi.com em _quarto.yml.
