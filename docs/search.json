@@ -123,126 +123,133 @@
     "href": "index.html",
     "title": "Página Inicial",
     "section": "",
-    "text": "Bem-vindo à MelonMundi!\n\n\nSomos um grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora\n\n\nAssessoramos desde o planejamento de uma fazenda produtora até a etapa final de transporte do produto. Tenha acesso a contéudo exclusivo e aplicativos práticos para a rotina de campo.\n\n\n Entrar no Acervo Quem Somos\n\n\n\n\n\n\n\nO que a MelonMundi oferece\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo técnico\n\n\nConteúdo estruturado em Bookdown com materiais exclusivos sobre manejo, avaliação e interpretação técnica.\n\n\n\n\n\n\n\n\n\nAnálise orientada por dados\n\n\nDesenho experimental, leitura estatística e suporte a decisões operacionais com foco em resultado de campo.\n\n\n\n\n\n\n\n\n\nApps práticos\n\n\nFerramentas para consulta rápida e estimativas produtivas conectadas ao dia a dia da equipe técnica.\n\n\n\n\n\n\n\n\n\nLogin único\n\n\nUma autenticação para acessar o acervo e os aplicativos restritos do ecossistema MelonMundi.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAplicativos em destaque\n\n\n\n\n\n\n\n\n\n\n\nAgrofito\n\n\nConsulta de produtos registrados para melão, melancia e produtos liberados para qualquer cultura, com base oficial do AGROFIT/MAPA.\n\nBase oficial AGROFIT  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculadora de Frutas\n\n\nEstimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projeção de colheita.\n\nEstimativa produtiva  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNovos apps em evolução\n\n\nO ecossistema está em expansão contínua, com novas soluções para monitoramento, recomendação e validação técnica.\n\nRoadmap ativo  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComo funciona o acesso\n\n\n\n\n1\n\n\nConheça o site público\n\n\nEntenda o posicionamento da MelonMundi, equipe e soluções técnicas para cucurbitáceas.\n\n\n\n\n2\n\n\nFaça login único\n\n\nUse sua autenticação para entrar no acervo e habilitar acesso aos aplicativos restritos.\n\n\n\n\n3\n\n\nAcesse conteúdo + apps\n\n\nConsulte materiais técnicos e ferramentas digitais em um único fluxo de trabalho.\n\n\n\n\n Ir para o Acervo"
+    "text": "Bem-vindo à MelonMundi!\n\n\nSomos um grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora\n\n\nAssessoramos desde o planejamento de uma fazenda produtora até a etapa final de transporte do produto. Tenha acesso a contéudo exclusivo e aplicativos práticos para a rotina de campo.\n\n\n Entrar no Acervo Quem Somos\n\n\n\n\n\n\n\nO que a MelonMundi oferece\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo técnico\n\n\nConteúdo estruturado em Bookdown com materiais exclusivos sobre manejo, avaliação e interpretação técnica.\n\n\n\n\n\n\n\n\n\nAnálise orientada por dados\n\n\nDesenho experimental, leitura estatística e suporte a decisões operacionais com foco em resultado de campo.\n\n\n\n\n\n\n\n\n\nApps práticos\n\n\nFerramentas para consulta rápida e estimativas produtivas conectadas ao dia a dia da equipe técnica.\n\n\n\n\n\n\n\n\n\nLogin único\n\n\nUma autenticação para acessar o acervo e os aplicativos restritos do ecossistema MelonMundi.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAplicativos em destaque\n\n\n\n\n\n\n\n\n\n\n\nAgrofito\n\n\nConsulta de produtos registrados para melão, melancia e produtos liberados para qualquer cultura, com base oficial do AGROFIT/MAPA.\n\nBase oficial AGROFIT  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\nCalculadora de Frutas\n\n\nEstimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projeção de colheita.\n\nEstimativa produtiva  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\nNovos apps em evolução\n\n\nO ecossistema está em expansão contínua, com novas soluções para monitoramento, recomendação e validação técnica.\n\nRoadmap ativo  Ver app no Acervo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComo funciona o acesso\n\n\n\n\n1\n\n\nConheça o site público\n\n\nEntenda o posicionamento da MelonMundi, equipe e soluções técnicas para cucurbitáceas.\n\n\n\n\n2\n\n\nFaça login único\n\n\nUse sua autenticação para entrar no acervo e habilitar acesso aos aplicativos restritos.\n\n\n\n\n3\n\n\nAcesse conteúdo + apps\n\n\nConsulte materiais técnicos e ferramentas digitais em um único fluxo de trabalho.\n\n\n\n\n Ir para o Acervo"
   },
   {
     "objectID": "CHANGELOG.html",
     "href": "CHANGELOG.html",
     "title": "Changelog",
     "section": "",
-    "text": "Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.\n\n\n\n\n\nAtualizado o tracking Matomo do site publico para siteId=3 em _quarto.yml e artefatos em docs/, alinhando com a configuracao atual do Matomo (IDs 1 e 3).\n\n\n\n\n\n\n\n## [1.0.18] - 2026-02-20 ### Changed - Migracao de dominio principal para https://melonmundi.com em _quarto.yml. - Atualizados links de acesso ao acervo para https://acervo.melonmundi.com na home. - Atualizado endpoint Matomo para //acervo.melonmundi.com/matomo/. - Regerados artefatos em docs/ com as URLs novas.\n\n\n\n\n## [1.0.17] - 2026-02-20 ### Fixed - Definido o tÃ­tulo institucional da aba do navegador via website.title no _quarto.yml. - Ocultado o texto da marca na navbar (.navbar-title), mantendo somente a logo. - Preservado o comportamento da home com navbar transparente no topo e translÃºcida ao rolar. - Regerados os arquivos em docs/ para publicaÃ§Ã£o.\n\n\n\n\n\n\n\n\n\n\nRestaurado o comportamento original da home: navbar transparente no topo e translÃºcida ao rolar, com cores corretas para links e Ã­cone hambÃºrguer.\nRemovido o tÃ­tulo extra exibido ao lado da logo na navbar.\nMantido o fluxo de scripts/CSS da home no padrÃ£o anterior, sem mudanÃ§as de layout indesejadas.\n\n\n\n\n\n\n\n## [1.0.15] - 2026-02-20 ### Changed - Definido o titulo do site no _quarto.yml para corrigir o nome exibido na aba do navegador na home. - Ajustado index.qmd para manter front matter simples (apenas metadados essenciais da pÃ¡gina). - Atualizados links da home para acesso direto ao acervo externo (https://acervo.melonmundi.com). - Removida a pÃ¡gina local acervo.qmd e seu artefato docs/acervo.html.\n\n\n\n\n## [1.0.14] - 2026-02-20 ### Fixed - Corrigida a remocao do titulo visual da home publica com title-block-style none em index.qmd. - Aplicada a mesma estrategia na pagina inicial do acervo (acervo.qmd) para ocultar o bloco visual de titulo. - Mantidos title e description no front matter para preservar SEO e metadados sociais (aba do navegador, Open Graph e Twitter Card).\n\n\n\n\n\n\n\n\n\n\nHome configurada com title-block: false em index.qmd, removendo o tÃ­tulo visual PÃ¡gina Inicial do conteÃºdo e mantendo o nome na aba do navegador.\n\n\n\n\n\n\n\n\n\nAjustado texto do rodapÃ© para identidade institucional: Copyright Â© 2026 MelonMundi - Global Solutions Â· Licenciado sob MIT.\n\n\n\n\n\n\n\n\n\nAdicionado vercel.json para forÃ§ar publicaÃ§Ã£o do conteÃºdo estÃ¡tico da pasta docs/ na Vercel, evitando servir snapshot desatualizado.\n\n\n\n\n\n\n\n\n\nCorrigida a codificaÃ§Ã£o de textos com caracteres quebrados (acentos) em pÃ¡ginas principais e de configuraÃ§Ã£o.\nPadronizado o layout visual de polÃ­tica de privacidade, termos de uso e licenÃ§a com o mesmo design.\nRenomeado o menu da navbar de Mais para InformaÃ§Ãµes e adicionado o link LicenÃ§a.\n\n\n\n\n\n\n\n\n\nRodapÃ© atualizado para refletir a licenÃ§a MIT: Copyright Â© 2026 Marlenildo Ferreira Melo Â· Licenciado sob MIT.\nAdicionado link LicenÃ§a no rodapÃ©, junto aos links institucionais.\nCriada a pÃ¡gina licenca.qmd com explicaÃ§Ã£o e texto completo da licenÃ§a MIT.\n\n\n\n\n\n\n\n\n\nAtualizado o texto do destaque da home para Bem-vindo Ã  MelonMundi! no card principal.\n\n\n\n\n\n\n\n\n\nRemovido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone.\n\n\n\n\n\n\n\n\n\nAtualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/.\n\n\n\n\n\n\n\n\n\nDefine o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador.\n\n\n\n\n\n\n\n\n\nConfigurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking.\n\n\n\n\n\n\n\n\n\nNavbar ajustada para modo translÃºcido\nMelhoria visual na sobreposiÃ§Ã£o com o conteÃºdo de fundo\nPadronizaÃ§Ã£o do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - CorreÃ§Ã£o dos links de Termos de Uso e PolÃ­tica de Privacidade - InclusÃ£o dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da pÃ¡gina Sobre para column-page\nMelhoria na leitura e organizaÃ§Ã£o do conteÃºdo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botÃ£o Entrar para integraÃ§Ã£o com o fluxo de autenticaÃ§Ã£o (oauth2-proxy)\nAtualizaÃ§Ã£o da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisÃ³ria de login com aviso ao usuÃ¡rio\nPreparaÃ§Ã£o do site pÃºblico para integraÃ§Ã£o definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site pÃºblico\nConfiguraÃ§Ã£o do Quarto\nPÃ¡gina inicial e pÃ¡gina Sobre\nSEO bÃ¡sico\nBotÃ£o de login externo"
+    "text": "Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.\n\n\n\n\n\nHomepage: secao “Aplicativos em destaque” simplificada para usar imagens unicas dos apps (app_agrofito.png e app_calculadorafrutas.png) junto ao texto.\nHomepage: link do botao do Agrofito atualizado para URL publica real: https://acervo.melonmundi.com/apps/agrofito/.\nHomepage mobile: selo (.app-tag) e botao (Ver app no Acervo) empilhados no card de app em telas de celular.\nAjustado layout da secao para ampliar area visual das imagens em tela de computador.\n\n\n\n\n\nNovas imagens de app em assets/img/: app_agrofito.png e app_calculadorafrutas.png.\n\n\n\n\n\n\n\n## [1.0.19] - 2026-02-20 ### Changed - Atualizado o tracking Matomo do site publico para siteId=3 em _quarto.yml e artefatos em docs/, alinhando com a configuracao atual do Matomo (IDs 1 e 3).\n\n\n\n\n## [1.0.18] - 2026-02-20 ### Changed - Migracao de dominio principal para https://melonmundi.com em _quarto.yml. - Atualizados links de acesso ao acervo para https://acervo.melonmundi.com na home. - Atualizado endpoint Matomo para //acervo.melonmundi.com/matomo/. - Regerados artefatos em docs/ com as URLs novas.\n\n\n\n\n\n\n\n\n\n\nDefinido o tÃ­tulo institucional da aba do navegador via website.title no _quarto.yml.\nOcultado o texto da marca na navbar (.navbar-title), mantendo somente a logo.\nPreservado o comportamento da home com navbar transparente no topo e translucida ao rolar.\nRegerados os arquivos em docs/ para publicacao.\n\n\n\n\n\n\n\n## [1.0.16] - 2026-02-20 ### Fixed - Restaurado o comportamento original da home: navbar transparente no topo e translucida ao rolar, com cores corretas para links e icone hamburguer. - Removido o titulo extra exibido ao lado da logo na navbar. - Mantido o fluxo de scripts/CSS da home no padrao anterior, sem mudancas de layout indesejadas.\n\n\n\n\n## [1.0.15] - 2026-02-20 ### Changed - Definido o titulo do site no _quarto.yml para corrigir o nome exibido na aba do navegador na home. - Ajustado index.qmd para manter front matter simples (apenas metadados essenciais da pagina). - Atualizados links da home para acesso direto ao acervo externo (https://acervo.melonmundi.com). - Removida a pagina local acervo.qmd e seu artefato docs/acervo.html.\n\n\n### Fixed - Ocultado o bloco visual padrao de titulo/descricao do Quarto via CSS (#title-block-header) para nao sobrepor o hero. - Limpeza de arquivos locais de conflito/sincronizacao (MarlenildoNoteDell, live_index*, etc.).\n\n\n\n\n\n\n\n\n\n\nCorrigida a remocao do titulo visual da home publica com title-block-style none em index.qmd.\nAplicada a mesma estrategia na pagina inicial do acervo (acervo.qmd) para ocultar o bloco visual de titulo.\nMantidos title e description no front matter para preservar SEO e metadados sociais (aba do navegador, Open Graph e Twitter Card).\n\n\n\n\n\n\n\n\n\nHome configurada com title-block: false em index.qmd, removendo o titulo visual Pagina Inicial do conteudo e mantendo o nome na aba do navegador.\n\n\n\n\n\n\n\n\n\nAjustado texto do rodape para identidade institucional: Copyright � 2026 MelonMundi - Global Solutions � Licenciado sob MIT.\n\n\n\n\n\n\n\n\n\nAdicionado vercel.json para forcar publicacao do conteudo estatico da pasta docs/ na Vercel, evitando servir snapshot desatualizado.\n\n\n\n\n\n\n\n\n\nCorrigida a codificacao de textos com caracteres quebrados (acentos) em paginas principais e de configuracao.\nPadronizado o layout visual de politica de privacidade, termos de uso e licenca com o mesmo design.\nRenomeado o menu da navbar de Mais para Informacoes e adicionado o link Licenca.\n\n\n\n\n\n\n\n\n\nRodape atualizado para refletir a licenca MIT: Copyright � 2026 Marlenildo Ferreira Melo � Licenciado sob MIT.\nAdicionado link Licenca no rodape, junto aos links institucionais.\nCriada a pagina licenca.qmd com explicacao e texto completo da licenca MIT.\n\n\n\n\n\n\n\n\n\nAtualizado o texto do destaque da home para Bem-vindo a MelonMundi! no card principal.\n\n\n\n\n\n\n\n\n\nRemovido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone.\n\n\n\n\n\n\n\n\n\nAtualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/.\n\n\n\n\n\n\n\n\n\nDefine o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador.\n\n\n\n\n\n\n\n\n\nConfigurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking.\n\n\n\n\n\n\n\n\n\nNavbar ajustada para modo translucido\nMelhoria visual na sobreposicao com o conteudo de fundo\nPadronizacao do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correcao dos links de Termos de Uso e Politica de Privacidade - Inclusao dos links legais no menu da navbar para melhor acessibilidade\n\n\n\n\n\n\n\n\n\n\nAjuste do layout da pagina Sobre para column-page\nMelhoria na leitura e organizacao do conteudo institucional\n\n\n\n\n\n\n\n\n\nAjuste do botao Entrar para integracao com o fluxo de autenticacao (oauth2-proxy)\nAtualizacao da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisoria de login com aviso ao usuario\nPreparacao do site publico para integracao definitiva com Keycloak\n\n\n\n\n\n\n\n\n\nEstrutura inicial do site publico\nConfiguracao do Quarto\nPagina inicial e pagina Sobre\nSEO basico\nBotao de login externo"
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
     "title": "Changelog",
     "section": "",
-    "text": "Atualizado o tracking Matomo do site publico para siteId=3 em _quarto.yml e artefatos em docs/, alinhando com a configuracao atual do Matomo (IDs 1 e 3).\n\n\n\n\n\n\n\n## [1.0.18] - 2026-02-20 ### Changed - Migracao de dominio principal para https://melonmundi.com em _quarto.yml. - Atualizados links de acesso ao acervo para https://acervo.melonmundi.com na home. - Atualizado endpoint Matomo para //acervo.melonmundi.com/matomo/. - Regerados artefatos em docs/ com as URLs novas.\n\n\n\n\n## [1.0.17] - 2026-02-20 ### Fixed - Definido o tÃ­tulo institucional da aba do navegador via website.title no _quarto.yml. - Ocultado o texto da marca na navbar (.navbar-title), mantendo somente a logo. - Preservado o comportamento da home com navbar transparente no topo e translÃºcida ao rolar. - Regerados os arquivos em docs/ para publicaÃ§Ã£o."
+    "text": "Homepage: secao “Aplicativos em destaque” simplificada para usar imagens unicas dos apps (app_agrofito.png e app_calculadorafrutas.png) junto ao texto.\nHomepage: link do botao do Agrofito atualizado para URL publica real: https://acervo.melonmundi.com/apps/agrofito/.\nHomepage mobile: selo (.app-tag) e botao (Ver app no Acervo) empilhados no card de app em telas de celular.\nAjustado layout da secao para ampliar area visual das imagens em tela de computador.\n\n\n\n\n\nNovas imagens de app em assets/img/: app_agrofito.png e app_calculadorafrutas.png.\n\n\n\n\n\n\n\n## [1.0.19] - 2026-02-20 ### Changed - Atualizado o tracking Matomo do site publico para siteId=3 em _quarto.yml e artefatos em docs/, alinhando com a configuracao atual do Matomo (IDs 1 e 3).\n\n\n\n\n## [1.0.18] - 2026-02-20 ### Changed - Migracao de dominio principal para https://melonmundi.com em _quarto.yml. - Atualizados links de acesso ao acervo para https://acervo.melonmundi.com na home. - Atualizado endpoint Matomo para //acervo.melonmundi.com/matomo/. - Regerados artefatos em docs/ com as URLs novas."
   },
   {
     "objectID": "CHANGELOG.html#section-1",
     "href": "CHANGELOG.html#section-1",
     "title": "Changelog",
     "section": "",
-    "text": "Restaurado o comportamento original da home: navbar transparente no topo e translÃºcida ao rolar, com cores corretas para links e Ã­cone hambÃºrguer.\nRemovido o tÃ­tulo extra exibido ao lado da logo na navbar.\nMantido o fluxo de scripts/CSS da home no padrÃ£o anterior, sem mudanÃ§as de layout indesejadas.\n\n\n\n\n\n\n\n## [1.0.15] - 2026-02-20 ### Changed - Definido o titulo do site no _quarto.yml para corrigir o nome exibido na aba do navegador na home. - Ajustado index.qmd para manter front matter simples (apenas metadados essenciais da pÃ¡gina). - Atualizados links da home para acesso direto ao acervo externo (https://acervo.melonmundi.com). - Removida a pÃ¡gina local acervo.qmd e seu artefato docs/acervo.html.\n\n\n\n\n## [1.0.14] - 2026-02-20 ### Fixed - Corrigida a remocao do titulo visual da home publica com title-block-style none em index.qmd. - Aplicada a mesma estrategia na pagina inicial do acervo (acervo.qmd) para ocultar o bloco visual de titulo. - Mantidos title e description no front matter para preservar SEO e metadados sociais (aba do navegador, Open Graph e Twitter Card)."
+    "text": "Definido o tÃ­tulo institucional da aba do navegador via website.title no _quarto.yml.\nOcultado o texto da marca na navbar (.navbar-title), mantendo somente a logo.\nPreservado o comportamento da home com navbar transparente no topo e translucida ao rolar.\nRegerados os arquivos em docs/ para publicacao.\n\n\n\n\n\n\n\n## [1.0.16] - 2026-02-20 ### Fixed - Restaurado o comportamento original da home: navbar transparente no topo e translucida ao rolar, com cores corretas para links e icone hamburguer. - Removido o titulo extra exibido ao lado da logo na navbar. - Mantido o fluxo de scripts/CSS da home no padrao anterior, sem mudancas de layout indesejadas.\n\n\n\n\n## [1.0.15] - 2026-02-20 ### Changed - Definido o titulo do site no _quarto.yml para corrigir o nome exibido na aba do navegador na home. - Ajustado index.qmd para manter front matter simples (apenas metadados essenciais da pagina). - Atualizados links da home para acesso direto ao acervo externo (https://acervo.melonmundi.com). - Removida a pagina local acervo.qmd e seu artefato docs/acervo.html.\n\n\n### Fixed - Ocultado o bloco visual padrao de titulo/descricao do Quarto via CSS (#title-block-header) para nao sobrepor o hero. - Limpeza de arquivos locais de conflito/sincronizacao (MarlenildoNoteDell, live_index*, etc.)."
   },
   {
     "objectID": "CHANGELOG.html#section-2",
     "href": "CHANGELOG.html#section-2",
     "title": "Changelog",
     "section": "",
-    "text": "Home configurada com title-block: false em index.qmd, removendo o tÃ­tulo visual PÃ¡gina Inicial do conteÃºdo e mantendo o nome na aba do navegador."
+    "text": "Corrigida a remocao do titulo visual da home publica com title-block-style none em index.qmd.\nAplicada a mesma estrategia na pagina inicial do acervo (acervo.qmd) para ocultar o bloco visual de titulo.\nMantidos title e description no front matter para preservar SEO e metadados sociais (aba do navegador, Open Graph e Twitter Card)."
   },
   {
     "objectID": "CHANGELOG.html#section-3",
     "href": "CHANGELOG.html#section-3",
     "title": "Changelog",
     "section": "",
-    "text": "Ajustado texto do rodapÃ© para identidade institucional: Copyright Â© 2026 MelonMundi - Global Solutions Â· Licenciado sob MIT."
+    "text": "Home configurada com title-block: false em index.qmd, removendo o titulo visual Pagina Inicial do conteudo e mantendo o nome na aba do navegador."
   },
   {
     "objectID": "CHANGELOG.html#section-4",
     "href": "CHANGELOG.html#section-4",
     "title": "Changelog",
     "section": "",
-    "text": "Adicionado vercel.json para forÃ§ar publicaÃ§Ã£o do conteÃºdo estÃ¡tico da pasta docs/ na Vercel, evitando servir snapshot desatualizado."
+    "text": "Ajustado texto do rodape para identidade institucional: Copyright � 2026 MelonMundi - Global Solutions � Licenciado sob MIT."
   },
   {
     "objectID": "CHANGELOG.html#section-5",
     "href": "CHANGELOG.html#section-5",
     "title": "Changelog",
     "section": "",
-    "text": "Corrigida a codificaÃ§Ã£o de textos com caracteres quebrados (acentos) em pÃ¡ginas principais e de configuraÃ§Ã£o.\nPadronizado o layout visual de polÃ­tica de privacidade, termos de uso e licenÃ§a com o mesmo design.\nRenomeado o menu da navbar de Mais para InformaÃ§Ãµes e adicionado o link LicenÃ§a."
+    "text": "Adicionado vercel.json para forcar publicacao do conteudo estatico da pasta docs/ na Vercel, evitando servir snapshot desatualizado."
   },
   {
     "objectID": "CHANGELOG.html#section-6",
     "href": "CHANGELOG.html#section-6",
     "title": "Changelog",
     "section": "",
-    "text": "RodapÃ© atualizado para refletir a licenÃ§a MIT: Copyright Â© 2026 Marlenildo Ferreira Melo Â· Licenciado sob MIT.\nAdicionado link LicenÃ§a no rodapÃ©, junto aos links institucionais.\nCriada a pÃ¡gina licenca.qmd com explicaÃ§Ã£o e texto completo da licenÃ§a MIT."
+    "text": "Corrigida a codificacao de textos com caracteres quebrados (acentos) em paginas principais e de configuracao.\nPadronizado o layout visual de politica de privacidade, termos de uso e licenca com o mesmo design.\nRenomeado o menu da navbar de Mais para Informacoes e adicionado o link Licenca."
   },
   {
     "objectID": "CHANGELOG.html#section-7",
     "href": "CHANGELOG.html#section-7",
     "title": "Changelog",
     "section": "",
-    "text": "Atualizado o texto do destaque da home para Bem-vindo Ã  MelonMundi! no card principal."
+    "text": "Rodape atualizado para refletir a licenca MIT: Copyright � 2026 Marlenildo Ferreira Melo � Licenciado sob MIT.\nAdicionado link Licenca no rodape, junto aos links institucionais.\nCriada a pagina licenca.qmd com explicacao e texto completo da licenca MIT."
   },
   {
     "objectID": "CHANGELOG.html#section-8",
     "href": "CHANGELOG.html#section-8",
     "title": "Changelog",
     "section": "",
-    "text": "Removido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone."
+    "text": "Atualizado o texto do destaque da home para Bem-vindo a MelonMundi! no card principal."
   },
   {
     "objectID": "CHANGELOG.html#section-9",
     "href": "CHANGELOG.html#section-9",
     "title": "Changelog",
     "section": "",
-    "text": "Atualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/."
+    "text": "Removido o contorno branco do botao hamburguer na navbar em tela de celular (estado antes de rolar), mantendo apenas as linhas do icone."
   },
   {
     "objectID": "CHANGELOG.html#section-10",
     "href": "CHANGELOG.html#section-10",
     "title": "Changelog",
     "section": "",
-    "text": "Define o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador."
+    "text": "Atualizado o arquivo assets/img/favicon.ico do site publico e regenerados os artefatos em docs/."
   },
   {
     "objectID": "CHANGELOG.html#section-11",
     "href": "CHANGELOG.html#section-11",
     "title": "Changelog",
     "section": "",
-    "text": "Configurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking."
+    "text": "Define o titulo da home (index.qmd) como Pagina Inicial para corrigir o texto exibido na aba do navegador."
   },
   {
     "objectID": "CHANGELOG.html#section-12",
     "href": "CHANGELOG.html#section-12",
     "title": "Changelog",
     "section": "",
-    "text": "Navbar ajustada para modo translÃºcido\nMelhoria visual na sobreposiÃ§Ã£o com o conteÃºdo de fundo\nPadronizaÃ§Ã£o do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - CorreÃ§Ã£o dos links de Termos de Uso e PolÃ­tica de Privacidade - InclusÃ£o dos links legais no menu da navbar para melhor acessibilidade"
+    "text": "Configurado favicon.ico em _quarto.yml para padronizar o icone do navegador no site publico.\nMantida a instrumentacao Matomo do site publico com siteId=2 apontando para endpoint publico de tracking."
   },
   {
     "objectID": "CHANGELOG.html#section-13",
     "href": "CHANGELOG.html#section-13",
     "title": "Changelog",
     "section": "",
-    "text": "Ajuste do layout da pÃ¡gina Sobre para column-page\nMelhoria na leitura e organizaÃ§Ã£o do conteÃºdo institucional"
+    "text": "Navbar ajustada para modo translucido\nMelhoria visual na sobreposicao com o conteudo de fundo\nPadronizacao do estilo visual do topo do site\n\n\n\n\n\n\n\n## [1.0.2] - 2026-02-06 ### Fixed - Correcao dos links de Termos de Uso e Politica de Privacidade - Inclusao dos links legais no menu da navbar para melhor acessibilidade"
   },
   {
     "objectID": "CHANGELOG.html#section-14",
     "href": "CHANGELOG.html#section-14",
     "title": "Changelog",
     "section": "",
-    "text": "Ajuste do botÃ£o Entrar para integraÃ§Ã£o com o fluxo de autenticaÃ§Ã£o (oauth2-proxy)\nAtualizaÃ§Ã£o da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisÃ³ria de login com aviso ao usuÃ¡rio\nPreparaÃ§Ã£o do site pÃºblico para integraÃ§Ã£o definitiva com Keycloak"
+    "text": "Ajuste do layout da pagina Sobre para column-page\nMelhoria na leitura e organizacao do conteudo institucional"
   },
   {
     "objectID": "CHANGELOG.html#section-15",
     "href": "CHANGELOG.html#section-15",
     "title": "Changelog",
     "section": "",
-    "text": "Estrutura inicial do site pÃºblico\nConfiguraÃ§Ã£o do Quarto\nPÃ¡gina inicial e pÃ¡gina Sobre\nSEO bÃ¡sico\nBotÃ£o de login externo"
+    "text": "Ajuste do botao Entrar para integracao com o fluxo de autenticacao (oauth2-proxy)\nAtualizacao da URL de login do ecossistema MelonMundi\n\n\n\n\n\nTela provisoria de login com aviso ao usuario\nPreparacao do site publico para integracao definitiva com Keycloak"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-16",
+    "href": "CHANGELOG.html#section-16",
+    "title": "Changelog",
+    "section": "",
+    "text": "Estrutura inicial do site publico\nConfiguracao do Quarto\nPagina inicial e pagina Sobre\nSEO basico\nBotao de login externo"
   },
   {
     "objectID": "licenca.html",

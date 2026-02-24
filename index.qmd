@@ -50,12 +50,10 @@ melancia e abóbora</span></h1>
 <h3>Agrofito</h3>
 <p>Consulta de produtos registrados para melão, melancia e produtos liberados para qualquer cultura, com base oficial do AGROFIT/MAPA.</p>
 <span class="app-tag">Base oficial AGROFIT</span>
-<a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ver app no Acervo</a>
+<a class="btn app-link-btn" href="https://acervo.melonmundi.com/apps/agrofito/"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ver app no Acervo</a>
 </div>
 <div class="app-screen-media">
-<div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de computador"></div>
-<div class="device-frame tablet-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de tablet"></div>
-<div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Agrofito em tela de celular"></div>
+<div class="app-shot"><img src="assets/img/app_agrofito.png" alt="Tela do app Agrofito"></div>
 </div>
 </div>
 </article>
@@ -68,9 +66,7 @@ melancia e abóbora</span></h1>
 <a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ver app no Acervo</a>
 </div>
 <div class="app-screen-media">
-<div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de computador"></div>
-<div class="device-frame tablet-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de tablet"></div>
-<div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Calculadora de Frutas em tela de celular"></div>
+<div class="app-shot"><img src="assets/img/app_calculadorafrutas.png" alt="Tela do app Calculadora de Frutas"></div>
 </div>
 </div>
 </article>
@@ -83,9 +79,7 @@ melancia e abóbora</span></h1>
 <a class="btn app-link-btn" href="http://acervo.melonmundi.local:8082/apps/"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ver app no Acervo</a>
 </div>
 <div class="app-screen-media">
-<div class="device-frame desktop-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de computador"></div>
-<div class="device-frame tablet-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de tablet"></div>
-<div class="device-frame phone-frame"><img src="assets/img/hero-field.jpg" alt="Novos apps em tela de celular"></div>
+<div class="app-shot"><img src="assets/img/app_calculadorafrutas.png" alt="Novos apps em evolução"></div>
 </div>
 </div>
 </article>
