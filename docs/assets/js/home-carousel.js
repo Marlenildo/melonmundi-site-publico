@@ -14,9 +14,18 @@ document.addEventListener("DOMContentLoaded", () => {
     let index = 0;
     let timer = null;
 
-    const prevBtn = document.querySelector(`[data-carousel-prev="${id}"]`);
-    const nextBtn = document.querySelector(`[data-carousel-next="${id}"]`);
-    const dotsWrap = document.querySelector(`[data-carousel-dots="${id}"]`);
+    const localScope =
+      carousel.closest(".offer-carousel-wrap, .app-screen-carousel-wrap") ||
+      carousel.parentElement;
+    const prevBtn =
+      localScope?.querySelector(`[data-carousel-prev="${id}"]`) ||
+      document.querySelector(`[data-carousel-prev="${id}"]`);
+    const nextBtn =
+      localScope?.querySelector(`[data-carousel-next="${id}"]`) ||
+      document.querySelector(`[data-carousel-next="${id}"]`);
+    const dotsWrap =
+      localScope?.parentElement?.querySelector(`[data-carousel-dots="${id}"]`) ||
+      document.querySelector(`[data-carousel-dots="${id}"]`);
 
     const slidesPerView = () => (window.innerWidth <= 768 ? mobile : desktop);
 
