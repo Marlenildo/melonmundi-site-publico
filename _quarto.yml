@@ -51,7 +51,7 @@ website:
         icon: box-arrow-in-right
 
   page-footer:
-    right: "Copyright &copy; 2026 MelonMundi - Global Solutions · Licenciado sob MIT"
+    right: "Copyright &copy; 2026 MelonMundi - Global Solutions. Todos os direitos reservados."
     left: "![](assets/img/nova_logomm.png){width=80px}"
     center:
       - text: "Página Inicial"
