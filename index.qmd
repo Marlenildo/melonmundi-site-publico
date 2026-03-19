@@ -13,22 +13,21 @@ body-classes: home-page home-at-top
 dedicação exclusiva às <span>culturas de melão,
 melancia e abóbora</span></h1>
 <p class="hero-subtitle">Assessoramos desde o planejamento de uma fazenda produtora até a etapa final de transporte do produto. Tenha acesso a contéudo exclusivo e aplicativos práticos para a rotina de campo.</p>
-<div class="hero-actions"><a class="btn btn-hero-primary" href="https://acervo.melonmundi.com"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a><a class="btn btn-hero-secondary" href="sobre-nos.qmd"><i class="fa-solid fa-users"></i> Quem Somos</a></div>
+<div class="hero-actions"><a class="btn btn-hero-secondary" href="sobre-nos.qmd"><i class="fa-solid fa-users"></i> Quem Somos</a></div>
 </div>
 </div>
 </section>
 
 <section class="column-screen screen-white">
 <div class="column-body">
-<div class="section-title reveal">O que a MelonMundi oferece</div>
+<div class="section-title reveal">Oferecemos soluções inovadoras para melhorar o dia a dia do agricultor</div>
 <div class="offer-carousel-wrap reveal">
 <button class="mm-carousel-btn prev" type="button" data-carousel-prev="ofertas" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
 <div class="mm-carousel" data-carousel="ofertas" data-autoplay="4200" data-slides-desktop="1" data-slides-mobile="1">
 <div class="mm-carousel-track">
-<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-book-open-reader card-icon"></i><h3>Acervo técnico</h3><p>Conteúdo estruturado em Bookdown com materiais exclusivos sobre manejo, avaliação e interpretação técnica.</p></div></div></article>
-<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-magnifying-glass-chart card-icon"></i><h3>Análise orientada por dados</h3><p>Desenho experimental, leitura estatística e suporte a decisões operacionais com foco em resultado de campo.</p></div></div></article>
-<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-mobile-screen-button card-icon"></i><h3>Apps práticos</h3><p>Ferramentas para consulta rápida e estimativas produtivas conectadas ao dia a dia da equipe técnica.</p></div></div></article>
-<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-user-check card-icon"></i><h3>Login único</h3><p>Uma autenticação para acessar o acervo e os aplicativos restritos do ecossistema MelonMundi.</p></div></div></article>
+<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-book-open-reader card-icon"></i><h3>Biblioteca Técnica</h3><p>Explore conteúdo técnico estruturado em guias práticos de manejo, irrigação, nutrição e fitossanidade para as culturas de melão e melancia.</p></div></div></article>
+<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-mobile-screen-button card-icon"></i><h3>Aplicativos</h3><p>Tenha à disposição aplicativos que auxiliam na tomada de decisões.</p></div></div></article>
+<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-user-check card-icon"></i><h3>Login único</h3><p>Faça login com uma única autenticação para acessar a biblioteca e todos os aplicativos disponibilizados pela MelonMundi.</p></div></div></article>
 </div>
 </div>
 <button class="mm-carousel-btn next" type="button" data-carousel-next="ofertas" aria-label="Próximo"><i class="fa-solid fa-chevron-right"></i></button>
@@ -51,10 +50,21 @@ Acesse os aplicativos exclusivos no computador, tablet ou celular e tenha recome
 <article class="mm-slide">
 <div class="app-screen">
 <div class="app-screen-copy">
+<h3>Acesso contínuo 24/7</h3>
+<p>Aplicativos disponíveis 24 horas por dia, 7 dias por semana, para apoiar consultas e decisões técnicas no momento em que a equipe precisar.</p>
+<span class="app-tag">Disponibilidade contínua</span>
+</div>
+<div class="app-screen-media">
+<div class="app-shot"><img src="assets/img/app_calculadorafrutas.png" alt="Acesso contínuo aos aplicativos MelonMundi"></div>
+</div>
+</div>
+</article>
+<article class="mm-slide">
+<div class="app-screen">
+<div class="app-screen-copy">
 <h3>Agrofito</h3>
 <p>Consulte os produtos registrados no Sistema de Agrotóxicos Fitossanitários (AGROFIT) do Ministério da Agricultura e Pecuária (MAPA), com foco em Melão, Melancia e Todas as culturas. A base de dados é atualizada continuamente.</p>
 <span class="app-tag">Base oficial AGROFIT</span>
-<a class="btn app-link-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a>
 </div>
 <div class="app-screen-media">
 <div class="app-shot"><img src="assets/img/app_agrofito.png" alt="Tela do app Agrofito"></div>
@@ -67,7 +77,6 @@ Acesse os aplicativos exclusivos no computador, tablet ou celular e tenha recome
 <h3>Calculadora de Frutas (Em construção)</h3>
 <p>Estimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projeção de colheita.</p>
 <span class="app-tag">Estimativa produtiva</span>
-<a class="btn app-link-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a>
 </div>
 <div class="app-screen-media">
 <div class="app-shot"><img src="assets/img/app_calculadorafrutas.png" alt="Tela do app Calculadora de Frutas"></div>
@@ -80,23 +89,9 @@ Acesse os aplicativos exclusivos no computador, tablet ou celular e tenha recome
 <h3>Novos apps em evolução</h3>
 <p>O ecossistema está em expansão contínua, com novas soluções para monitoramento, recomendação e validação técnica.</p>
 <span class="app-tag">Roadmap ativo</span>
-<a class="btn app-link-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a>
 </div>
 <div class="app-screen-media">
 <div class="app-shot"><img src="assets/img/app_calculadorafrutas.png" alt="Novos apps em evolução"></div>
-</div>
-</div>
-</article>
-<article class="mm-slide">
-<div class="app-screen">
-<div class="app-screen-copy">
-<h3>Acesso contínuo 24/7</h3>
-<p>Aplicativos disponíveis 24 horas por dia, 7 dias por semana, para apoiar consultas e decisões técnicas no momento em que a equipe precisar.</p>
-<span class="app-tag">Disponibilidade contínua</span>
-<a class="btn app-link-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a>
-</div>
-<div class="app-screen-media">
-<div class="app-shot"><img src="assets/img/app_calculadorafrutas.png" alt="Acesso contínuo aos aplicativos MelonMundi"></div>
 </div>
 </div>
 </article>
