@@ -905,8 +905,44 @@ h1, h2, h3 {
   color: #325049;
 }
 
+.screen-app-featured .app-screen-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.screen-app-featured .app-screen-copy .app-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  width: fit-content;
+}
+
 .app-screen-copy .app-link-btn {
-  margin-top: 14px;
+  margin-top: 0;
+}
+
+/* Mobile: badge + button empilhados e centralizados */
+@media (max-width: 991.98px) {
+  .screen-app-featured .app-screen-copy {
+    align-items: center;
+    text-align: center;
+  }
+
+  .screen-app-featured .app-screen-copy .app-tag {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .screen-app-featured .app-screen-copy .app-link-btn {
+    width: 100%;
+    max-width: 280px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .app-screen-media {

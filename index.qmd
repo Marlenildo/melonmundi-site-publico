@@ -39,7 +39,11 @@ melancia e abóbora</span></h1>
 
 <section class="column-screen screen-accent screen-app-featured">
 <div class="column-body-inset">
-<div class="section-title reveal">Aplicativos em destaque</div>
+<div class="section-title reveal">Aplicativos MelonMundi</div>
+<p class="lead-text reveal">
+Acesse os aplicativos exclusivos no computador, tablet ou celular e tenha recomendações técnicas, cálculos e dados em tempo real para auxilar nas suas decisões no campo.
+</p>
+<br>
 <div class="app-screen-carousel-wrap reveal">
 <button class="mm-carousel-btn prev" type="button" data-carousel-prev="apps-featured" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
 <div class="mm-carousel" data-carousel="apps-featured" data-autoplay="5200" data-slides-desktop="1" data-slides-mobile="1">
@@ -48,7 +52,7 @@ melancia e abóbora</span></h1>
 <div class="app-screen">
 <div class="app-screen-copy">
 <h3>Agrofito</h3>
-<p>Consulta de produtos registrados para melão, melancia e produtos liberados para qualquer cultura, com base oficial do AGROFIT/MAPA.</p>
+<p>Consulte os produtos registrados no Sistema de Agrotóxicos Fitossanitários (AGROFIT) do Ministério da Agricultura e Pecuária (MAPA), com foco em Melão, Melancia e Todas as culturas. A base de dados é atualizada continuamente.</p>
 <span class="app-tag">Base oficial AGROFIT</span>
 <a class="btn app-link-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a>
 </div>
@@ -60,7 +64,7 @@ melancia e abóbora</span></h1>
 <article class="mm-slide">
 <div class="app-screen">
 <div class="app-screen-copy">
-<h3>Calculadora de Frutas</h3>
+<h3>Calculadora de Frutas (Em construção)</h3>
 <p>Estimativa de pegamento e produtividade de melancia para apoiar ajustes de manejo e projeção de colheita.</p>
 <span class="app-tag">Estimativa produtiva</span>
 <a class="btn app-link-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-lock"></i> Entrar no Acervo</a>
@@ -106,7 +110,11 @@ melancia e abóbora</span></h1>
 
 <section class="column-screen screen-white screen-acervo-showcase">
 <div class="column-body-inset">
-<div class="section-title reveal">Acervo MelonMundi</div>
+<div class="section-title reveal">Biblioteca MelonMundi</div>
+<p class="lead-text reveal">
+Acesse protocolos, recomendações de manejo e análises de campo em um só lugar, com conteúdos validados por especialistas em cucurbitáceas.
+</p>
+<br>
 <div class="acervo-static reveal">
 <div class="acervo-static-media">
 <div class="app-shot acervo-shot"><img src="assets/img/acervo-mobile.jpg" alt="Tela do Acervo MelonMundi"></div>
@@ -117,7 +125,7 @@ melancia e abóbora</span></h1>
 <i class="fa-solid fa-book-open-reader"></i>
 <div>
 <h3>Conteúdo sob demanda</h3>
-<p>Tenha acesso a conteúdo técnico exclusivo sobre melão e melancia.</p>
+<p>Tenha acesso a conteúdo técnico exclusivo sobre **melão** e **melancia**.</p>
 </div>
 </article>
 <article class="acervo-feature-item">
