@@ -49,6 +49,14 @@ unindo ciência, experiência de campo e tomada de decisão baseada em dados.
 </div>
 </div>
 
+<div class="card-mm reveal">
+<div class="card-body">
+<i class="fa-solid fa-tractor fa-beat card-icon"></i>
+<h3>Consultoria agrícola</h3>
+<p>Oferecemos consultoria agrícola para apoiar o manejo, a tomada de decisão e a evolução técnica dos projetos em campo.</p>
+</div>
+</div>
+
 </div>
 
 :::
@@ -144,16 +152,16 @@ para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes
 <div class="card-body">
 <h3>Luis Álvarez</h3>
 <p class="role">Fundador e Diretor</p>
-<p>Coordenador de projetos, orientador técnico e avaliador de campo.</p>
+<p>Coordenador de projetos, orientador técnico e consultor agrícola de campo.</p>
 </div>
 </div>
 
 <div class="card-mm reveal">
-<img src="assets/img/juliana.png" alt="Juliana Carla">
+<img src="assets/img/juliana.jpg" alt="Juliana Carla">
 <div class="card-body">
 <h3>Juliana Carla</h3>
 <p class="role">Administração e Finanças</p>
-<p>Engenheira Civil, responsável pela administração e finanças.</p>
+<p>Engenheira Civil, responsável por administração, finanças e projetos.</p>
 </div>
 </div>
 
@@ -161,8 +169,8 @@ para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes
 <img src="assets/img/marlenildo.png" alt="Marlenildo Melo">
 <div class="card-body">
 <h3>Marlenildo Melo</h3>
-<p class="role">Desenho experimental e análise de dados</p>
-<p>Engenheiro Agrônomo, Doutor em Fitotecnia.</p>
+<p class="role">Engenheiro Agrônomo</p>
+<p>Responsável por desenho experimental, análise de dados e implementação de tecnologias da informação.</p>
 </div>
 </div>
 
@@ -170,8 +178,8 @@ para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes
 <img src="assets/img/geinilson.png" alt="Geinilson Oliveira">
 <div class="card-body">
 <h3>Geinilson Oliveira</h3>
-<p class="role">Avaliador de campo</p>
-<p>Técnico em agropecuária e monitor técnico em MIPD.</p>
+<p class="role">Técnico em Agropecuária</p>
+<p>Avaliador de campo, monitor técnico em MIPD e assistente de Pesquisa & Desenvolvimento.</p>
 </div>
 </div>
 
