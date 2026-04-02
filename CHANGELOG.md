@@ -3,6 +3,15 @@
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
 
+## [1.0.27] - 2026-04-02
+### Fixed
+- Rodape mobile: reposicionada a linha `Desenvolvido por` para ficar sempre abaixo de todo o footer, inclusive em telas pequenas.
+- Mantida a assinatura visual com a logo clicavel para `https://github.com/Marlenildo`.
+- Sincronizado o versionamento do projeto em `VERSION` e `DESCRIPTION`.
+- Regerados os artefatos publicados em `docs/` para refletir o ajuste responsivo do footer.
+
+***
+
 ## [1.0.26] - 2026-04-02
 ### Changed
 - Rodape: aumentada a logo da assinatura `Desenvolvido por` para melhorar a visibilidade.

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const footer = document.querySelector(".footer .nav-footer");
+  const footer = document.querySelector(".footer");
   const template = document.getElementById("footer-credit-template");
 
   if (!footer || !template || footer.querySelector(".footer-credit-line")) {

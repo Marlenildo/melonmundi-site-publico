@@ -437,22 +437,18 @@ h1, h2, h3 {
   font-size: 14px;
 }
 
-.footer .nav-footer {
-  flex-wrap: wrap;
-}
-
 .footer .footer-credit-line {
-  flex: 0 0 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 12px;
+  padding: 10px 20px 0;
   border-top: 1px solid #e0e0e0;
   color: #6c757d;
   font-size: 14px;
   line-height: 1.4;
+  text-align: center;
 }
 
 .footer .footer-credit-link {
