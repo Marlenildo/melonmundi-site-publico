@@ -3,6 +3,17 @@
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
 
+## [1.0.25] - 2026-04-02
+### Added
+- Rodape: adicionada uma nova linha final com o texto `Desenvolvido por` e a imagem `assets/img/logo_marlenildo.png`.
+- Novo script em `assets/js/footer-credit.js` para inserir a assinatura visual sem alterar a estrutura existente do footer.
+
+### Fixed
+- Sincronizado o versionamento do projeto em `VERSION` e `DESCRIPTION`.
+- Regerados os artefatos publicados em `docs/` para refletir a nova linha do rodape.
+
+***
+
 ## [1.0.24] - 2026-04-02
 ### Changed
 - Pagina `Quem Somos`: atualizada a foto de Geinilson Oliveira em `assets/img/geinilson.png`.

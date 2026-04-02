@@ -437,6 +437,40 @@ h1, h2, h3 {
   font-size: 14px;
 }
 
+.footer .nav-footer {
+  flex-wrap: wrap;
+}
+
+.footer .footer-credit-line {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+  color: #6c757d;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.footer .footer-credit-logo {
+  display: block;
+  height: 20px;
+  width: auto;
+}
+
+@media (max-width: 767.98px) {
+  .footer .footer-credit-line {
+    gap: 6px;
+  }
+
+  .footer .footer-credit-logo {
+    height: 18px;
+  }
+}
+
 
 /* =========================================================
    IDENTIDADE VISUAL — BLOCO CENTRAL

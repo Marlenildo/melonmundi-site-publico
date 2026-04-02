@@ -87,6 +87,15 @@ format:
           <script src="assets/js/home-navbar-scroll.js"></script>
       - text: |
           <script src="assets/js/home-carousel.js"></script>
+      - text: |
+          <template id="footer-credit-template">
+            <div class="footer-credit-line">
+              <span class="footer-credit-text">Desenvolvido por</span>
+              <img src="assets/img/logo_marlenildo.png" alt="Logo Marlenildo" class="footer-credit-logo">
+            </div>
+          </template>
+      - text: |
+          <script src="assets/js/footer-credit.js"></script>
     include-in-header:
       - text: |
           <!-- Matomo -->
