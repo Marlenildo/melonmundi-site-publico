@@ -3,6 +3,16 @@
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
 
+## [1.0.23] - 2026-04-02
+### Added
+- Pagina `Quem Somos`: adicionado Francisco Eliton na secao `Conheca nosso time` com funcao de `Avaliador de Campo` e descricao de `Assistente de Pesquisa & Desenvolvimento`.
+- Nova imagem de perfil em `assets/img/francisco.JPG`.
+
+### Fixed
+- Sincronizado o versionamento do projeto em `VERSION` e `DESCRIPTION`.
+
+***
+
 ## [1.0.22] - 2026-04-02
 ### Changed
 - Homepage: padronizado o CTA da secao `Biblioteca MelonMundi` com o mesmo icone e estrutura visual do botao de `Como funciona o acesso`, mantendo a variante verde.

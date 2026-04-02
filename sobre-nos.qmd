@@ -183,6 +183,15 @@ para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes
 </div>
 </div>
 
+<div class="card-mm reveal">
+<img src="assets/img/francisco.JPG" alt="Francisco Eliton">
+<div class="card-body">
+<h3>Francisco Eliton</h3>
+<p class="role">Avaliador de Campo</p>
+<p>Assistente de Pesquisa & Desenvolvimento.</p>
+</div>
+</div>
+
 </div>
 
 :::
