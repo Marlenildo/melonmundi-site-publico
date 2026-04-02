@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://melonmundi.com/index.html</loc>
-    <lastmod>2026-03-19T18:13:02.684Z</lastmod>
-  </url>
-  <url>
     <loc>https://melonmundi.com/termos-de-uso.html</loc>
     <lastmod>2026-03-19T17:15:30.922Z</lastmod>
   </url>
@@ -13,8 +9,12 @@
     <lastmod>2026-03-19T17:15:30.922Z</lastmod>
   </url>
   <url>
+    <loc>https://melonmundi.com/index.html</loc>
+    <lastmod>2026-04-02T11:50:50.203Z</lastmod>
+  </url>
+  <url>
     <loc>https://melonmundi.com/CHANGELOG.html</loc>
-    <lastmod>2026-03-19T17:15:30.593Z</lastmod>
+    <lastmod>2026-04-02T11:54:37.246Z</lastmod>
   </url>
   <url>
     <loc>https://melonmundi.com/licenca.html</loc>

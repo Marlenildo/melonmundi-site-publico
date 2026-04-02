@@ -3,6 +3,19 @@
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
 
+## [1.0.22] - 2026-04-02
+### Changed
+- Homepage: padronizado o CTA da secao `Biblioteca MelonMundi` com o mesmo icone e estrutura visual do botao de `Como funciona o acesso`, mantendo a variante verde.
+- Homepage: atualizada a copy da secao `Como funciona o acesso` para reforcar o fluxo de navegacao, login unico e acesso a conteudo exclusivo.
+- Homepage: icone do card `Biblioteca Tecnica` ajustado para `fa-book-open`.
+
+### Fixed
+- Sincronizado o versionamento do projeto em `VERSION` e `DESCRIPTION`.
+- Regerados os artefatos publicados em `docs/` para refletir as mudancas da homepage e do changelog.
+
+***
+
+
 ## [1.0.21] - 2026-03-19
 ### Changed
 - Novas imagens na págian Quem Somos `assets/img/`: `marlenildo.png`, `luis.png`, `juliana.png` e `geinilson.png`.

@@ -25,7 +25,7 @@ melancia e abóbora</span></h1>
 <button class="mm-carousel-btn prev" type="button" data-carousel-prev="ofertas" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
 <div class="mm-carousel" data-carousel="ofertas" data-autoplay="4200" data-slides-desktop="1" data-slides-mobile="1">
 <div class="mm-carousel-track">
-<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-book-open-reader card-icon"></i><h3>Biblioteca Técnica</h3><p>Explore conteúdo técnico estruturado em guias práticos de manejo, irrigação, nutrição e fitossanidade para as culturas de melão e melancia.</p></div></div></article>
+<article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-book-open card-icon"></i><h3>Biblioteca Técnica</h3><p>Explore conteúdo técnico estruturado em guias práticos de manejo, irrigação, nutrição e fitossanidade para as culturas de melão e melancia.</p></div></div></article>
 <article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-mobile-screen-button card-icon"></i><h3>Aplicativos</h3><p>Tenha à disposição aplicativos que auxiliam na tomada de decisões.</p></div></div></article>
 <article class="mm-slide"><div class="card-mm offer-card"><div class="card-body"><i class="fa-solid fa-user-check card-icon"></i><h3>Login único</h3><p>Faça login com uma única autenticação para acessar a biblioteca e todos os aplicativos disponibilizados pela MelonMundi.</p></div></div></article>
 </div>
@@ -150,9 +150,9 @@ Acesse protocolos, recomendações de manejo e análises de campo em um só luga
 <div class="column-body">
 <div class="section-title reveal">Como funciona o acesso</div>
 <div class="journey-grid">
-<div class="journey-step reveal"><div class="journey-step-number">1</div><h3>Conheça o site público</h3><p>Entenda o posicionamento da MelonMundi, equipe e soluções técnicas para cucurbitáceas.</p></div>
-<div class="journey-step reveal"><div class="journey-step-number">2</div><h3>Faça login único</h3><p>Use sua autenticação para entrar no acervo e habilitar acesso aos aplicativos restritos.</p></div>
-<div class="journey-step reveal"><div class="journey-step-number">3</div><h3>Acesse conteúdo + apps</h3><p>Consulte materiais técnicos e ferramentas digitais em um único fluxo de trabalho.</p></div>
+<div class="journey-step reveal"><div class="journey-step-number">1</div><h3>Conheça a MelonMundi</h3><p>Navegue em nosso site e conheça as soluções técnicas que oferecemos para cucurbitáceas.</p></div>
+<div class="journey-step reveal"><div class="journey-step-number">2</div><h3>Faça login único</h3><p>Use sua autenticação para entrar no acervo MelonMundi e habilitar acesso à biblioteca e aos aplicativos exclusivos.</p></div>
+<div class="journey-step reveal"><div class="journey-step-number">3</div><h3>Acesse conteúdo + aplicativos</h3><p>Consulte uma biblioteca técnica e aplicativos disponíveis apenas para usuários autenticados.</p></div>
 </div>
 <div class="home-cta reveal"><a class="btn btn-hero-secondary" href="https://acervo.melonmundi.com"><i class="fa-solid fa-arrow-right-to-bracket"></i> Ir para o Acervo</a></div>
 </div>
