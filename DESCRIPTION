@@ -1,6 +1,6 @@
 Package: melonmundi.site.publico
 Title: MelonMundi Public Website
-Version: 1.0.23
+Version: 1.0.24
 Authors@R: 
     person("Marlenildo", "Melo", role = c("aut", "cre"))
 Description: Website público institucional da plataforma MelonMundi.
@@ -13,7 +13,7 @@ LazyData: true
 Package: melonmundi.site.publico
 Type: Website
 Title: MelonMundi Public Institutional Website
-Version: 1.0.23
+Version: 1.0.24
 Authors@R:
     person("Marlenildo", "Melo", role = c("aut", "cre"))
 Description: Website público institucional da plataforma MelonMundi, desenvolvido com Quarto e R.

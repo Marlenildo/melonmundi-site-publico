@@ -3,6 +3,17 @@
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
 
+## [1.0.24] - 2026-04-02
+### Changed
+- Pagina `Quem Somos`: atualizada a foto de Geinilson Oliveira em `assets/img/geinilson.png`.
+- Configuracao de cookies em `_quarto.yml`: alterado o banner de consentimento para o estilo `simple`.
+
+### Fixed
+- Sincronizado o versionamento do projeto em `VERSION` e `DESCRIPTION`.
+- Regerados os artefatos publicados em `docs/` para refletir as mudancas de configuracao e imagem.
+
+***
+
 ## [1.0.23] - 2026-04-02
 ### Added
 - Pagina `Quem Somos`: adicionado Francisco Eliton na secao `Conheca nosso time` com funcao de `Avaliador de Campo` e descricao de `Assistente de Pesquisa & Desenvolvimento`.

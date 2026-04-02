@@ -12,7 +12,7 @@ website:
   page-navigation: true
   cookie-consent:
     type: express
-    style: headline
+    style: simple
     language: pt
     title: "Cookies e privacidade"
     description: "Este site utiliza cookies essenciais para garantir o funcionamento adequado e melhorar a sua experiência de navegação."
