@@ -455,9 +455,15 @@ h1, h2, h3 {
   line-height: 1.4;
 }
 
+.footer .footer-credit-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 .footer .footer-credit-logo {
   display: block;
-  height: 20px;
+  height: 26px;
   width: auto;
 }
 
@@ -467,7 +473,7 @@ h1, h2, h3 {
   }
 
   .footer .footer-credit-logo {
-    height: 18px;
+    height: 22px;
   }
 }
 

@@ -3,6 +3,17 @@
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
 
+## [1.0.26] - 2026-04-02
+### Changed
+- Rodape: aumentada a logo da assinatura `Desenvolvido por` para melhorar a visibilidade.
+- Rodape: a logo `logo_marlenildo.png` passou a ser clicavel, apontando para `https://github.com/Marlenildo`.
+
+### Fixed
+- Sincronizado o versionamento do projeto em `VERSION` e `DESCRIPTION`.
+- Regerados os artefatos publicados em `docs/` para refletir o ajuste do footer.
+
+***
+
 ## [1.0.25] - 2026-04-02
 ### Added
 - Rodape: adicionada uma nova linha final com o texto `Desenvolvido por` e a imagem `assets/img/logo_marlenildo.png`.
