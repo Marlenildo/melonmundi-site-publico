@@ -627,6 +627,16 @@ h1, h2, h3 {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
 }
 
+.btn-hero-secondary.btn-hero-secondary-green {
+  background: #4a7032;
+  color: #ffffff;
+}
+
+.btn-hero-secondary.btn-hero-secondary-green:hover {
+  background: #3f632a;
+  color: #ffffff;
+}
+
 .home-grid-4 .offer-card .card-icon {
   color: #3f6f25;
 }
