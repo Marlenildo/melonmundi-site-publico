@@ -2,6 +2,15 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.0.30] - 2026-05-25
+### Changed
+- Páginas legais: ajustado o texto de Política de Privacidade, Termos de Uso e Licenças e Créditos para indicar publicação e vigência final dos documentos, com data explícita e linguagem menos provisória.
+
+### Fixed
+- Regerados os artefatos publicados em `docs/` para refletir a versão final dos documentos legais.
+
+***
+
 ## [1.0.29] - 2026-05-25
 ### Changed
 - Páginas legais: reescritas a Política de Privacidade, os Termos de Uso e a página de Licenças e Créditos para cobrir o ecossistema MelonMundi, incluindo site público, acervo privado, aplicativos Shiny, autenticação, analytics, observabilidade, infraestrutura em servidor internacional e referências à LGPD.

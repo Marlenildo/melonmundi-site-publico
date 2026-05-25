@@ -8,7 +8,7 @@ body-classes: legal-page
 <div class="column-body">
 <div class="legal-panel">
 
-<p class="legal-updated"><strong>Atualizado em:</strong> 25 de maio de 2026</p>
+<p class="legal-updated"><strong>Publicado e vigente desde:</strong> 25 de maio de 2026</p>
 
 Esta página reúne informações sobre propriedade intelectual, licenças, créditos e componentes de terceiros relacionados ao ecossistema MelonMundi.
 
@@ -28,7 +28,7 @@ O uso da marca em materiais externos, apresentações, sites, publicações, pro
 
 O site público da MelonMundi é disponibilizado para apresentação institucional, comunicação, links de acesso, páginas legais e informações gerais.
 
-Quando o repositório do site público indicar Licença MIT para o código do projeto, essa licença se aplica apenas ao software/código ali licenciado, e não automaticamente a marcas, logotipos, textos institucionais, imagens, conteúdo técnico, bases organizadas ou materiais protegidos da MelonMundi.
+No repositório do site público, a Licença MIT se aplica apenas ao software/código ali licenciado, e não automaticamente a marcas, logotipos, textos institucionais, imagens, conteúdo técnico, bases organizadas ou materiais protegidos da MelonMundi.
 
 ## 4. Acervo privado
 
@@ -77,9 +77,9 @@ O ecossistema MelonMundi utiliza softwares, bibliotecas, imagens de contêiner, 
 
 Cada componente de terceiro permanece sujeito à sua própria licença. A MelonMundi respeita as licenças aplicáveis e recomenda consultar os respectivos projetos oficiais para termos completos.
 
-## 8. Licença MIT do código do site público, quando aplicável
+## 8. Licença MIT do código do site público
 
-Quando indicada no repositório do site público, a Licença MIT autoriza uso, cópia, modificação e distribuição do software licenciado, desde que o aviso de copyright e o texto da licença sejam preservados.
+A Licença MIT indicada no repositório do site público autoriza uso, cópia, modificação e distribuição do software licenciado, desde que o aviso de copyright e o texto da licença sejam preservados.
 
 Essa autorização não inclui automaticamente:
 
@@ -136,6 +136,8 @@ A presença de crédito não altera a titularidade de marcas, conteúdos, bases 
 Pedidos de autorização para uso de marca, conteúdo, material técnico, aplicativo, imagem, texto, relatório, trecho de código ou qualquer outro elemento protegido devem ser enviados para:
 
 - E-mail: **administrativo@melonmundi.com**
+
+Esta é a versão vigente da página de Licenças e Créditos da MelonMundi, publicada com indicação da data de vigência.
 
 </div>
 </div>

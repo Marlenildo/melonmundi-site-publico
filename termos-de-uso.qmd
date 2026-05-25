@@ -8,7 +8,7 @@ body-classes: legal-page
 <div class="column-body">
 <div class="legal-panel">
 
-<p class="legal-updated"><strong>Atualizado em:</strong> 25 de maio de 2026</p>
+<p class="legal-updated"><strong>Publicado e vigente desde:</strong> 25 de maio de 2026</p>
 
 Estes Termos de Uso regulam o acesso e a utilização do ecossistema MelonMundi, incluindo o site público, o acervo privado, os aplicativos, os materiais técnicos e os serviços de autenticação e suporte operacional.
 
@@ -67,7 +67,7 @@ O usuário pode utilizar os ambientes MelonMundi para consulta, navegação, est
 
 Os aplicativos MelonMundi podem solicitar dados técnicos para cálculos, consultas, estimativas ou relatórios.
 
-Como regra, os dados digitados pelo usuário são usados apenas durante a sessão ativa e não são armazenados pela MelonMundi em banco de dados, arquivos, cookies ou armazenamento do navegador, salvo quando houver aviso específico.
+Como regra, os dados digitados pelo usuário são usados apenas durante a sessão ativa e não são armazenados pela MelonMundi em banco de dados, arquivos, cookies ou armazenamento do navegador, salvo aviso específico em sentido diferente.
 
 O usuário é responsável pela qualidade, precisão e adequação dos dados informados. Dados incorretos, incompletos, desatualizados ou incompatíveis podem gerar resultados inadequados.
 
@@ -97,7 +97,7 @@ O uso, cópia, adaptação, reprodução, distribuição, publicação ou explor
 
 Alguns componentes podem ter licenças próprias, como código aberto, bibliotecas de terceiros, frameworks, pacotes R, Quarto, Shiny, Bootstrap, Font Awesome, Matomo, Grafana, Prometheus, Keycloak, Nginx e outros.
 
-As regras específicas estão descritas na página de Licenças e Créditos, quando aplicável.
+As regras específicas estão descritas na página de Licenças e Créditos e nas licenças próprias de cada componente.
 
 Em caso de conflito entre estes Termos e uma licença específica expressamente indicada para determinado componente, prevalecerá a licença específica quanto ao componente licenciado.
 
@@ -145,11 +145,11 @@ Esses links são fornecidos para conveniência, referência ou integração téc
 
 A MelonMundi pode publicar avisos no próprio site, no acervo, nos aplicativos ou enviar comunicações por e-mail quando necessário para assuntos operacionais, segurança, acesso, atualização de termos ou manutenção.
 
-## 16. Alterações destes Termos
+## 16. Vigência e alterações destes Termos
 
 Estes Termos podem ser atualizados a qualquer momento para refletir mudanças técnicas, legais, operacionais ou comerciais.
 
-A versão vigente será publicada nesta página, com indicação da data de atualização. O uso contínuo dos serviços após a atualização representa ciência e concordância com a versão vigente.
+Esta é a versão vigente dos Termos de Uso da MelonMundi, publicada nesta página com indicação da data de vigência. O uso contínuo dos serviços após uma atualização representa ciência e concordância com a versão vigente.
 
 ## 17. Legislação aplicável
 
