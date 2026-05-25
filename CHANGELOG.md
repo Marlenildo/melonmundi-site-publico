@@ -2,6 +2,15 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.0.31] - 2026-05-25
+### Changed
+- Páginas legais: removidos fechamentos redundantes sobre versão vigente, mantendo a indicação de publicação e vigência no início dos documentos.
+
+### Fixed
+- Regerados os artefatos publicados em `docs/` para refletir o ajuste textual.
+
+***
+
 ## [1.0.30] - 2026-05-25
 ### Changed
 - Páginas legais: ajustado o texto de Política de Privacidade, Termos de Uso e Licenças e Créditos para indicar publicação e vigência final dos documentos, com data explícita e linguagem menos provisória.
