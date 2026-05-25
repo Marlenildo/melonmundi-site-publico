@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Política de Privacidade"
-description: "Diretrizes de privacidade e uso de dados da MelonMundi."
+description: "Política de privacidade e proteção de dados pessoais do ecossistema MelonMundi."
 body-classes: legal-page
 ---
 
@@ -8,59 +8,199 @@ body-classes: legal-page
 <div class="column-body">
 <div class="legal-panel">
 
-<p class="legal-updated"><strong>Atualizado em:</strong> 06 de maio de 2024</p>
+<p class="legal-updated"><strong>Atualizado em:</strong> 25 de maio de 2026</p>
 
-Agradecemos por escolher a MelonMundi e confiar em nosso trabalho.
+Esta Política de Privacidade explica como a MelonMundi trata dados pessoais e informações técnicas relacionadas ao uso do site público, do acervo privado, dos aplicativos internos e dos serviços de autenticação, segurança, analytics e observabilidade.
 
-Este documento explica, de forma clara e direta, quais dados podem ser tratados durante o uso do site e das ferramentas oferecidas.
+A MelonMundi adota como referência a Lei Geral de Proteção de Dados Pessoais (LGPD, Lei nº 13.709/2018) e busca tratar dados de forma limitada, proporcional, transparente e compatível com as finalidades informadas nesta política.
 
-## 1. Quem somos
+## 1. Abrangência desta Política
 
-A MelonMundi está comprometida com a proteção da privacidade e com o cumprimento da legislação aplicável, incluindo a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
+Esta Política se aplica ao ecossistema MelonMundi, incluindo:
 
-## 2. Coleta de informações
+- o site público disponível em `https://melonmundi.com`;
+- o acervo privado disponível em `https://acervo.melonmundi.com`;
+- os aplicativos Shiny acessados a partir do acervo;
+- os serviços de autenticação, sessão e controle de acesso;
+- os serviços de analytics, logs, monitoramento e observabilidade usados para operação, segurança e melhoria da plataforma.
 
-Não coletamos intencionalmente dados pessoais sensíveis ou identificáveis além do necessário para o funcionamento das funcionalidades oferecidas.
+O acervo privado e os aplicativos são áreas de acesso restrito. O fato de esta Política estar publicada no site público não torna público o conteúdo técnico protegido, nem altera as regras de acesso ao acervo.
 
-Quando o usuário fornece dados de forma voluntária para usar uma ferramenta, esses dados são utilizados apenas para a finalidade da própria ferramenta.
+## 2. Quem controla os dados
 
-## 3. Uso das informações
+Para fins da LGPD, a MelonMundi é a responsável pelo tratamento dos dados pessoais relacionados ao uso de seus ambientes digitais, salvo quando indicado que determinado serviço ou base pertence a terceiro.
 
-As informações fornecidas são usadas exclusivamente para:
-
-- executar a funcionalidade solicitada;
-- melhorar a experiência de uso;
-- apoiar análises técnicas relacionadas ao objetivo da plataforma.
-
-Não utilizamos dados para finalidades incompatíveis sem base legal adequada.
-
-## 4. Armazenamento e segurança
-
-Os dados processados pelas ferramentas seguem medidas de segurança compatíveis com o contexto de uso.
-
-Quando aplicável, os dados são processados durante a sessão e descartados ao término da execução da funcionalidade.
-
-## 5. Cookies e navegação
-
-Este site utiliza cookies essenciais para funcionamento, preferências e melhoria da experiência.
-
-Você pode recusar ou desativar cookies no navegador, ciente de que algumas funcionalidades podem ser afetadas.
-
-## 6. Consentimento e controle do usuário
-
-Ao utilizar o site, você declara ciência desta Política de Privacidade.
-
-Você pode ajustar preferências de cookies e, quando aplicável, solicitar esclarecimentos pelo e-mail de contato.
-
-## 7. Atualizações desta política
-
-Esta política pode ser revisada periodicamente para refletir melhorias operacionais, mudanças legais ou regulatórias.
-
-## 8. Contato
-
-Em caso de dúvidas sobre privacidade e tratamento de dados, entre em contato:
+Contato para assuntos de privacidade:
 
 - E-mail: **administrativo@melonmundi.com**
+
+## 3. Quais dados podem ser tratados
+
+A MelonMundi procura coletar o mínimo necessário para operar seus serviços. Ainda assim, dependendo da área acessada, podem ser tratados os seguintes dados.
+
+### 3.1. Dados de navegação e acesso
+
+Durante o uso do site público, do acervo e dos aplicativos, podem ser coletadas informações técnicas como:
+
+- endereço IP;
+- data e horário de acesso;
+- páginas acessadas;
+- origem de navegação;
+- tipo de navegador;
+- sistema operacional;
+- identificadores de sessão;
+- eventos de navegação, como visualização de páginas e cliques em links;
+- registros técnicos de erro, desempenho e disponibilidade.
+
+Esses dados são usados para funcionamento, segurança, auditoria técnica, prevenção de abuso, estatísticas de uso e melhoria da experiência.
+
+### 3.2. Dados de conta e autenticação
+
+Para acesso ao acervo privado e a áreas administrativas, podem ser tratados dados associados ao cadastro e login, como:
+
+- nome;
+- e-mail;
+- identificador de usuário;
+- credenciais ou tokens técnicos de autenticação;
+- papéis, permissões ou grupos de acesso;
+- registros de login, logout e tentativa de acesso;
+- cookies de sessão necessários para manter o usuário autenticado.
+
+A autenticação do acervo é realizada por infraestrutura baseada em Keycloak, OAuth2 Proxy e Nginx.
+
+### 3.3. Dados digitados nos aplicativos
+
+Os aplicativos MelonMundi podem solicitar dados técnicos para realizar cálculos, consultas, estimativas ou relatórios.
+
+Como regra geral, os dados digitados pelo usuário nos aplicativos são usados apenas durante a sessão ativa para executar a funcionalidade solicitada. A MelonMundi não armazena esses dados em banco de dados, arquivos, cookies, `localStorage` ou `sessionStorage`, salvo quando houver aviso específico e decisão explícita do projeto.
+
+Ao atualizar, fechar ou sair da página, as informações digitadas tendem a ser descartadas.
+
+### 3.4. Dados de relatórios gerados na sessão
+
+Quando um aplicativo gera relatório, arquivo ou visualização a partir dos dados informados pelo usuário, esse material é produzido para uso do próprio usuário durante a sessão. A MelonMundi não assume que tais dados representem recomendação técnica definitiva sem validação profissional.
+
+### 3.5. Dados de analytics
+
+A MelonMundi utiliza Matomo para medir navegação e uso dos ambientes digitais. O Matomo pode registrar informações como páginas acessadas, horários, origem de acesso, dispositivo, navegador, endereço IP e eventos de navegação.
+
+Essas informações são usadas para entender o uso da plataforma, identificar problemas, melhorar conteúdo, aperfeiçoar fluxos e apoiar decisões operacionais.
+
+### 3.6. Logs, métricas e observabilidade
+
+A infraestrutura pode gerar logs e métricas por meio de Nginx, Keycloak, OAuth2 Proxy, Shiny Server, bancos de dados, Prometheus, Grafana, Matomo e demais componentes técnicos.
+
+Esses registros podem incluir informações de acesso, eventos de autenticação, falhas, métricas de desempenho e dados técnicos necessários para segurança, disponibilidade e manutenção da plataforma.
+
+O acesso administrativo a ferramentas como Grafana, Prometheus e Matomo é restrito a usuários autorizados.
+
+## 4. Finalidades do tratamento
+
+Os dados podem ser tratados para:
+
+- disponibilizar o site público;
+- permitir login e acesso ao acervo privado;
+- controlar sessões autenticadas;
+- operar os aplicativos internos;
+- executar cálculos, consultas e relatórios solicitados pelo usuário;
+- proteger a plataforma contra acessos indevidos, abuso, fraude ou instabilidade;
+- monitorar disponibilidade, erros e desempenho;
+- produzir estatísticas de uso e navegação;
+- melhorar conteúdo, usabilidade e segurança;
+- cumprir obrigações legais, regulatórias ou ordens de autoridade competente;
+- exercer direitos da MelonMundi em processos administrativos, judiciais ou extrajudiciais.
+
+## 5. Bases legais
+
+A MelonMundi pode tratar dados pessoais com base nas seguintes hipóteses da LGPD, conforme o caso:
+
+- execução de contrato ou de procedimentos relacionados ao uso dos serviços;
+- legítimo interesse para segurança, prevenção de fraude, melhoria e operação da plataforma;
+- cumprimento de obrigação legal ou regulatória;
+- consentimento, quando aplicável, especialmente para cookies ou recursos não essenciais;
+- exercício regular de direitos;
+- proteção da segurança dos usuários e da plataforma, quando aplicável.
+
+## 6. Cookies e tecnologias semelhantes
+
+A MelonMundi pode usar cookies e tecnologias semelhantes para:
+
+- manter sessão autenticada;
+- reconhecer preferências de navegação;
+- medir audiência e uso por meio de analytics;
+- proteger rotas privadas;
+- melhorar desempenho e estabilidade.
+
+Cookies essenciais podem ser necessários para o funcionamento do site, do login e do acervo privado. Cookies de analytics podem depender da configuração de consentimento disponível no site.
+
+O usuário pode bloquear ou apagar cookies no navegador, mas isso pode afetar login, navegação e acesso a áreas protegidas.
+
+## 7. Compartilhamento de dados
+
+A MelonMundi não vende dados pessoais.
+
+Dados podem ser compartilhados ou processados por fornecedores e serviços necessários à operação da plataforma, como:
+
+- provedores de hospedagem e infraestrutura;
+- serviços de publicação do site público;
+- serviços de autenticação, proxy, banco de dados, analytics e monitoramento;
+- ferramentas de segurança, backup, manutenção e suporte técnico;
+- autoridades públicas, quando houver obrigação legal ou ordem válida.
+
+Também pode haver interação com bases públicas ou serviços de terceiros, como fontes oficiais usadas por aplicativos, por exemplo sistemas governamentais de consulta fitossanitária.
+
+## 8. Hospedagem e transferência internacional
+
+Parte da infraestrutura privada da MelonMundi é hospedada em servidor da DigitalOcean localizado em Nova York, Estados Unidos. O site público pode usar serviços de publicação e distribuição que também envolvam infraestrutura fora do Brasil.
+
+Por isso, dados técnicos, registros de acesso, cookies, dados de autenticação e informações de navegação podem trafegar ou ser armazenados fora do território brasileiro.
+
+A MelonMundi busca adotar medidas compatíveis com a LGPD para proteger esses dados e limitar o tratamento às finalidades descritas nesta Política.
+
+## 9. Segurança da informação
+
+A MelonMundi adota medidas técnicas e organizacionais para proteger os ambientes digitais, incluindo controle de acesso, autenticação, isolamento de serviços, rotas protegidas, uso de HTTPS em produção, segregação de áreas administrativas e monitoramento operacional.
+
+Nenhum sistema, entretanto, é completamente imune a falhas, ataques ou indisponibilidades. Em caso de incidente relevante envolvendo dados pessoais, a MelonMundi avaliará as providências cabíveis conforme a LGPD e a regulamentação aplicável.
+
+## 10. Retenção e descarte
+
+Os dados são mantidos pelo tempo necessário para cumprir as finalidades descritas nesta Política, respeitando obrigações legais, segurança da informação, auditoria, prevenção de abuso e exercício de direitos.
+
+Dados digitados nos aplicativos, como regra, são tratados apenas durante a sessão ativa e descartados ao encerrar, atualizar ou sair da página, salvo aviso específico em sentido diferente.
+
+Logs, métricas e registros técnicos podem ser mantidos por período compatível com segurança, diagnóstico, auditoria e operação da plataforma.
+
+## 11. Direitos do titular
+
+Nos termos da LGPD, o titular pode solicitar, quando aplicável:
+
+- confirmação da existência de tratamento;
+- acesso aos dados;
+- correção de dados incompletos, inexatos ou desatualizados;
+- anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade;
+- informação sobre compartilhamento;
+- revogação do consentimento, quando o tratamento depender de consentimento;
+- oposição a tratamento realizado em desconformidade com a LGPD;
+- portabilidade, quando aplicável e regulamentada.
+
+As solicitações podem ser enviadas para **administrativo@melonmundi.com**.
+
+## 12. Dados de crianças e adolescentes
+
+A MelonMundi não direciona seus serviços a crianças. Caso identifique tratamento indevido de dados de criança ou adolescente, adotará as providências cabíveis para exclusão ou regularização, conforme a LGPD.
+
+## 13. Links e serviços de terceiros
+
+O site, o acervo ou os aplicativos podem conter links para sites, bases públicas, sistemas governamentais, repositórios, bibliotecas, mapas, documentos ou serviços de terceiros.
+
+A MelonMundi não controla as práticas de privacidade desses terceiros. O usuário deve consultar as políticas próprias de cada serviço externo.
+
+## 14. Atualizações desta Política
+
+Esta Política pode ser atualizada para refletir mudanças legais, técnicas, operacionais ou de segurança.
+
+A versão vigente será publicada nesta página, com indicação da data de atualização.
 
 </div>
 </div>

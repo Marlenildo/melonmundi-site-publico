@@ -2,6 +2,18 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.0.29] - 2026-05-25
+### Changed
+- Páginas legais: reescritas a Política de Privacidade, os Termos de Uso e a página de Licenças e Créditos para cobrir o ecossistema MelonMundi, incluindo site público, acervo privado, aplicativos Shiny, autenticação, analytics, observabilidade, infraestrutura em servidor internacional e referências à LGPD.
+- Configuração de cookies: corrigido o link `Saiba mais` do banner para apontar para `/politica-de-privacidade.html`.
+- Navegação: rótulo `Licença` atualizado para `Licenças e Créditos`, mantendo a URL `/licenca.html` para preservar compatibilidade com links existentes.
+
+### Fixed
+- Declarada a logo `assets/img/logo_marlenildo.png` como recurso do projeto para garantir sua presença nos artefatos publicados em `docs/`.
+- Sincronizado o versionamento do projeto em `VERSION` e `DESCRIPTION`.
+- Regerados os artefatos publicados em `docs/` para refletir as mudanças legais.
+
+***
 
 ## [1.0.28] - 2026-04-02
 ### Changed

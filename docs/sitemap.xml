@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://melonmundi.com/sobre-nos.html</loc>
+    <lastmod>2026-05-13T14:58:21.599Z</lastmod>
+  </url>
+  <url>
     <loc>https://melonmundi.com/termos-de-uso.html</loc>
-    <lastmod>2026-03-19T17:15:30.922Z</lastmod>
-  </url>
-  <url>
-    <loc>https://melonmundi.com/politica-de-privacidade.html</loc>
-    <lastmod>2026-03-19T17:15:30.922Z</lastmod>
-  </url>
-  <url>
-    <loc>https://melonmundi.com/index.html</loc>
-    <lastmod>2026-04-02T12:13:18.699Z</lastmod>
+    <lastmod>2026-05-25T10:52:43.180Z</lastmod>
   </url>
   <url>
     <loc>https://melonmundi.com/CHANGELOG.html</loc>
-    <lastmod>2026-04-02T12:18:35.044Z</lastmod>
+    <lastmod>2026-05-25T10:54:22.273Z</lastmod>
+  </url>
+  <url>
+    <loc>https://melonmundi.com/politica-de-privacidade.html</loc>
+    <lastmod>2026-05-25T10:52:43.180Z</lastmod>
   </url>
   <url>
     <loc>https://melonmundi.com/licenca.html</loc>
-    <lastmod>2026-03-19T17:15:30.922Z</lastmod>
+    <lastmod>2026-05-25T10:52:43.181Z</lastmod>
   </url>
   <url>
-    <loc>https://melonmundi.com/sobre-nos.html</loc>
-    <lastmod>2026-04-02T11:59:18.813Z</lastmod>
+    <loc>https://melonmundi.com/index.html</loc>
+    <lastmod>2026-05-13T14:58:21.599Z</lastmod>
   </url>
 </urlset>

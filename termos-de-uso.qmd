@@ -1,6 +1,6 @@
-﻿---
+---
 title: "Termos de Uso"
-description: "Condições de uso do site público e das ferramentas da MelonMundi."
+description: "Condições de uso do site público, acervo privado e aplicativos MelonMundi."
 body-classes: legal-page
 ---
 
@@ -8,44 +8,158 @@ body-classes: legal-page
 <div class="column-body">
 <div class="legal-panel">
 
-<p class="legal-updated"><strong>Atualizado em:</strong> 06 de maio de 2024</p>
+<p class="legal-updated"><strong>Atualizado em:</strong> 25 de maio de 2026</p>
 
-Ao acessar e utilizar este site, você concorda com os termos abaixo.
+Estes Termos de Uso regulam o acesso e a utilização do ecossistema MelonMundi, incluindo o site público, o acervo privado, os aplicativos, os materiais técnicos e os serviços de autenticação e suporte operacional.
 
-## 1. Uso do site e das ferramentas
+Ao acessar ou utilizar qualquer ambiente MelonMundi, você declara que leu, compreendeu e concorda com estes Termos.
 
-1. O uso é destinado às finalidades informadas na plataforma.
-2. É proibido utilizar o site de forma que comprometa segurança, disponibilidade ou integridade das informações.
+## 1. Ambientes abrangidos
 
-## 2. Propriedade intelectual
+Estes Termos se aplicam a:
 
-Todo o conteúdo deste site (textos, imagens, marcas, layout, materiais e software) pertence à MelonMundi e/ou aos respectivos licenciadores, salvo indicação em contrário.
+- `https://melonmundi.com`, site institucional público;
+- `https://acervo.melonmundi.com`, acervo técnico privado;
+- aplicativos internos acessados a partir do acervo;
+- áreas administrativas, quando disponíveis a usuários autorizados;
+- conteúdos, materiais, relatórios, ferramentas, interfaces, marcas e recursos técnicos vinculados à MelonMundi.
 
-A reprodução ou redistribuição sem autorização prévia está sujeita à legislação aplicável.
+O site público é aberto. O acervo, os aplicativos e áreas administrativas podem exigir autenticação, autorização ou vínculo específico com a MelonMundi.
 
-## 3. Limitação de responsabilidade
+## 2. Natureza das informações
 
-O site e as ferramentas são disponibilizados no estado em que se encontram.
+Os conteúdos e aplicativos da MelonMundi têm finalidade técnica, educacional, consultiva, analítica ou operacional.
 
-A MelonMundi não garante ausência total de indisponibilidade, interrupções ou erros e não se responsabiliza por danos indiretos decorrentes de uso inadequado ou indisponibilidade de terceiros.
+As informações disponibilizadas não substituem avaliação profissional, responsabilidade técnica, prescrição agronômica, análise laboratorial, diagnóstico de campo, receituário agronômico, legislação aplicável ou orientação de profissional habilitado.
 
-## 4. Links para terceiros
+O usuário é responsável por validar resultados, recomendações, cálculos, interpretações e informações antes de tomar decisões técnicas, comerciais, agronômicas, ambientais, regulatórias ou financeiras.
 
-Este site pode conter links para serviços externos. A MelonMundi não controla o conteúdo nem as políticas desses serviços de terceiros.
+## 3. Cadastro, login e conta de usuário
 
-## 5. Alterações dos termos
+O acesso ao acervo privado e a determinados aplicativos depende de autenticação.
 
-Estes Termos de Uso podem ser atualizados a qualquer momento.
+O usuário se compromete a:
 
-A continuidade de uso após a publicação de alterações representa concordância com a versão vigente.
+- fornecer informações corretas quando solicitado;
+- proteger suas credenciais;
+- não compartilhar conta, senha, tokens ou links privados;
+- comunicar uso indevido ou suspeita de acesso não autorizado;
+- respeitar os perfis e permissões definidos pela MelonMundi.
 
-## 6. Legislação aplicável
+A MelonMundi pode suspender ou revogar acesso em caso de uso indevido, risco de segurança, violação destes Termos ou encerramento da relação que justificava o acesso.
 
-Estes termos serão interpretados conforme a legislação brasileira, observadas as normas aplicáveis.
+## 4. Uso permitido
 
-## 7. Contato
+O usuário pode utilizar os ambientes MelonMundi para consulta, navegação, estudo, apoio técnico, uso dos aplicativos disponíveis e demais finalidades autorizadas.
 
-Dúvidas sobre estes termos podem ser enviadas para:
+É proibido:
+
+- tentar burlar autenticação, sessão, permissões ou controles de acesso;
+- copiar, raspar, baixar em massa ou redistribuir conteúdo sem autorização;
+- explorar vulnerabilidades ou testar segurança sem autorização expressa;
+- inserir código malicioso, automatizações abusivas ou tráfego excessivo;
+- usar os serviços para fins ilegais, fraudulentos, ofensivos ou incompatíveis com a finalidade da plataforma;
+- remover créditos, avisos de licença, marcas ou indicações de autoria;
+- compartilhar conteúdo privado do acervo com terceiros não autorizados;
+- usar resultados dos aplicativos como garantia técnica absoluta, sem validação profissional.
+
+## 5. Aplicativos e dados informados pelo usuário
+
+Os aplicativos MelonMundi podem solicitar dados técnicos para cálculos, consultas, estimativas ou relatórios.
+
+Como regra, os dados digitados pelo usuário são usados apenas durante a sessão ativa e não são armazenados pela MelonMundi em banco de dados, arquivos, cookies ou armazenamento do navegador, salvo quando houver aviso específico.
+
+O usuário é responsável pela qualidade, precisão e adequação dos dados informados. Dados incorretos, incompletos, desatualizados ou incompatíveis podem gerar resultados inadequados.
+
+## 6. Resultados, cálculos e relatórios
+
+Cálculos, estimativas, gráficos, tabelas, classificações e relatórios gerados pelos aplicativos são materiais de apoio.
+
+A MelonMundi não garante que os resultados sejam suficientes para tomada de decisão sem análise complementar. O usuário deve considerar condições locais, legislação aplicável, recomendações técnicas oficiais, limitações dos modelos, qualidade dos dados de entrada e validação por profissional habilitado.
+
+## 7. Fontes externas e bases oficiais
+
+Alguns aplicativos podem consultar, organizar ou exibir dados provenientes de fontes externas, bases públicas, sistemas governamentais ou serviços de terceiros.
+
+Quando houver dados de terceiros, a MelonMundi pode atuar apenas como organizadora, interface ou camada de apoio à consulta. A fonte oficial deve ser consultada para confirmação, atualização, validade jurídica ou regulatória.
+
+No caso de informações fitossanitárias, registros de produtos, autorizações ou dados regulatórios, o usuário deve conferir a fonte oficial competente antes de qualquer decisão de uso.
+
+## 8. Propriedade intelectual
+
+Textos, marcas, nomes, logotipos, identidade visual, layout, organização do acervo, materiais técnicos, imagens, gráficos, códigos, interfaces, relatórios, bancos de dados organizados e demais elementos da MelonMundi são protegidos por direitos autorais, marcas, segredos de negócio e outras normas aplicáveis.
+
+Nada nestes Termos transfere ao usuário titularidade sobre propriedade intelectual da MelonMundi ou de terceiros.
+
+O uso, cópia, adaptação, reprodução, distribuição, publicação ou exploração comercial depende de autorização prévia, salvo quando permitido por licença específica publicada pela MelonMundi.
+
+## 9. Licenças específicas
+
+Alguns componentes podem ter licenças próprias, como código aberto, bibliotecas de terceiros, frameworks, pacotes R, Quarto, Shiny, Bootstrap, Font Awesome, Matomo, Grafana, Prometheus, Keycloak, Nginx e outros.
+
+As regras específicas estão descritas na página de Licenças e Créditos, quando aplicável.
+
+Em caso de conflito entre estes Termos e uma licença específica expressamente indicada para determinado componente, prevalecerá a licença específica quanto ao componente licenciado.
+
+## 10. Privacidade e proteção de dados
+
+O tratamento de dados pessoais, cookies, logs, analytics, autenticação e transferência internacional está descrito na Política de Privacidade da MelonMundi.
+
+Ao utilizar os ambientes MelonMundi, o usuário declara ciência da Política de Privacidade vigente.
+
+## 11. Disponibilidade e alterações
+
+A MelonMundi pode alterar, suspender, limitar ou descontinuar funcionalidades, conteúdos, aplicativos, rotas, layout, integrações, bases consultadas ou formas de acesso.
+
+A MelonMundi não garante disponibilidade ininterrupta, ausência de erros, compatibilidade com todos os dispositivos ou continuidade permanente de qualquer funcionalidade.
+
+Manutenções, instabilidades de infraestrutura, falhas de terceiros, indisponibilidade de APIs externas, atualizações de segurança ou eventos fora do controle da MelonMundi podem afetar o uso.
+
+## 12. Limitação de responsabilidade
+
+Na máxima extensão permitida pela legislação aplicável, a MelonMundi não se responsabiliza por:
+
+- decisões tomadas exclusivamente com base nos conteúdos ou aplicativos;
+- perdas decorrentes de dados informados incorretamente pelo usuário;
+- indisponibilidade temporária da plataforma;
+- falhas de internet, navegador, dispositivo, hospedagem ou serviços de terceiros;
+- alteração, indisponibilidade ou erro em bases externas;
+- uso indevido, não autorizado ou contrário a estes Termos;
+- danos indiretos, lucros cessantes, perda de produtividade, perda de dados locais ou prejuízos decorrentes de interpretação inadequada dos resultados.
+
+Nada nestes Termos exclui responsabilidade que não possa ser afastada pela legislação brasileira.
+
+## 13. Segurança
+
+O usuário não deve tentar acessar áreas restritas sem autorização, interferir no funcionamento dos serviços, realizar engenharia reversa indevida, explorar falhas ou comprometer a segurança da plataforma.
+
+A MelonMundi pode registrar eventos técnicos, bloquear acessos, limitar requisições, revogar sessões ou tomar medidas de segurança quando identificar risco, abuso ou violação destes Termos.
+
+## 14. Links para terceiros
+
+A MelonMundi pode incluir links para sites, documentos, repositórios, bases públicas ou serviços de terceiros.
+
+Esses links são fornecidos para conveniência, referência ou integração técnica. A MelonMundi não controla o conteúdo, disponibilidade, segurança, precisão ou políticas de terceiros.
+
+## 15. Comunicações
+
+A MelonMundi pode publicar avisos no próprio site, no acervo, nos aplicativos ou enviar comunicações por e-mail quando necessário para assuntos operacionais, segurança, acesso, atualização de termos ou manutenção.
+
+## 16. Alterações destes Termos
+
+Estes Termos podem ser atualizados a qualquer momento para refletir mudanças técnicas, legais, operacionais ou comerciais.
+
+A versão vigente será publicada nesta página, com indicação da data de atualização. O uso contínuo dos serviços após a atualização representa ciência e concordância com a versão vigente.
+
+## 17. Legislação aplicável
+
+Estes Termos são regidos pelas leis da República Federativa do Brasil.
+
+Eventuais controvérsias serão tratadas conforme a legislação brasileira aplicável, observadas as normas de competência vigentes.
+
+## 18. Contato
+
+Dúvidas sobre estes Termos podem ser enviadas para:
 
 - E-mail: **administrativo@melonmundi.com**
 

@@ -1,6 +1,6 @@
-﻿---
-title: "Licença"
-description: "Informações sobre a licença MIT aplicada ao site público MelonMundi."
+---
+title: "Licenças e Créditos"
+description: "Informações sobre propriedade intelectual, licenças, créditos e componentes de terceiros usados pela MelonMundi."
 body-classes: legal-page
 ---
 
@@ -8,13 +8,92 @@ body-classes: legal-page
 <div class="column-body">
 <div class="legal-panel">
 
-<p class="legal-updated"><strong>Atualizado em:</strong> 19 de fevereiro de 2026</p>
+<p class="legal-updated"><strong>Atualizado em:</strong> 25 de maio de 2026</p>
 
-Este projeto é distribuído sob a **Licença MIT**.
+Esta página reúne informações sobre propriedade intelectual, licenças, créditos e componentes de terceiros relacionados ao ecossistema MelonMundi.
 
-Em termos práticos, a MIT permite uso, cópia, modificação e distribuição do software, desde que o aviso de copyright e o texto da licença sejam preservados.
+## 1. Regra geral
 
-## Texto da Licença MIT
+Salvo indicação expressa em contrário, todos os direitos sobre marcas, nomes, logotipos, identidade visual, textos, materiais técnicos, organização do acervo, imagens, layouts, interfaces, relatórios, códigos, bases organizadas e demais conteúdos da MelonMundi são reservados.
+
+Nenhum conteúdo privado do acervo, material técnico, aplicativo, relatório, imagem, marca ou elemento visual pode ser copiado, reproduzido, distribuído, publicado, vendido, sublicenciado ou explorado comercialmente sem autorização prévia e por escrito da MelonMundi, exceto quando uma licença específica permitir.
+
+## 2. Marca MelonMundi
+
+Os nomes MelonMundi, MelonMundi Global Solutions, logotipos, elementos de identidade visual e sinais distintivos associados à marca pertencem à MelonMundi ou a seus titulares autorizados.
+
+O uso da marca em materiais externos, apresentações, sites, publicações, produtos, serviços ou peças comerciais depende de autorização prévia.
+
+## 3. Site público
+
+O site público da MelonMundi é disponibilizado para apresentação institucional, comunicação, links de acesso, páginas legais e informações gerais.
+
+Quando o repositório do site público indicar Licença MIT para o código do projeto, essa licença se aplica apenas ao software/código ali licenciado, e não automaticamente a marcas, logotipos, textos institucionais, imagens, conteúdo técnico, bases organizadas ou materiais protegidos da MelonMundi.
+
+## 4. Acervo privado
+
+O acervo privado contém biblioteca técnica, materiais organizados, páginas internas e links para aplicativos. O acesso ao acervo é restrito a usuários autorizados.
+
+A publicação desta página no site público não torna público o conteúdo do acervo, nem concede direito de redistribuição dos materiais privados.
+
+Salvo licença específica, os materiais do acervo são disponibilizados apenas para consulta pelos usuários autorizados, dentro das condições definidas pela MelonMundi.
+
+## 5. Aplicativos MelonMundi
+
+Os aplicativos MelonMundi, incluindo ferramentas de cálculo, consulta, produtividade, fitossanidade, relatórios e apoio técnico, são protegidos por direitos autorais e demais normas aplicáveis.
+
+O acesso ao aplicativo não concede ao usuário direito de copiar código-fonte, reproduzir interface, redistribuir funcionalidades, explorar comercialmente a ferramenta ou criar produto derivado sem autorização.
+
+Resultados, relatórios e arquivos gerados pelo usuário durante a sessão podem ser usados pelo próprio usuário para sua finalidade técnica, observadas as limitações dos Termos de Uso.
+
+## 6. Dados oficiais e fontes de terceiros
+
+Alguns aplicativos podem consultar ou organizar informações provenientes de fontes oficiais ou de terceiros.
+
+No caso de dados fitossanitários, produtos registrados, informações regulatórias ou bases públicas, a fonte oficial deve ser consultada para confirmação, validade e atualização.
+
+Quando houver referência ao AGROFIT, MAPA, Embrapa, CNPTIA ou outros órgãos e sistemas, os respectivos nomes, bases, marcas e conteúdos pertencem aos seus titulares. A MelonMundi não reivindica propriedade sobre dados oficiais de terceiros.
+
+A MelonMundi pode organizar, filtrar, apresentar ou facilitar a consulta a esses dados, mas a titularidade e responsabilidade pela base original permanecem com a fonte correspondente.
+
+## 7. Bibliotecas, frameworks e softwares de terceiros
+
+O ecossistema MelonMundi utiliza softwares, bibliotecas, imagens de contêiner, pacotes e frameworks de terceiros, que podem incluir, entre outros:
+
+- Quarto;
+- R e pacotes R;
+- Shiny;
+- Bootstrap;
+- Font Awesome;
+- Keycloak;
+- OAuth2 Proxy;
+- Nginx;
+- PostgreSQL;
+- Matomo;
+- Prometheus;
+- Grafana;
+- Docker e imagens de contêiner associadas;
+- bibliotecas JavaScript e CSS usadas na renderização das páginas.
+
+Cada componente de terceiro permanece sujeito à sua própria licença. A MelonMundi respeita as licenças aplicáveis e recomenda consultar os respectivos projetos oficiais para termos completos.
+
+## 8. Licença MIT do código do site público, quando aplicável
+
+Quando indicada no repositório do site público, a Licença MIT autoriza uso, cópia, modificação e distribuição do software licenciado, desde que o aviso de copyright e o texto da licença sejam preservados.
+
+Essa autorização não inclui automaticamente:
+
+- uso da marca MelonMundi;
+- logotipos;
+- imagens proprietárias;
+- textos institucionais;
+- materiais técnicos;
+- conteúdo do acervo privado;
+- dados privados;
+- segredos, credenciais ou configurações de produção;
+- aplicativos internos que possuam licença própria ou direitos reservados.
+
+## 9. Texto da Licença MIT
 
 ```text
 MIT License
@@ -40,9 +119,23 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Arquivo oficial
+## 10. Imagens, ícones e elementos visuais
 
-O texto oficial também está disponível no arquivo `LICENSE` na raiz do repositório.
+Imagens, ícones, fotografias, ilustrações, capturas de tela, gráficos, logotipos e demais elementos visuais podem pertencer à MelonMundi ou a terceiros licenciadores.
+
+O uso desses elementos fora dos ambientes MelonMundi depende da respectiva licença ou de autorização específica.
+
+## 11. Créditos de desenvolvimento
+
+Quando indicado no rodapé ou nos arquivos do projeto, o desenvolvimento, manutenção ou autoria técnica pode ser creditado a Marlenildo Ferreira Melo e/ou à MelonMundi.
+
+A presença de crédito não altera a titularidade de marcas, conteúdos, bases ou componentes de terceiros.
+
+## 12. Solicitação de autorização
+
+Pedidos de autorização para uso de marca, conteúdo, material técnico, aplicativo, imagem, texto, relatório, trecho de código ou qualquer outro elemento protegido devem ser enviados para:
+
+- E-mail: **administrativo@melonmundi.com**
 
 </div>
 </div>
