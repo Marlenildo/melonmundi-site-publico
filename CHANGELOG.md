@@ -2,6 +2,62 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.4.0] - 2026-09-13
+### Added
+- Política e Termos passam a cobrir **aplicativos instaláveis**, que operam com
+  arquivos no equipamento do usuário — modelo diferente dos simuladores (só
+  sessão) e da formação (registro permanente). Cobre o AgroJornal e os próximos.
+- Seção "Recursos novos e em desenvolvimento" nos dois documentos: um recurso
+  que se encaixe em um modelo já descrito entra coberto desde o lançamento; se
+  tratar dados de forma diferente, o documento é atualizado antes.
+- Licenças: licença de uso dos aplicativos instaláveis e titularidade dos
+  arquivos locais.
+
+### Changed
+- Os documentos deixam de depender de lista fixa de produtos. Os simuladores
+  são descritos por categoria, com os nomes atuais como exemplo — assim novos
+  simuladores não deixam o texto desatualizado.
+- Referências cruzadas passam a citar as seções pelo nome, não pelo número, para
+  não quebrarem a cada inclusão.
+
+***
+
+## [1.3.0] - 2026-09-13
+### Added
+- Política de Privacidade v2.0: identificação do controlador (CNPJ) e do
+  encarregado, matriz controlador/operador para o portal empresarial, seções
+  sobre cursos, matrícula, progresso, avaliação prática, certificados e vínculo
+  empresarial, divulgação da validação pública de certificado, tabela de
+  finalidades e bases legais, tabela de prazos de retenção, direitos do titular
+  completos (incluindo petição à ANPD) e regra de aviso prévio para alterações.
+- Termos de Uso v2.0: encerramento de conta e destino dos dados, cursos e
+  requisitos de conclusão, certificados com validação pública e hipóteses de
+  revogação, deveres da empresa que usa a autonomia do portal empresarial, e
+  aviso prévio para alterações relevantes.
+- Licenças e Créditos v2.0: seções de infraestrutura e distribuição
+  (DigitalOcean, Vercel e Cloudflare/cdnjs) e de marcas de terceiros.
+- `assets/js/cookie-consent-text.js`, que corrige os textos do banner de
+  consentimento.
+
+### Changed
+- Páginas legais passam a exibir a versão do documento no cabeçalho.
+- Tabelas das páginas legais ganham estilo próprio e rolagem horizontal
+  isolada, sem arrastar a página no celular.
+
+### Fixed
+- O banner de cookies afirmava que o site mostra "conteúdo personalizado,
+  anúncios direcionados" — texto embutido na biblioteca do Quarto, que não
+  repassa `title`/`description` de `website.cookie-consent` para o
+  `cookieconsent.run()`. O site não faz publicidade; informar finalidade
+  incorreta compromete o consentimento (LGPD, art. 9º).
+- Política e Termos afirmavam que nenhum dado do usuário era armazenado. Isso
+  vale para os simuladores, mas não para matrículas, progresso, avaliação
+  prática, certificados, vínculo empresarial e trilhas de auditoria, que são
+  persistentes. O texto passa a distinguir as duas situações.
+- Link "Cookie Preferences" no rodapé aparecia em inglês em um site pt-BR.
+
+***
+
 ## [1.2.0] - 2026-09-13
 ### Added
 - Páginas legais (Política de Privacidade, Termos de Uso, Licenças e Créditos)

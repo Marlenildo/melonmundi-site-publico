@@ -21,12 +21,16 @@ website:
   favicon: assets/img/favicon.ico
   search: false
   page-navigation: true
+  # Atenção: o Quarto NÃO repassa title/description/labels para a biblioteca de
+  # consentimento — o `cookieconsent.run()` gerado recebe só `language` e
+  # `website_name`. Os textos visíveis vêm de `assets/js/cookie-consent-text.js`.
+  # Manter as chaves abaixo em sincronia com aquele arquivo.
   cookie-consent:
     type: express
     style: simple
     language: pt
     title: "Cookies e privacidade"
-    description: "Este site utiliza cookies essenciais para garantir o funcionamento adequado e melhorar a sua experiência de navegação."
+    description: "Usamos cookies essenciais para manter a sua sessão e o funcionamento do site. Com o seu consentimento, usamos também cookies de medição (Matomo). Não exibimos publicidade."
     accept-label: "Aceitar"
     decline-label: "Recusar"
     learn-more-label: "Saiba mais"
@@ -105,6 +109,8 @@ format:
     reader-mode: true
     page-navigation: true
     include-after-body:
+      - text: |
+          <script src="assets/js/cookie-consent-text.js"></script>
       - text: |
           <script src="assets/js/scroll-reveal.js"></script>
       - text: |
