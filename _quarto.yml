@@ -1,6 +1,17 @@
-﻿project:
+project:
   type: website
   output-dir: docs
+  # Lista explícita: evita que arquivos internos do repositório (AGENTS.md,
+  # README.md) virem páginas publicadas na Vercel.
+  render:
+    - index.qmd
+    - sobre-nos.qmd
+    - politica-de-privacidade.qmd
+    - termos-de-uso.qmd
+    - licenca.qmd
+    - CHANGELOG.md
+  resources:
+    - assets/img/logo_marlenildo.png
 lang: pt-BR
 
 website:
@@ -19,7 +30,7 @@ website:
     accept-label: "Aceitar"
     decline-label: "Recusar"
     learn-more-label: "Saiba mais"
-    learn-more-url: "/privacy.html"
+    learn-more-url: "/politica-de-privacidade.html"
 
   navbar:
     pinned: true
@@ -41,18 +52,25 @@ website:
             href: politica-de-privacidade.qmd
           - text: "Termos de Uso"
             href: termos-de-uso.qmd
-          - text: "Licença"
+          - text: "Licenças e Créditos"
             href: licenca.qmd
+    # Atalho "Entrar" exibido fora do menu sanfonado no celular.
+    # No desktop ele fica oculto por CSS e vale o item de `right:`.
+    tools:
+      - text: "Entrar"
+        icon: box-arrow-in-right
+        href: https://acervo.melonmundi.com
     right:
       - text: "Entrar"
-        # href: acervo.qmd
-        # href: http://acervo.melonmundi.local:8000/oauth2/start
         href: https://acervo.melonmundi.com
         icon: box-arrow-in-right
 
   page-footer:
-    right: "Copyright &copy; 2026 MelonMundi - Global Solutions. Todos os direitos reservados."
-    left: "![](assets/img/nova_logomm.png){width=80px}"
+    left: |
+      <div class="footer-brand">
+        <img src="/assets/img/nova_logomm.png" alt="MelonMundi - Global Solutions" class="footer-logo" width="120" height="108">
+        <p class="footer-tagline">Grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora — do planejamento da fazenda à pós-colheita.</p>
+      </div>
     center:
       - text: "Página Inicial"
         href: /index.html
@@ -62,8 +80,14 @@ website:
         href: /politica-de-privacidade.html
       - text: "Termos de Uso"
         href: /termos-de-uso.html
-      - text: "Licença"
+      - text: "Licenças e Créditos"
         href: /licenca.html
+    right: |
+      <div class="footer-cta">
+        <p class="footer-heading">Acervo MelonMundi</p>
+        <p class="footer-cta-text">Biblioteca técnica, simuladores, cursos e aplicativos reunidos em um único login.</p>
+        <a class="footer-cta-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i> Entrar no Acervo</a>
+      </div>
 
 format:
   html:
@@ -88,12 +112,17 @@ format:
       - text: |
           <script src="assets/js/home-carousel.js"></script>
       - text: |
+          <script src="assets/js/legal-toc.js"></script>
+      - text: |
           <template id="footer-credit-template">
             <div class="footer-credit-line">
-              <span class="footer-credit-text">Desenvolvido por</span>
-              <a href="https://github.com/Marlenildo" class="footer-credit-link" aria-label="GitHub de Marlenildo">
-                <img src="assets/img/logo_marlenildo.png" alt="Logo Marlenildo" class="footer-credit-logo">
-              </a>
+              <p class="footer-copyright">&copy; 2026 MelonMundi &ndash; Global Solutions. Todos os direitos reservados.</p>
+              <span class="footer-credit-dev">
+                <span class="footer-credit-text">Desenvolvido por</span>
+                <a href="https://github.com/Marlenildo" class="footer-credit-link" aria-label="GitHub de Marlenildo">
+                  <img src="/assets/img/logo_marlenildo.png" alt="Marlenildo - Soluções em Curso" class="footer-credit-logo">
+                </a>
+              </span>
             </div>
           </template>
       - text: |
@@ -117,4 +146,5 @@ format:
           <!-- End Matomo Code -->
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+      - text: |
+          <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>

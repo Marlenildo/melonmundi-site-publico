@@ -2,6 +2,109 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.2.0] - 2026-09-13
+### Added
+- Páginas legais (Política de Privacidade, Termos de Uso, Licenças e Créditos)
+  ganharam faixa de abertura própria, com título, resumo e a data de publicação
+  em destaque, no lugar do bloco de título padrão do Quarto.
+- Índice lateral fixo (`legal-toc.js`) nas páginas legais em telas largas, com
+  destaque da seção em leitura. Em telas estreitas ele não é gerado e o texto
+  ocupa a largura toda.
+- Rodapé reorganizado em três colunas — marca e apresentação, navegação e
+  chamada para o Acervo — sobre faixa clara com fio de destaque no topo, e
+  barra inferior com direitos reservados e a assinatura do desenvolvedor.
+
+### Changed
+- Texto das páginas legais deixou de ficar num cartão estreito: agora é uma
+  coluna de leitura larga, com hierarquia de títulos, listas e trechos de
+  código próprios. No celular usa a largura inteira da tela.
+
+### Fixed
+- O Quarto marca os `div` aninhados com `page-columns` e aplica a grade de
+  página por `body.fullcontent:not(.floating):not(.docked) .page-columns`
+  (especificidade 0-4-1), prendendo o conteúdo à coluna de leitura (~800 px).
+  Era a causa de os textos legais aparecerem espremidos no meio da tela, no
+  desktop e principalmente no celular. A grade agora é desfeita nos wrappers
+  próprios, junto com o `grid-column` e o `gap` herdados.
+- Ordem do rodapé no celular: o Quarto joga a coluna do meio para o fim
+  (`order: 10`), o que deixava a navegação depois da chamada do Acervo.
+- Faixa branca que o Quarto pintava em `.nav-footer`, destoando do resto do
+  rodapé.
+
+***
+
+## [1.1.0] - 2026-09-13
+### Added
+- Home reconstruída para apresentar todo o ecossistema MelonMundi: grade do
+  ecossistema (Biblioteca, Simuladores, Cursos, Aplicativos, Painel Analítico e
+  Certificados), seção da biblioteca técnica (artigos, protocolos e fichas),
+  vitrine dos quatro simuladores, carrossel com telas reais, seção do curso
+  "Do Campo à Decisão", roadmap do que está em desenvolvimento e CTA final.
+- Faixa de números (`.stat-band`) na home e em Quem Somos.
+- Logomarcas e capturas de tela dos simuladores AgroFito, AgroFruta, AgroSolo e
+  AgroIrriga em `assets/img/sim-*`.
+- Atalho "Entrar" fora do menu sanfonado no celular, via `navbar.tools`, ao lado
+  do botão hambúrguer.
+- Quem Somos reformulada: hero próprio, grade de valores, essência, identidade
+  visual e cards do time com foto em proporção fixa.
+- Lista explícita de `project.render` no `_quarto.yml`, evitando que arquivos
+  internos do repositório (AGENTS.md, README.md) virem páginas publicadas.
+- Fallback `<noscript>` para os blocos `.reveal`, garantindo o conteúdo visível
+  sem JavaScript.
+
+### Changed
+- Carrossel (`home-carousel.js`) reescrito: navegação por teclado, arraste
+  touch/mouse, pausa em hover/foco/aba oculta, `aria` nos slides e respeito a
+  `prefers-reduced-motion`.
+- `scroll-reveal.js` passa a usar `rootMargin` (blocos mais altos que a tela
+  também são revelados) e revela tudo de imediato com movimento reduzido.
+- `home-navbar-scroll.js` deixou de duplicar as classes do `<body>`: agora só
+  mede o deslocamento do cabeçalho e alterna `home-at-top`.
+- Folha de estilo reorganizada em seções, com tokens de raio, sombra e
+  espaçamento, botões `.btn-mm` e componentes documentados.
+
+### Fixed
+- Removido o BOM de `index.qmd` e `_quarto.yml`, que impedia o Quarto de aplicar
+  `body-classes`. Era a causa do bloco de título e da descrição de SEO
+  aparecerem por um instante antes de o JavaScript escondê-los.
+- `.column-screen > .column-body` volta a ocupar a largura da tela: o Quarto o
+  prendia à coluna de leitura (~800 px), espremendo as seções institucionais.
+- Eliminada a rolagem horizontal em telas de 360 px em todas as páginas
+  (rodapé do Quarto e quebra de e-mails longos nas páginas legais).
+- Removida a régua que o Bootstrap desenha sob os `h2` das seções.
+
+***
+
+## [1.0.31] - 2026-05-25
+### Changed
+- Páginas legais: removidos fechamentos redundantes sobre versão vigente, mantendo a indicação de publicação e vigência no início dos documentos.
+
+### Fixed
+- Regerados os artefatos publicados em `docs/` para refletir o ajuste textual.
+
+***
+
+## [1.0.30] - 2026-05-25
+### Changed
+- Páginas legais: ajustado o texto de Política de Privacidade, Termos de Uso e Licenças e Créditos para indicar publicação e vigência final dos documentos, com data explícita e linguagem menos provisória.
+
+### Fixed
+- Regerados os artefatos publicados em `docs/` para refletir a versão final dos documentos legais.
+
+***
+
+## [1.0.29] - 2026-05-25
+### Changed
+- Páginas legais: reescritas a Política de Privacidade, os Termos de Uso e a página de Licenças e Créditos para cobrir o ecossistema MelonMundi, incluindo site público, acervo privado, aplicativos Shiny, autenticação, analytics, observabilidade, infraestrutura em servidor internacional e referências à LGPD.
+- Configuração de cookies: corrigido o link `Saiba mais` do banner para apontar para `/politica-de-privacidade.html`.
+- Navegação: rótulo `Licença` atualizado para `Licenças e Créditos`, mantendo a URL `/licenca.html` para preservar compatibilidade com links existentes.
+
+### Fixed
+- Declarada a logo `assets/img/logo_marlenildo.png` como recurso do projeto para garantir sua presença nos artefatos publicados em `docs/`.
+- Sincronizado o versionamento do projeto em `VERSION` e `DESCRIPTION`.
+- Regerados os artefatos publicados em `docs/` para refletir as mudanças legais.
+
+***
 
 ## [1.0.28] - 2026-04-02
 ### Changed

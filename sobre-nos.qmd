@@ -1,199 +1,207 @@
 ---
-title: ""
+pagetitle: "Quem Somos | MelonMundi Global Solutions"
+description-meta: "Grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora: missão, valores, identidade visual e time da MelonMundi."
+title-block: false
+body-classes: about-page
+toc: false
+anchor-sections: false
 ---
 
+::: {.column-screen .about-hero}
+::: {.column-body}
+
+<div class="about-hero-panel reveal">
+<p class="section-kicker">Quem somos</p>
+<h1>Um grupo multidisciplinar com dedicação exclusiva às cucurbitáceas</h1>
+<p>Atuamos de forma integrada em toda a cadeia produtiva de melão, melancia e abóbora, unindo ciência, experiência de campo e tomada de decisão baseada em dados — do planejamento da fazenda ao transporte e à pós-colheita.</p>
+</div>
+
+:::
+:::
+
+::: {.column-screen .screen-band}
+::: {.column-body}
+
+<div class="stat-band reveal" role="list">
+<div class="stat-item" role="listitem"><span class="stat-value">3</span><span class="stat-label">culturas de cucurbitáceas</span></div>
+<div class="stat-item" role="listitem"><span class="stat-value">5</span><span class="stat-label">profissionais no time</span></div>
+<div class="stat-item" role="listitem"><span class="stat-value">100%</span><span class="stat-label">foco em melão e melancia</span></div>
+<div class="stat-item" role="listitem"><span class="stat-value">P&D</span><span class="stat-label">pesquisa aplicada em campo</span></div>
+</div>
+
+:::
+:::
 
 ::: {.column-screen .screen-white}
-::: {.column-page}
+::: {.column-body}
 
-<div class="section-title reveal">Conheça a MelonMundi</div>
+<p class="section-kicker reveal">O que nos define</p>
+<h2 class="section-title reveal">Nossa forma de trabalhar</h2>
+<p class="lead-text reveal">Projetos conduzidos com rigor técnico e conclusões que se traduzem em decisão prática, sempre com foco em produtividade, sustentabilidade e rentabilidade.</p>
 
-<p class="lead-text reveal">
-Atuamos de forma integrada em toda a cadeia produtiva de cucurbitáceas,
-unindo ciência, experiência de campo e tomada de decisão baseada em dados.
-</p>
+<div class="values-grid reveal">
 
-<br>
-
-<div class="card-grid">
-
-<div class="card-mm reveal">
-<div class="card-body">
-<i class="fa-solid fa-seedling fa-beat card-icon"></i>
+<article class="value-card">
+<div class="feature-icon" aria-hidden="true"><i class="fa-solid fa-seedling"></i></div>
 <h3>Especialização</h3>
-<p>Somos um grupo multidisciplinar com dedicação exclusiva às culturas de **melão**, **melancia** e **abóbora.**</p>
-</div>
-</div>
+<p>Dedicação exclusiva às culturas de melão, melancia e abóbora — e não a um portfólio genérico de culturas.</p>
+</article>
 
-<div class="card-mm reveal">
-<div class="card-body">
-<i class="fa-solid fa-map-location-dot fa-beat card-icon"></i>
+<article class="value-card">
+<div class="feature-icon" aria-hidden="true"><i class="fa-solid fa-map-location-dot"></i></div>
 <h3>Planejamento</h3>
-<p>Atuamos do planejamento da fazenda ao transporte e pós-colheita.</p>
-</div>
-</div>
+<p>Acompanhamento do planejamento da fazenda até o transporte e a pós-colheita, com o mesmo time em todas as etapas.</p>
+</article>
 
-<div class="card-mm reveal">
-<div class="card-body">
-<i class="fa-solid fa-chart-line fa-beat card-icon"></i>
+<article class="value-card">
+<div class="feature-icon" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></div>
 <h3>Base técnica</h3>
-<p>Oferecemos suporte técnico baseado em dados, experiência de campo e rigor científico.</p>
-</div>
-</div>
+<p>Suporte técnico fundamentado em dados coletados no campo, experiência prática e rigor científico.</p>
+</article>
 
-<div class="card-mm reveal">
-<div class="card-body">
-<i class="fa-solid fa-check-double fa-beat card-icon"></i>
+<article class="value-card">
+<div class="feature-icon" aria-hidden="true"><i class="fa-solid fa-check-double"></i></div>
 <h3>Conclusão técnica</h3>
-<p>Desenvolvemos projetos direcionados à obtenção de conclusões técnicas sólidas sobre manejo de cucurbitáceas, sempre com foco em produtividade, sustentabilidade e rentabilidade.</p>
-</div>
-</div>
+<p>Projetos desenhados para chegar a conclusões sólidas sobre manejo, com número e justificativa por trás de cada recomendação.</p>
+</article>
 
-<div class="card-mm reveal">
-<div class="card-body">
-<i class="fa-solid fa-handshake-angle fa-beat card-icon"></i>
+<article class="value-card">
+<div class="feature-icon" aria-hidden="true"><i class="fa-solid fa-handshake-angle"></i></div>
 <h3>Consultoria agrícola</h3>
-<p>Oferecemos consultoria agrícola para apoiar o manejo, a tomada de decisão e a evolução técnica dos projetos em campo.</p>
-</div>
-</div>
+<p>Apoio ao manejo, à tomada de decisão e à evolução técnica das equipes que conduzem os projetos em campo.</p>
+</article>
+
+<article class="value-card">
+<div class="feature-icon" aria-hidden="true"><i class="fa-solid fa-microchip"></i></div>
+<h3>Tecnologia própria</h3>
+<p>Desenvolvemos a plataforma, os simuladores e os aplicativos que usamos no dia a dia — e os disponibilizamos no Acervo.</p>
+</article>
 
 </div>
 
 :::
 :::
-
-
-
-
-
 
 ::: {.column-screen .screen-primary}
-::: {.column-page}
+::: {.column-body}
 
-<div class="section-title reveal">Nossa essência</div>
+<p class="section-kicker reveal">Propósito</p>
+<h2 class="section-title section-title-light reveal">Nossa essência</h2>
 
-<div class="card-grid">
+<div class="essence-grid reveal">
 
-<div class="card-mm reveal">
-<div class="card-body">
-<i class="fa-solid fa-bullseye fa-beat card-icon"></i>
+<article class="essence-card">
+<div class="essence-icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></div>
 <h3>Missão</h3>
-<p>
-Promover o desenvolvimento de projetos em cucurbitáceas mais competitivos,
-humanos, saudáveis e rentáveis, transformando conhecimento em resultados
-concretos.
-</p>
-</div>
-</div>
+<p>Promover o desenvolvimento de projetos em cucurbitáceas mais competitivos, humanos, saudáveis e rentáveis, transformando conhecimento em resultados concretos.</p>
+</article>
 
-<div class="card-mm reveal">
-<div class="card-body">
-  <i class="fa-solid fa-eye  fa-beat card-icon"></i>
+<article class="essence-card">
+<div class="essence-icon" aria-hidden="true"><i class="fa-solid fa-eye"></i></div>
 <h3>Visão</h3>
-<p>
-Ser referência em pesquisa, consultoria e desenvolvimento de tecnologias
-para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes.
-</p>
-</div>
-</div>
+<p>Ser referência em pesquisa, consultoria e desenvolvimento de tecnologias para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes.</p>
+</article>
 
-<div class="card-mm reveal">
-<div class="card-body">
-  <i class="fa-solid fa-gem  fa-beat card-icon"></i>
+<article class="essence-card">
+<div class="essence-icon" aria-hidden="true"><i class="fa-solid fa-gem"></i></div>
 <h3>Valores</h3>
-<p>Independência</p>
-<p>Integridade</p>
-<p>Honestidade</p>
-<p>Rigor técnico</p>
-</div>
-</div>
+<ul class="essence-values">
+<li>Independência</li>
+<li>Integridade</li>
+<li>Honestidade</li>
+<li>Rigor técnico</li>
+</ul>
+</article>
 
 </div>
 
 :::
 :::
-
-
-
 
 ::: {.column-screen .screen-white}
-::: {.column-page}
+::: {.column-body}
 
-<div class="section-title reveal">Nossa identidade visual</div>
+<p class="section-kicker reveal">Marca</p>
+<h2 class="section-title reveal">Nossa identidade visual</h2>
 
 <div class="identity-block reveal">
-  <img src="assets/img/nova_logomm.png"
-       alt="Logomarca MelonMundi"
-       class="identity-logo">
-
-  <p class="identity-text reveal">
-    A logomarca representa a abrangência global dos nossos serviços.<br>
-    As cores refletem a cultura de maior importância — o melão — e o globo
-    simboliza as ramas do meloeiro sustentando o mundo.
-  </p>
+<img src="assets/img/nova_logomm.png" alt="Logomarca MelonMundi Global Solutions" class="identity-logo" width="428" height="386">
+<p class="identity-text">A logomarca representa a abrangência global dos nossos serviços. As cores refletem a cultura de maior importância para o grupo — o melão — e o globo simboliza as ramas do meloeiro sustentando o mundo.</p>
 </div>
 
 :::
 :::
-
-
-
-
 
 ::: {.column-screen .screen-accent}
-::: {.column-page}
+::: {.column-body}
 
-<div class="section-title reveal">Conheça nosso time</div>
+<p class="section-kicker reveal">Time</p>
+<h2 class="section-title reveal">Conheça quem faz a MelonMundi</h2>
+<p class="lead-text reveal">Agronomia, campo, pesquisa, tecnologia e gestão trabalhando no mesmo projeto.</p>
 
-<div class="card-grid">
+<div class="team-grid reveal">
 
-<div class="card-mm reveal">
-<img src="assets/img/luis.jpg" alt="Luis Álvarez">
-<div class="card-body">
+<article class="team-card">
+<img class="team-photo" src="assets/img/luis.jpg" alt="Retrato de Luis Álvarez" loading="lazy">
+<div class="team-body">
 <h3>Luis Álvarez</h3>
-<p class="role">Fundador e Diretor</p>
+<span class="team-role">Fundador e Diretor</span>
 <p>Coordenador de projetos, orientador técnico e consultor agrícola de campo.</p>
 </div>
-</div>
+</article>
 
-<div class="card-mm reveal">
-<img src="assets/img/juliana.jpg" alt="Juliana Carla">
-<div class="card-body">
+<article class="team-card">
+<img class="team-photo" src="assets/img/juliana.jpg" alt="Retrato de Juliana Carla" loading="lazy">
+<div class="team-body">
 <h3>Juliana Carla</h3>
-<p class="role">Administração e Finanças</p>
+<span class="team-role">Administração e Finanças</span>
 <p>Engenheira Civil, responsável por administração, finanças e projetos.</p>
 </div>
-</div>
+</article>
 
-<div class="card-mm reveal">
-<img src="assets/img/marlenildo.png" alt="Marlenildo Melo">
-<div class="card-body">
+<article class="team-card">
+<img class="team-photo" src="assets/img/marlenildo.png" alt="Retrato de Marlenildo Melo" loading="lazy">
+<div class="team-body">
 <h3>Marlenildo Melo</h3>
-<p class="role">Engenheiro Agrônomo</p>
+<span class="team-role">Engenheiro Agrônomo</span>
 <p>Responsável por desenho experimental, análise de dados e implementação de tecnologias da informação.</p>
 </div>
-</div>
+</article>
 
-<div class="card-mm reveal">
-<img src="assets/img/geinilson.png" alt="Geinilson Oliveira">
-<div class="card-body">
+<article class="team-card">
+<img class="team-photo" src="assets/img/geinilson.png" alt="Retrato de Geinilson Oliveira" loading="lazy">
+<div class="team-body">
 <h3>Geinilson Oliveira</h3>
-<p class="role">Técnico em Agropecuária</p>
-<p>Avaliador de campo, monitor técnico em MIPD e assistente de Pesquisa & Desenvolvimento.</p>
+<span class="team-role">Técnico em Agropecuária</span>
+<p>Avaliador de campo, monitor técnico em MIPD e assistente de Pesquisa &amp; Desenvolvimento.</p>
 </div>
-</div>
+</article>
 
-<div class="card-mm reveal">
-<img src="assets/img/francisco.JPG" alt="Francisco Eliton">
-<div class="card-body">
+<article class="team-card">
+<img class="team-photo" src="assets/img/francisco.JPG" alt="Retrato de Francisco Eliton" loading="lazy">
+<div class="team-body">
 <h3>Francisco Eliton</h3>
-<p class="role">Avaliador de Campo</p>
-<p>Assistente de Pesquisa & Desenvolvimento.</p>
+<span class="team-role">Avaliador de Campo</span>
+<p>Assistente de Pesquisa &amp; Desenvolvimento.</p>
 </div>
-</div>
+</article>
 
 </div>
 
 :::
 :::
 
+::: {.column-screen .screen-primary}
+::: {.column-body}
+
+<div class="final-cta reveal">
+<h3>Conheça o Acervo MelonMundi</h3>
+<p>Biblioteca técnica, simuladores, cursos e aplicativos reunidos em um único login.</p>
+<div class="final-cta-actions">
+<a class="btn btn-mm btn-mm-amber" href="https://acervo.melonmundi.com"><i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i> Entrar no Acervo</a>
+<a class="btn btn-mm btn-mm-outline-light" href="index.qmd"><i class="fa-solid fa-house" aria-hidden="true"></i> Voltar à página inicial</a>
+</div>
+</div>
+
+:::
+:::

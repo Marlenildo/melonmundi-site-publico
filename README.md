@@ -10,11 +10,12 @@ Apresentar a plataforma, seus propósitos e fornecer acesso ao sistema por meio 
 
 - Quarto
 - R
-- GitHub Pages
+- Vercel
 
 ## Publicação
 
-O site é publicado automaticamente via **GitHub Pages**, a partir do diretório `docs/`.
+O site é publicado automaticamente via **Vercel**, a partir do diretório `docs/`.
+O arquivo `vercel.json` define `docs/` como diretório de saída publicado.
 
 ## Segurança
 
