@@ -2,6 +2,26 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.4.0] - 2026-09-13
+### Added
+- Política e Termos passam a cobrir **aplicativos instaláveis**, que operam com
+  arquivos no equipamento do usuário — modelo diferente dos simuladores (só
+  sessão) e da formação (registro permanente). Cobre o AgroJornal e os próximos.
+- Seção "Recursos novos e em desenvolvimento" nos dois documentos: um recurso
+  que se encaixe em um modelo já descrito entra coberto desde o lançamento; se
+  tratar dados de forma diferente, o documento é atualizado antes.
+- Licenças: licença de uso dos aplicativos instaláveis e titularidade dos
+  arquivos locais.
+
+### Changed
+- Os documentos deixam de depender de lista fixa de produtos. Os simuladores
+  são descritos por categoria, com os nomes atuais como exemplo — assim novos
+  simuladores não deixam o texto desatualizado.
+- Referências cruzadas passam a citar as seções pelo nome, não pelo número, para
+  não quebrarem a cada inclusão.
+
+***
+
 ## [1.3.0] - 2026-09-13
 ### Added
 - Política de Privacidade v2.0: identificação do controlador (CNPJ) e do

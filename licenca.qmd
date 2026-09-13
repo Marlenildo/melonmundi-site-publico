@@ -62,6 +62,8 @@ O acesso ao aplicativo não concede ao usuário direito de copiar código-fonte,
 
 Resultados, relatórios e arquivos gerados pelo usuário durante a sessão podem ser usados pelo próprio usuário para sua finalidade técnica, observadas as limitações dos Termos de Uso.
 
+Nos aplicativos instaláveis, a autorização de uso é uma licença pessoal, limitada, revogável e não transferível, válida enquanto durar o acesso. Os arquivos e dados que o usuário registra nesses aplicativos ficam no equipamento dele e não pertencem à MelonMundi — a titularidade do programa, porém, permanece com a MelonMundi.
+
 ## 6. Dados oficiais e fontes de terceiros
 
 Alguns aplicativos podem consultar ou organizar informações provenientes de fontes oficiais ou de terceiros.

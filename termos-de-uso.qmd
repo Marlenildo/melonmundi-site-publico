@@ -28,7 +28,7 @@ Estes Termos de Uso regulam o acesso e a utilização do ecossistema MelonMundi,
 
 Ao acessar ou utilizar qualquer ambiente MelonMundi, você declara que leu, compreendeu e concorda com estes Termos.
 
-Esta versão substitui a de 25 de maio de 2026 e passa a tratar de áreas que não existiam naquela data: cursos, certificados e portal empresarial.
+Esta versão substitui a de 25 de maio de 2026 e passa a tratar de áreas que não existiam naquela data: cursos, certificados, portal empresarial e aplicativos instaláveis.
 
 ## 1. Ambientes abrangidos
 
@@ -36,7 +36,7 @@ Estes Termos se aplicam a:
 
 - `https://melonmundi.com`, site institucional público;
 - `https://acervo.melonmundi.com`, acervo técnico com biblioteca, simuladores, cursos, certificados e portal empresarial;
-- aplicativos disponibilizados a partir do acervo;
+- simuladores executados no navegador e aplicativos instaláveis, disponibilizados a partir do acervo;
 - áreas administrativas, quando disponíveis a usuários autorizados;
 - a página pública de validação de certificados;
 - conteúdos, materiais, relatórios, ferramentas, interfaces, marcas e recursos técnicos vinculados à MelonMundi.
@@ -67,7 +67,7 @@ A MelonMundi pode suspender ou revogar acesso em caso de uso indevido, risco de 
 
 ## 4. Encerramento da conta e o que acontece com os dados
 
-Você pode pedir o encerramento da sua conta a qualquer momento, pelo e-mail indicado na seção 20. A MelonMundi também pode encerrar o acesso nas hipóteses da seção 3.
+Você pode pedir o encerramento da sua conta a qualquer momento, pelo e-mail indicado na seção de contato. A MelonMundi também pode encerrar o acesso nas hipóteses da seção sobre cadastro, login e conta.
 
 Encerrado o acesso:
 
@@ -104,15 +104,28 @@ Alguns simuladores possuem campos de identificação, como empresa, fazenda, loc
 
 O usuário é responsável pela qualidade, precisão e adequação dos dados informados. Dados incorretos, incompletos, desatualizados ou incompatíveis podem gerar resultados inadequados.
 
-Esta regra vale para os simuladores. As áreas de **formação** (seções 8 e 9) e de **portal empresarial** (seção 10) mantêm registro permanente, conforme descrito na Política de Privacidade.
+Esta regra vale para os simuladores. As áreas de **formação** e de **portal empresarial** mantêm registro permanente, conforme descrito na Política de Privacidade.
 
-## 7. Resultados, cálculos e relatórios
+## 7. Aplicativos instaláveis
+
+Além dos simuladores, que rodam no navegador, o Acervo pode disponibilizar aplicativos para instalar no computador ou no celular.
+
+A MelonMundi concede ao usuário autorizado uma licença pessoal, limitada, revogável e não transferível para instalar e usar esses aplicativos enquanto durar o acesso. A licença não autoriza copiar código-fonte, reproduzir a interface, redistribuir, sublicenciar, explorar comercialmente ou criar produto derivado.
+
+Esses aplicativos operam com arquivos e dados guardados **no equipamento do usuário**. Em consequência:
+
+- o conteúdo registrado no aplicativo fica sob a guarda e a responsabilidade do usuário;
+- cópia de segurança, proteção do aparelho e eliminação dos arquivos são responsabilidade do usuário;
+- desinstalar o aplicativo, formatar ou trocar de aparelho sem transferir os arquivos pode significar a perda definitiva desses dados, e a MelonMundi não tem como recuperá-los;
+- encerrado o acesso, a licença de uso termina, ainda que os arquivos permaneçam no aparelho.
+
+## 8. Resultados, cálculos e relatórios
 
 Cálculos, estimativas, gráficos, tabelas, classificações e relatórios gerados pelos aplicativos são materiais de apoio.
 
 A MelonMundi não garante que os resultados sejam suficientes para tomada de decisão sem análise complementar. O usuário deve considerar condições locais, legislação aplicável, recomendações técnicas oficiais, limitações dos modelos, qualidade dos dados de entrada e validação por profissional habilitado.
 
-## 8. Cursos, matrícula e conclusão
+## 9. Cursos, matrícula e conclusão
 
 O acesso a um curso depende de matrícula ativa, concedida pela MelonMundi diretamente ou por meio da empresa à qual o usuário está vinculado.
 
@@ -122,7 +135,7 @@ A conclusão do curso exige o cumprimento dos requisitos definidos no programa, 
 
 Programas, cursos, turmas, cronogramas, conteúdos e requisitos podem ser alterados. Alterações que afetem requisitos de conclusão de uma turma em andamento serão comunicadas aos matriculados.
 
-## 9. Certificados, validação e revogação
+## 10. Certificados, validação e revogação
 
 O certificado é emitido após a equipe técnica validar o cumprimento dos requisitos, incluindo a avaliação prática quando aplicável.
 
@@ -132,7 +145,7 @@ A MelonMundi pode **revogar** um certificado quando identificar erro material na
 
 O certificado atesta a participação e a aprovação no programa da MelonMundi. Não constitui registro profissional, habilitação legal, anotação de responsabilidade técnica nem substitui exigências de conselhos de classe ou de órgãos reguladores.
 
-## 10. Portal empresarial
+## 11. Portal empresarial
 
 Empresas clientes podem receber, conforme o contrato, autonomia para gerenciar pessoas, grupos e acessos pelo portal **Minha Empresa**.
 
@@ -145,7 +158,7 @@ A empresa que usa essa autonomia declara que:
 
 O acesso ao conteúdo depende de vigência contratual ativa. Encerrada a vigência sem renovação, as pessoas vinculadas deixam de abrir conteúdos e permanecem apenas com o próprio histórico de cursos concluídos e certificados. Empresa e contrato são coisas distintas: o vencimento do contrato não apaga a empresa, as pessoas, os contratos anteriores nem o histórico.
 
-## 11. Fontes externas e bases oficiais
+## 12. Fontes externas e bases oficiais
 
 Alguns aplicativos consultam, organizam ou exibem dados provenientes de fontes externas, bases públicas, sistemas governamentais ou serviços de terceiros.
 
@@ -153,7 +166,7 @@ Nesses casos, a MelonMundi pode atuar apenas como organizadora, interface ou cam
 
 No caso de informações fitossanitárias, registros de produtos, autorizações ou dados regulatórios, o usuário deve conferir a fonte oficial competente antes de qualquer decisão de uso.
 
-## 12. Propriedade intelectual
+## 13. Propriedade intelectual
 
 Textos, marcas, nomes, logotipos, identidade visual, layout, organização do acervo, materiais técnicos, imagens, gráficos, códigos, interfaces, relatórios, bancos de dados organizados e demais elementos da MelonMundi são protegidos por direitos autorais, marcas, segredos de negócio e outras normas aplicáveis.
 
@@ -161,7 +174,7 @@ Nada nestes Termos transfere ao usuário titularidade sobre propriedade intelect
 
 O uso, cópia, adaptação, reprodução, distribuição, publicação ou exploração comercial depende de autorização prévia, salvo quando permitido por licença específica publicada pela MelonMundi.
 
-## 13. Licenças específicas
+## 14. Licenças específicas
 
 Alguns componentes possuem licenças próprias, como código aberto, bibliotecas de terceiros, frameworks, pacotes R, Quarto, Shiny, Bootstrap, Font Awesome, Matomo, Grafana, Prometheus, Keycloak, Nginx e outros.
 
@@ -169,13 +182,13 @@ As regras específicas estão descritas na página de Licenças e Créditos e na
 
 Em caso de conflito entre estes Termos e uma licença específica expressamente indicada para determinado componente, prevalecerá a licença específica quanto ao componente licenciado.
 
-## 14. Privacidade e proteção de dados
+## 15. Privacidade e proteção de dados
 
 O tratamento de dados pessoais, cookies, logs, analytics, autenticação, formação, certificação e transferência internacional está descrito na Política de Privacidade da MelonMundi.
 
 Ao utilizar os ambientes MelonMundi, o usuário declara ciência da Política de Privacidade vigente.
 
-## 15. Disponibilidade e alterações do serviço
+## 16. Disponibilidade e alterações do serviço
 
 A MelonMundi pode alterar, suspender, limitar ou descontinuar funcionalidades, conteúdos, aplicativos, rotas, layout, integrações, bases consultadas ou formas de acesso.
 
@@ -183,7 +196,7 @@ A MelonMundi não garante disponibilidade ininterrupta, ausência de erros, comp
 
 Manutenções, instabilidades de infraestrutura, falhas de terceiros, indisponibilidade de APIs externas, atualizações de segurança ou eventos fora do controle da MelonMundi podem afetar o uso.
 
-## 16. Limitação de responsabilidade
+## 17. Limitação de responsabilidade
 
 Na máxima extensão permitida pela legislação aplicável, a MelonMundi não se responsabiliza por:
 
@@ -197,39 +210,47 @@ Na máxima extensão permitida pela legislação aplicável, a MelonMundi não s
 
 Nada nestes Termos exclui ou limita responsabilidade que não possa ser afastada pela legislação brasileira, em especial pelo Código de Defesa do Consumidor.
 
-## 17. Segurança
+## 18. Segurança
 
 O usuário não deve tentar acessar áreas restritas sem autorização, interferir no funcionamento dos serviços, realizar engenharia reversa indevida, explorar falhas ou comprometer a segurança da plataforma.
 
 A MelonMundi pode registrar eventos técnicos, bloquear acessos, limitar requisições, revogar sessões ou tomar medidas de segurança quando identificar risco, abuso ou violação destes Termos.
 
-## 18. Links para terceiros
+## 19. Links para terceiros
 
 A MelonMundi pode incluir links para sites, documentos, repositórios, bases públicas ou serviços de terceiros.
 
 Esses links são fornecidos para conveniência, referência ou integração técnica. A MelonMundi não controla o conteúdo, disponibilidade, segurança, precisão ou políticas de terceiros.
 
-## 19. Comunicações
+## 20. Comunicações
 
 A MelonMundi pode publicar avisos no próprio site, no acervo, nos aplicativos ou enviar comunicações por e-mail quando necessário para assuntos operacionais, segurança, acesso, atualização de termos ou manutenção.
 
-## 20. Vigência e alterações destes Termos
+## 21. Recursos novos e em desenvolvimento
+
+O ecossistema está em expansão contínua. Novos simuladores, aplicativos, painéis e programas de formação entram em operação periodicamente, e áreas sinalizadas como "em desenvolvimento" podem ser liberadas, alteradas ou descontinuadas antes do lançamento definitivo.
+
+Salvo indicação expressa em contrário, um recurso novo passa a ser regido por estes Termos desde o momento em que é disponibilizado, conforme a sua natureza: simulador, aplicativo instalável, curso ou área do portal empresarial.
+
+Quando um recurso novo exigir condições próprias — por exemplo, licença específica, regras de cobrança ou requisitos de certificação distintos — essas condições serão publicadas junto com ele e prevalecerão sobre estes Termos quanto àquele recurso.
+
+## 22. Vigência e alterações destes Termos
 
 Esta é a **versão 2.0**, publicada e vigente desde 13 de setembro de 2026. Cada versão indica a data em que passou a valer, no topo da página.
 
 Estes Termos podem ser atualizados para refletir mudanças técnicas, legais, operacionais ou comerciais.
 
-Alterações relevantes — como novas obrigações para o usuário, mudança nas regras de certificação ou restrição de direitos — serão comunicadas com antecedência razoável por aviso no acervo, por e-mail ou por ambos, antes de passarem a valer. Se você não concordar com a nova versão, pode encerrar o uso e solicitar o encerramento da conta, na forma da seção 4.
+Alterações relevantes — como novas obrigações para o usuário, mudança nas regras de certificação ou restrição de direitos — serão comunicadas com antecedência razoável por aviso no acervo, por e-mail ou por ambos, antes de passarem a valer. Se você não concordar com a nova versão, pode encerrar o uso e solicitar o encerramento da conta, na forma da seção sobre encerramento da conta.
 
 Para alterações menores, como correções de redação, ajustes de nomenclatura ou atualização de referências, vale a versão publicada nesta página.
 
-## 21. Legislação aplicável
+## 23. Legislação aplicável
 
 Estes Termos são regidos pelas leis da República Federativa do Brasil.
 
 Eventuais controvérsias serão tratadas conforme a legislação brasileira aplicável, observadas as normas de competência vigentes, inclusive as regras de foro do Código de Defesa do Consumidor quando aplicáveis.
 
-## 22. Contato
+## 24. Contato
 
 Dúvidas sobre estes Termos podem ser enviadas para:
 
