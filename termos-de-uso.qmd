@@ -1,14 +1,28 @@
 ---
-title: "Termos de Uso"
-description: "Condições de uso do site público, acervo privado e aplicativos MelonMundi."
+pagetitle: "Termos de Uso | MelonMundi"
+description-meta: "Condições de uso do site público, acervo privado e aplicativos MelonMundi."
+title-block: false
 body-classes: legal-page
+toc: false
+anchor-sections: false
 ---
 
-<section class="column-screen screen-white">
+<section class="column-screen legal-hero">
 <div class="column-body">
-<div class="legal-panel">
+<div class="legal-hero-panel">
+<p class="section-kicker">Informações</p>
+<h1>Termos de Uso</h1>
+<p class="legal-hero-lead">Condições que regulam o acesso e a utilização do ecossistema MelonMundi: site público, acervo privado, aplicativos, materiais técnicos e serviços de suporte.</p>
+<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Publicado e vigente desde 25 de maio de 2026</p>
+</div>
+</div>
+</section>
 
-<p class="legal-updated"><strong>Publicado e vigente desde:</strong> 25 de maio de 2026</p>
+<section class="column-screen screen-white legal-body">
+<div class="column-body">
+<div class="legal-layout">
+<aside class="legal-toc" data-legal-toc aria-label="Nesta página"></aside>
+<div class="legal-panel">
 
 Estes Termos de Uso regulam o acesso e a utilização do ecossistema MelonMundi, incluindo o site público, o acervo privado, os aplicativos, os materiais técnicos e os serviços de autenticação e suporte operacional.
 
@@ -163,6 +177,7 @@ Dúvidas sobre estes Termos podem ser enviadas para:
 
 - E-mail: **administrativo@melonmundi.com**
 
+</div>
 </div>
 </div>
 </section>

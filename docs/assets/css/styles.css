@@ -325,11 +325,17 @@ h1, h2, h3 {
   padding: var(--section-pad) 20px;
 }
 
-/* O Quarto transforma cada `.column-screen` numa grade de página e prende os
-   filhos à coluna de leitura (~800 px). As seções institucionais precisam da
-   largura toda, então o container interno volta a ocupar a tela e é limitado
-   aqui, num único ponto. */
+/* O Quarto marca os divs aninhados com `page-columns` e aplica a grade de
+   página por
+   `body.fullcontent:not(.floating):not(.docked) .page-columns`
+   — especificidade 0-4-1. Sem desfazer essa grade, tudo que estiver dentro
+   fica preso à coluna de leitura (~800 px) e as seções institucionais ficam
+   espremidas no meio da tela. Como não dá para vencer aquele seletor só com
+   classes próprias, o `!important` aqui é proposital e vale para todo o site,
+   num ponto único. */
 .column-screen > .column-body {
+  display: block !important;
+  grid-template-columns: none !important;
   grid-column: screen-start / screen-end;
   width: min(1240px, 100%);
   margin-left: auto;
@@ -1685,86 +1691,497 @@ h1, h2, h3 {
 /* =========================================================
    8. PÁGINAS LEGAIS
    ========================================================= */
-.legal-page .legal-panel {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 30px;
-  background: #ffffff;
-  border: 1px solid var(--border-soft);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
+.legal-hero {
+  margin-top: calc(-1 * var(--mm-nav-offset, 64px));
+  padding-top: calc(var(--mm-nav-offset, 64px) + clamp(34px, 4vw, 56px));
+  padding-bottom: clamp(34px, 4vw, 56px);
+  background: linear-gradient(125deg, var(--primary-darker) 0%, #3c6127 58%, #4f7a33 100%);
 }
 
-.legal-page .legal-updated {
-  color: var(--text-muted);
-  font-size: 0.95rem;
-  margin-bottom: 18px;
+.legal-hero-panel {
+  max-width: 760px;
 }
 
-.legal-page .legal-panel h2 {
-  margin-top: 26px;
-  font-size: 1.35rem;
+.legal-hero .section-kicker {
+  text-align: left;
+  color: var(--secondary);
+  margin-bottom: 8px;
 }
 
-.legal-page .legal-panel p,
-.legal-page .legal-panel li {
+.legal-hero h1 {
+  color: #ffffff;
+  font-size: clamp(1.9rem, 3.6vw, 2.9rem);
+  line-height: 1.14;
+  margin: 0 0 14px;
+}
+
+.legal-hero-lead {
+  color: #e8f3e1;
+  font-size: clamp(1rem, 1.25vw, 1.1rem);
   line-height: 1.68;
+  margin: 0 0 16px;
+}
+
+.legal-hero-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #f3faee;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.legal-hero-meta i {
+  color: var(--secondary);
+}
+
+/* Índice lateral + texto. O índice só aparece quando sobra largura para ele;
+   abaixo disso o texto usa a linha inteira. */
+/* Mesmo motivo do bloco acima: o wrapper também recebe `page-columns`. Além
+   da grade, é preciso limpar o `grid-column` que o Quarto dá aos filhos
+   (`body-content-start / body-content-end`, `body-end / page-end` no <aside>);
+   como essas linhas não existem na grade nova, o navegador criaria trilhas
+   implícitas e o índice acabaria por cima do texto. */
+.legal-page .legal-body .legal-layout > .legal-toc,
+.legal-page .legal-body .legal-layout > .legal-panel {
+  grid-column: auto !important;
+}
+
+.legal-page .legal-body .legal-layout {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  /* `.page-columns` zera o gap com a mesma especificidade alta. */
+  gap: clamp(24px, 3vw, 48px) !important;
+  align-items: start;
+}
+
+.legal-toc {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .legal-page .legal-body .legal-layout:has(.legal-toc.is-ready) {
+    grid-template-columns: 250px minmax(0, 1fr) !important;
+  }
+
+  /* Ambas as regras dependem de :has(); em navegadores sem suporte elas caem
+     juntas e o índice continua oculto, sem layout quebrado. */
+  .legal-page .legal-body .legal-layout:has(.legal-toc.is-ready) .legal-toc {
+    display: block;
+    position: sticky;
+    top: calc(var(--mm-nav-offset, 64px) + 24px);
+    max-height: calc(100vh - var(--mm-nav-offset, 64px) - 48px);
+    overflow-y: auto;
+    padding-right: 6px;
+  }
+}
+
+.legal-toc-title {
+  margin: 0 0 12px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--secondary-dark);
+}
+
+.legal-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 2px solid var(--border-soft);
+}
+
+.legal-toc-list a {
+  display: block;
+  padding: 7px 0 7px 14px;
+  margin-left: -2px;
+  border-left: 2px solid transparent;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--text-muted);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.legal-toc-list a:hover {
+  color: var(--primary);
+}
+
+.legal-toc-list a.active {
+  color: var(--primary-dark);
+  font-weight: 600;
+  border-left-color: var(--primary);
+}
+
+.legal-panel {
+  max-width: 900px;
+  font-size: 1.02rem;
+}
+
+.legal-panel > *:first-child {
+  margin-top: 0;
+}
+
+.legal-panel h2 {
+  margin: 40px 0 14px;
+  padding-bottom: 10px;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.3;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.legal-panel h3 {
+  margin: 26px 0 10px;
+  font-size: 1.12rem;
+}
+
+.legal-panel p,
+.legal-panel li {
+  line-height: 1.75;
   color: var(--text-body);
   /* E-mails e URLs longos não podem estourar a tela no celular. */
   overflow-wrap: anywhere;
 }
 
-/* =========================================================
-   9. RODAPÉ
-   ========================================================= */
-.page-footer {
-  background-color: #ffffff;
-  border-top: 1px solid var(--border-soft);
-  color: var(--text-muted);
-  font-size: 14px;
+.legal-panel p {
+  margin: 0 0 16px;
 }
 
-/* O rodapé do Quarto estoura a largura da tela em telas estreitas: a coluna
-   central usa `flex-basis: 100%` sem `box-sizing`, somando o padding do
-   rodapé. Limitar a largura elimina a barra de rolagem horizontal. */
-.nav-footer,
-.nav-footer .nav-footer-center,
-.nav-footer .nav-footer-left,
-.nav-footer .nav-footer-right,
-.nav-footer .footer-items {
-  max-width: 100%;
+.legal-panel ul,
+.legal-panel ol {
+  margin: 0 0 18px;
+  padding-left: 22px;
+}
+
+.legal-panel li {
+  margin-bottom: 7px;
+}
+
+.legal-panel li::marker {
+  color: var(--primary);
+}
+
+.legal-panel code {
+  background: var(--primary-soft);
+  border: 1px solid var(--border-soft);
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-size: 0.92em;
+  color: var(--primary-dark);
+}
+
+.legal-panel strong {
+  color: var(--text-dark);
+}
+
+@media (max-width: 767.98px) {
+  .legal-hero {
+    padding-top: calc(var(--mm-nav-offset, 64px) + 30px);
+  }
+
+  .legal-body {
+    padding-top: clamp(34px, 8vw, 48px);
+  }
+
+  .legal-panel {
+    font-size: 1rem;
+  }
+
+  .legal-panel h2 {
+    margin-top: 32px;
+  }
+}
+
+/* =========================================================
+   9. RODAPÉ
+   ---------------------------------------------------------
+   O Quarto entrega três regiões (`left`, `center`, `right`) dentro de
+   `.nav-footer`, mais a barra inferior que `footer-credit.js` acrescenta.
+   Aqui elas viram uma grade de três colunas sobre uma faixa clara, com
+   a barra de direitos separada por uma linha fina.
+   ========================================================= */
+.page-footer,
+.footer {
+  background-color: var(--bg-soft);
+  border-top: 1px solid var(--border-soft);
+  color: var(--text-body);
+  font-size: 0.95rem;
+}
+
+/* Fio de destaque no topo do rodapé. */
+.footer {
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+}
+
+.nav-footer {
+  /* O Quarto pinta `.nav-footer` de branco e empurra a coluna do meio para o
+     fim (`order: 10`) em telas estreitas. Aqui a faixa é única e a ordem
+     segue a leitura: marca, navegação, acervo. */
+  background: transparent;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.85fr) minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 56px);
+  align-items: start;
+  width: min(1240px, 100%);
+  margin: 0 auto;
+  padding: clamp(38px, 5vw, 56px) 20px clamp(26px, 3vw, 34px);
+  text-align: left;
   box-sizing: border-box;
 }
 
-.nav-footer .footer-items {
-  flex-wrap: wrap;
-  justify-content: center;
+.nav-footer > div {
+  min-width: 0;
+  text-align: left;
+  margin: 0;
+  flex: initial;
 }
 
-.footer .footer-credit-line {
+.nav-footer .nav-footer-left { order: 1; }
+.nav-footer .nav-footer-center { order: 2; }
+.nav-footer .nav-footer-right { order: 3; }
+
+/* --- Coluna 1: marca --- */
+.footer-brand {
   display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+}
+
+.footer-tagline {
+  margin: 0;
+  max-width: 42ch;
+  font-size: 0.94rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+/* --- Coluna 2: navegação --- */
+.footer-heading,
+.nav-footer-center .footer-items::before {
+  display: block;
+  margin: 0 0 14px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--secondary-dark);
+}
+
+.nav-footer-center .footer-items::before {
+  content: "Navegação";
+}
+
+.nav-footer .footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-footer .footer-items .nav-item {
+  margin: 0;
+}
+
+.nav-footer .footer-items .nav-link {
+  display: inline-block;
+  padding: 5px 0;
+  color: var(--text-body) !important;
+  font-size: 0.95rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.nav-footer .footer-items .nav-link:hover {
+  color: var(--primary) !important;
+  transform: translateX(3px);
+}
+
+.nav-footer .footer-items .nav-link.active {
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+
+/* O Quarto envolve o rótulo de cada item num <p>. */
+.nav-footer .footer-items .nav-link p {
+  margin: 0;
+}
+
+.cookie-consent-footer {
+  margin-top: 12px;
+  text-align: left;
+}
+
+.cookie-consent-footer a {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cookie-consent-footer a:hover {
+  color: var(--primary);
+}
+
+/* --- Coluna 3: chamada para o acervo --- */
+.footer-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 22px 22px 24px;
+  background: #ffffff;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.footer-cta .footer-heading {
+  margin-bottom: 0;
+}
+
+.footer-cta-text {
+  margin: 0;
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.footer-cta-btn {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  margin-top: 12px;
-  padding: 12px 20px 18px;
+  gap: 9px;
+  margin-top: 4px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #ffffff !important;
+  font-size: 0.94rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-cta-btn:hover {
+  background: var(--secondary);
+  color: var(--text-dark) !important;
+  transform: translateY(-2px);
+}
+
+/* --- Barra inferior: direitos + assinatura --- */
+.footer .footer-credit-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  width: min(1240px, 100%);
+  margin: 0 auto;
+  padding: 18px 20px 22px;
   border-top: 1px solid var(--border-soft);
+  box-sizing: border-box;
+}
+
+.footer .footer-copyright {
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.5;
   color: var(--text-muted);
-  font-size: 14px;
-  line-height: 1.4;
-  text-align: center;
+}
+
+.footer .footer-credit-dev {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer .footer-credit-text {
+  font-size: 0.82rem;
+  color: var(--text-muted);
 }
 
 .footer .footer-credit-link {
   display: inline-flex;
   align-items: center;
-  text-decoration: none;
 }
 
 .footer .footer-credit-logo {
   display: block;
-  height: 30px;
+  height: 28px;
   width: auto;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.footer .footer-credit-link:hover .footer-credit-logo {
+  opacity: 1;
+}
+
+@media (max-width: 991.98px) {
+  .nav-footer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .nav-footer .nav-footer-right {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .nav-footer {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .footer-logo {
+    width: 104px;
+  }
+
+  .footer-tagline,
+  .footer-cta-text {
+    font-size: 0.89rem;
+  }
+
+  .nav-footer .footer-items .nav-link {
+    font-size: 0.92rem;
+  }
+
+  .footer .footer-credit-line {
+    justify-content: center;
+    text-align: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .footer .footer-copyright {
+    width: 100%;
+  }
+
+  .footer-cta-btn {
+    width: 100%;
+  }
 }
 
 /* =========================================================
@@ -1901,34 +2318,4 @@ h1, h2, h3 {
     width: 100%;
   }
 
-  /* O rodapé do Quarto estoura a largura da tela em telas estreitas: a coluna
-   central usa `flex-basis: 100%` sem `box-sizing`, somando o padding do
-   rodapé. Limitar a largura elimina a barra de rolagem horizontal. */
-.nav-footer,
-.nav-footer .nav-footer-center,
-.nav-footer .nav-footer-left,
-.nav-footer .nav-footer-right,
-.nav-footer .footer-items {
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-.nav-footer .footer-items {
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.footer .footer-credit-line {
-    gap: 6px;
-    padding: 12px 16px 20px;
-  }
-
-  .footer .footer-credit-logo {
-    height: 24px;
-  }
-
-  .legal-page .legal-panel {
-    padding: 20px 16px;
-    border-radius: var(--radius-sm);
-  }
 }

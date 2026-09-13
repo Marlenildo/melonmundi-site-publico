@@ -2,6 +2,37 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.2.0] - 2026-09-13
+### Added
+- Páginas legais (Política de Privacidade, Termos de Uso, Licenças e Créditos)
+  ganharam faixa de abertura própria, com título, resumo e a data de publicação
+  em destaque, no lugar do bloco de título padrão do Quarto.
+- Índice lateral fixo (`legal-toc.js`) nas páginas legais em telas largas, com
+  destaque da seção em leitura. Em telas estreitas ele não é gerado e o texto
+  ocupa a largura toda.
+- Rodapé reorganizado em três colunas — marca e apresentação, navegação e
+  chamada para o Acervo — sobre faixa clara com fio de destaque no topo, e
+  barra inferior com direitos reservados e a assinatura do desenvolvedor.
+
+### Changed
+- Texto das páginas legais deixou de ficar num cartão estreito: agora é uma
+  coluna de leitura larga, com hierarquia de títulos, listas e trechos de
+  código próprios. No celular usa a largura inteira da tela.
+
+### Fixed
+- O Quarto marca os `div` aninhados com `page-columns` e aplica a grade de
+  página por `body.fullcontent:not(.floating):not(.docked) .page-columns`
+  (especificidade 0-4-1), prendendo o conteúdo à coluna de leitura (~800 px).
+  Era a causa de os textos legais aparecerem espremidos no meio da tela, no
+  desktop e principalmente no celular. A grade agora é desfeita nos wrappers
+  próprios, junto com o `grid-column` e o `gap` herdados.
+- Ordem do rodapé no celular: o Quarto joga a coluna do meio para o fim
+  (`order: 10`), o que deixava a navegação depois da chamada do Acervo.
+- Faixa branca que o Quarto pintava em `.nav-footer`, destoando do resto do
+  rodapé.
+
+***
+
 ## [1.1.0] - 2026-09-13
 ### Added
 - Home reconstruída para apresentar todo o ecossistema MelonMundi: grade do

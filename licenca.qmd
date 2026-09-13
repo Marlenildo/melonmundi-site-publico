@@ -1,14 +1,28 @@
 ---
-title: "Licenças e Créditos"
-description: "Informações sobre propriedade intelectual, licenças, créditos e componentes de terceiros usados pela MelonMundi."
+pagetitle: "Licenças e Créditos | MelonMundi"
+description-meta: "Informações sobre propriedade intelectual, licenças, créditos e componentes de terceiros usados pela MelonMundi."
+title-block: false
 body-classes: legal-page
+toc: false
+anchor-sections: false
 ---
 
-<section class="column-screen screen-white">
+<section class="column-screen legal-hero">
 <div class="column-body">
-<div class="legal-panel">
+<div class="legal-hero-panel">
+<p class="section-kicker">Informações</p>
+<h1>Licenças e Créditos</h1>
+<p class="legal-hero-lead">Propriedade intelectual, licenças, créditos e componentes de terceiros relacionados ao ecossistema MelonMundi.</p>
+<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Publicado e vigente desde 25 de maio de 2026</p>
+</div>
+</div>
+</section>
 
-<p class="legal-updated"><strong>Publicado e vigente desde:</strong> 25 de maio de 2026</p>
+<section class="column-screen screen-white legal-body">
+<div class="column-body">
+<div class="legal-layout">
+<aside class="legal-toc" data-legal-toc aria-label="Nesta página"></aside>
+<div class="legal-panel">
 
 Esta página reúne informações sobre propriedade intelectual, licenças, créditos e componentes de terceiros relacionados ao ecossistema MelonMundi.
 
@@ -137,6 +151,7 @@ Pedidos de autorização para uso de marca, conteúdo, material técnico, aplica
 
 - E-mail: **administrativo@melonmundi.com**
 
+</div>
 </div>
 </div>
 </section>

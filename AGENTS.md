@@ -26,9 +26,14 @@ publico, sem senha, e publicado na Vercel a partir de `docs/`.
   bytes). Com BOM o Quarto ignora `body-classes`, a classe `home-page` so chega
   pelo JavaScript no fim do `<body>` e o bloco de titulo (com a descricao de
   SEO) pisca antes de sumir.
-- Dentro de `.column-screen` o Quarto prende os filhos a coluna de leitura
-  (~800 px). O CSS reabre `.column-screen > .column-body` para a largura da tela
-  e limita o container num unico ponto.
+- O Quarto marca os `div` aninhados com `page-columns` e aplica a grade de
+  pagina por `body.fullcontent:not(.floating):not(.docked) .page-columns`
+  (especificidade 0-4-1), prendendo os filhos a coluna de leitura (~800 px).
+  O CSS desfaz essa grade em `.column-screen > .column-body` e em
+  `.legal-layout` com `!important` — e limpa tambem o `grid-column` e o `gap`
+  que os filhos herdam, senao o navegador cria trilhas implicitas. Ao criar um
+  wrapper novo dentro de `.column-screen`, conferir a largura real no
+  navegador.
 - O atalho "Entrar" do celular vem de `navbar.tools`, que o Quarto renderiza em
   `.quarto-navbar-tools`, fora de `.navbar-collapse`. O rotulo e desenhado por
   CSS (`::after`), porque `tools` so gera icone. No desktop ele fica oculto e

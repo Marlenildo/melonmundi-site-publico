@@ -1,14 +1,28 @@
 ---
-title: "Política de Privacidade"
-description: "Política de privacidade e proteção de dados pessoais do ecossistema MelonMundi."
+pagetitle: "Política de Privacidade | MelonMundi"
+description-meta: "Política de privacidade e proteção de dados pessoais do ecossistema MelonMundi."
+title-block: false
 body-classes: legal-page
+toc: false
+anchor-sections: false
 ---
 
-<section class="column-screen screen-white">
+<section class="column-screen legal-hero">
 <div class="column-body">
-<div class="legal-panel">
+<div class="legal-hero-panel">
+<p class="section-kicker">Informações</p>
+<h1>Política de Privacidade</h1>
+<p class="legal-hero-lead">Como a MelonMundi trata dados pessoais e informações técnicas no site público, no acervo privado, nos aplicativos e nos serviços de autenticação, segurança e analytics.</p>
+<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Publicado e vigente desde 25 de maio de 2026</p>
+</div>
+</div>
+</section>
 
-<p class="legal-updated"><strong>Publicado e vigente desde:</strong> 25 de maio de 2026</p>
+<section class="column-screen screen-white legal-body">
+<div class="column-body">
+<div class="legal-layout">
+<aside class="legal-toc" data-legal-toc aria-label="Nesta página"></aside>
+<div class="legal-panel">
 
 Esta Política de Privacidade explica como a MelonMundi trata dados pessoais e informações técnicas relacionadas ao uso do site público, do acervo privado, dos aplicativos internos e dos serviços de autenticação, segurança, analytics e observabilidade.
 
@@ -200,6 +214,7 @@ A MelonMundi não controla as práticas de privacidade desses terceiros. O usuá
 
 Esta Política pode ser atualizada para refletir mudanças legais, técnicas, operacionais ou de segurança.
 
+</div>
 </div>
 </div>
 </section>
