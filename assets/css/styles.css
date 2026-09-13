@@ -1879,6 +1879,53 @@ h1, h2, h3 {
   color: var(--text-dark);
 }
 
+/* Tabelas de finalidades, bases legais e prazos de retenção. O Quarto não
+   envolve a tabela num container, então ela mesma vira o bloco rolável: em
+   telas estreitas ela rola sozinha, sem empurrar a página. */
+.legal-panel .legal-table {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 0 0 20px;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+}
+
+.legal-panel table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.legal-panel thead th {
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 11px 14px;
+  border-bottom: 2px solid var(--border-soft);
+  white-space: nowrap;
+}
+
+.legal-panel tbody td {
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--border-soft);
+  line-height: 1.55;
+  color: var(--text-body);
+  vertical-align: top;
+}
+
+.legal-panel tbody tr:nth-child(even) td {
+  background: var(--bg-soft);
+}
+
+.legal-panel tbody tr:last-child td {
+  border-bottom: 0;
+}
+
 @media (max-width: 767.98px) {
   .legal-hero {
     padding-top: calc(var(--mm-nav-offset, 64px) + 30px);
@@ -1894,6 +1941,19 @@ h1, h2, h3 {
 
   .legal-panel h2 {
     margin-top: 32px;
+  }
+
+  /* Sem largura mínima as colunas se espremem a duas ou três palavras por
+     linha. Com ela a tabela rola de lado dentro de `.legal-table` — só a
+     tabela, não a página. */
+  .legal-panel table {
+    min-width: 560px;
+    font-size: 0.92rem;
+  }
+
+  .legal-panel thead th,
+  .legal-panel tbody td {
+    padding: 10px 12px;
   }
 }
 

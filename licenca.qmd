@@ -13,7 +13,7 @@ anchor-sections: false
 <p class="section-kicker">Informações</p>
 <h1>Licenças e Créditos</h1>
 <p class="legal-hero-lead">Propriedade intelectual, licenças, créditos e componentes de terceiros relacionados ao ecossistema MelonMundi.</p>
-<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Publicado e vigente desde 25 de maio de 2026</p>
+<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Versão 2.0 &mdash; publicada e vigente desde 13 de setembro de 2026</p>
 </div>
 </div>
 </section>
@@ -24,7 +24,9 @@ anchor-sections: false
 <aside class="legal-toc" data-legal-toc aria-label="Nesta página"></aside>
 <div class="legal-panel">
 
-Esta página reúne informações sobre propriedade intelectual, licenças, créditos e componentes de terceiros relacionados ao ecossistema MelonMundi.
+Esta página reúne informações sobre propriedade intelectual, licenças, créditos e componentes de terceiros relacionados ao ecossistema MelonMundi, operado por **MelonMundi Global Solutions**, CNPJ nº 34.222.730/0001-59.
+
+Esta versão substitui a de 25 de maio de 2026 e acrescenta os serviços de infraestrutura e distribuição usados hoje.
 
 ## 1. Regra geral
 
@@ -91,7 +93,23 @@ O ecossistema MelonMundi utiliza softwares, bibliotecas, imagens de contêiner, 
 
 Cada componente de terceiro permanece sujeito à sua própria licença. A MelonMundi respeita as licenças aplicáveis e recomenda consultar os respectivos projetos oficiais para termos completos.
 
-## 8. Licença MIT do código do site público
+## 8. Infraestrutura e distribuição
+
+Além das bibliotecas acima, o ecossistema depende de serviços de terceiros para hospedagem e entrega:
+
+- **DigitalOcean** — hospedagem da infraestrutura do acervo, dos aplicativos e dos bancos de dados, em servidor localizado nos Estados Unidos;
+- **Vercel** — hospedagem e distribuição do site público;
+- **Cloudflare (cdnjs)** — entrega da folha de estilo do Font Awesome usada no site público. O arquivo é servido pela rede da Cloudflare, que recebe o endereço IP do visitante ao carregá-lo.
+
+Os serviços de autenticação, banco de dados, analytics e monitoramento rodam em infraestrutura própria da MelonMundi, e não em serviços gerenciados de terceiros.
+
+O tratamento de dados pessoais associado a esses serviços, inclusive a transferência internacional, está descrito na Política de Privacidade.
+
+## 9. Marcas de terceiros
+
+Nomes e marcas de terceiros citados nesta página — entre outros DigitalOcean, Vercel, Cloudflare, Font Awesome, Matomo, Keycloak, Grafana, Prometheus, Docker, PostgreSQL, R, Shiny, Quarto, Bootstrap, AGROFIT, MAPA e Embrapa — pertencem aos seus respectivos titulares. A citação tem finalidade informativa e de crédito, e não indica patrocínio, parceria ou endosso.
+
+## 10. Licença MIT do código do site público
 
 A Licença MIT indicada no repositório do site público autoriza uso, cópia, modificação e distribuição do software licenciado, desde que o aviso de copyright e o texto da licença sejam preservados.
 
@@ -107,7 +125,7 @@ Essa autorização não inclui automaticamente:
 - segredos, credenciais ou configurações de produção;
 - aplicativos internos que possuam licença própria ou direitos reservados.
 
-## 9. Texto da Licença MIT
+## 11. Texto da Licença MIT
 
 ```text
 MIT License
@@ -133,19 +151,19 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## 10. Imagens, ícones e elementos visuais
+## 12. Imagens, ícones e elementos visuais
 
 Imagens, ícones, fotografias, ilustrações, capturas de tela, gráficos, logotipos e demais elementos visuais podem pertencer à MelonMundi ou a terceiros licenciadores.
 
 O uso desses elementos fora dos ambientes MelonMundi depende da respectiva licença ou de autorização específica.
 
-## 11. Créditos de desenvolvimento
+## 13. Créditos de desenvolvimento
 
 Quando indicado no rodapé ou nos arquivos do projeto, o desenvolvimento, manutenção ou autoria técnica pode ser creditado a Marlenildo Ferreira Melo e/ou à MelonMundi.
 
 A presença de crédito não altera a titularidade de marcas, conteúdos, bases ou componentes de terceiros.
 
-## 12. Solicitação de autorização
+## 14. Solicitação de autorização
 
 Pedidos de autorização para uso de marca, conteúdo, material técnico, aplicativo, imagem, texto, relatório, trecho de código ou qualquer outro elemento protegido devem ser enviados para:
 
