@@ -2,6 +2,48 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.1.0] - 2026-09-13
+### Added
+- Home reconstruída para apresentar todo o ecossistema MelonMundi: grade do
+  ecossistema (Biblioteca, Simuladores, Cursos, Aplicativos, Painel Analítico e
+  Certificados), seção da biblioteca técnica (artigos, protocolos e fichas),
+  vitrine dos quatro simuladores, carrossel com telas reais, seção do curso
+  "Do Campo à Decisão", roadmap do que está em desenvolvimento e CTA final.
+- Faixa de números (`.stat-band`) na home e em Quem Somos.
+- Logomarcas e capturas de tela dos simuladores AgroFito, AgroFruta, AgroSolo e
+  AgroIrriga em `assets/img/sim-*`.
+- Atalho "Entrar" fora do menu sanfonado no celular, via `navbar.tools`, ao lado
+  do botão hambúrguer.
+- Quem Somos reformulada: hero próprio, grade de valores, essência, identidade
+  visual e cards do time com foto em proporção fixa.
+- Lista explícita de `project.render` no `_quarto.yml`, evitando que arquivos
+  internos do repositório (AGENTS.md, README.md) virem páginas publicadas.
+- Fallback `<noscript>` para os blocos `.reveal`, garantindo o conteúdo visível
+  sem JavaScript.
+
+### Changed
+- Carrossel (`home-carousel.js`) reescrito: navegação por teclado, arraste
+  touch/mouse, pausa em hover/foco/aba oculta, `aria` nos slides e respeito a
+  `prefers-reduced-motion`.
+- `scroll-reveal.js` passa a usar `rootMargin` (blocos mais altos que a tela
+  também são revelados) e revela tudo de imediato com movimento reduzido.
+- `home-navbar-scroll.js` deixou de duplicar as classes do `<body>`: agora só
+  mede o deslocamento do cabeçalho e alterna `home-at-top`.
+- Folha de estilo reorganizada em seções, com tokens de raio, sombra e
+  espaçamento, botões `.btn-mm` e componentes documentados.
+
+### Fixed
+- Removido o BOM de `index.qmd` e `_quarto.yml`, que impedia o Quarto de aplicar
+  `body-classes`. Era a causa do bloco de título e da descrição de SEO
+  aparecerem por um instante antes de o JavaScript escondê-los.
+- `.column-screen > .column-body` volta a ocupar a largura da tela: o Quarto o
+  prendia à coluna de leitura (~800 px), espremendo as seções institucionais.
+- Eliminada a rolagem horizontal em telas de 360 px em todas as páginas
+  (rodapé do Quarto e quebra de e-mails longos nas páginas legais).
+- Removida a régua que o Bootstrap desenha sob os `h2` das seções.
+
+***
+
 ## [1.0.31] - 2026-05-25
 ### Changed
 - Páginas legais: removidos fechamentos redundantes sobre versão vigente, mantendo a indicação de publicação e vigência no início dos documentos.

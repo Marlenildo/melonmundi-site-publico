@@ -20,6 +20,22 @@ publico, sem senha, e publicado na Vercel a partir de `docs/`.
 - Se o README mencionar GitHub Pages, considerar Vercel como publicacao atual
   salvo pedido contrario.
 
+## Armadilhas conhecidas
+
+- Nao salvar `.qmd` nem `_quarto.yml` com BOM (UTF-8 com marca de ordem de
+  bytes). Com BOM o Quarto ignora `body-classes`, a classe `home-page` so chega
+  pelo JavaScript no fim do `<body>` e o bloco de titulo (com a descricao de
+  SEO) pisca antes de sumir.
+- Dentro de `.column-screen` o Quarto prende os filhos a coluna de leitura
+  (~800 px). O CSS reabre `.column-screen > .column-body` para a largura da tela
+  e limita o container num unico ponto.
+- O atalho "Entrar" do celular vem de `navbar.tools`, que o Quarto renderiza em
+  `.quarto-navbar-tools`, fora de `.navbar-collapse`. O rotulo e desenhado por
+  CSS (`::after`), porque `tools` so gera icone. No desktop ele fica oculto e
+  vale o item de `navbar.right`.
+- `project.render` e uma lista explicita: arquivos novos na raiz so viram pagina
+  publicada se forem adicionados ali.
+
 ## Arquivos de maior impacto
 
 - `_quarto.yml`

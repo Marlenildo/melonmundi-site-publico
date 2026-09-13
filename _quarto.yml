@@ -1,6 +1,15 @@
-﻿project:
+project:
   type: website
   output-dir: docs
+  # Lista explícita: evita que arquivos internos do repositório (AGENTS.md,
+  # README.md) virem páginas publicadas na Vercel.
+  render:
+    - index.qmd
+    - sobre-nos.qmd
+    - politica-de-privacidade.qmd
+    - termos-de-uso.qmd
+    - licenca.qmd
+    - CHANGELOG.md
   resources:
     - assets/img/logo_marlenildo.png
 lang: pt-BR
@@ -45,10 +54,14 @@ website:
             href: termos-de-uso.qmd
           - text: "Licenças e Créditos"
             href: licenca.qmd
+    # Atalho "Entrar" exibido fora do menu sanfonado no celular.
+    # No desktop ele fica oculto por CSS e vale o item de `right:`.
+    tools:
+      - text: "Entrar"
+        icon: box-arrow-in-right
+        href: https://acervo.melonmundi.com
     right:
       - text: "Entrar"
-        # href: acervo.qmd
-        # href: http://acervo.melonmundi.local:8000/oauth2/start
         href: https://acervo.melonmundi.com
         icon: box-arrow-in-right
 
@@ -119,3 +132,5 @@ format:
           <!-- End Matomo Code -->
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      - text: |
+          <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
