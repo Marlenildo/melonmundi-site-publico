@@ -2,6 +2,18 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.4.1] - 2026-09-13
+### Changed
+- Identificação do controlador corrigida nos três documentos legais. A razão
+  social é **Luis Angel Alvarez Hermoso**, empresário individual (natureza
+  jurídica 213-5), e não "MelonMundi Global Solutions" — este é o nome pelo
+  qual a empresa se apresenta ao público. A Política passa a explicar essa
+  distinção e a registrar a praça (Mossoró/RN).
+- Por ser empresário individual, controlador e encarregado são a mesma pessoa.
+  A Política passa a dizer isso, em vez de apresentá-los como partes distintas.
+- Licenças: a titularidade da marca passa a apontar para o titular do CNPJ, já
+  que "MelonMundi Global Solutions" é nome de marca, não pessoa jurídica.
+
 ## [1.4.0] - 2026-09-13
 ### Added
 - Política e Termos passam a cobrir **aplicativos instaláveis**, que operam com

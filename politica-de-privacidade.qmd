@@ -34,15 +34,18 @@ Esta versão substitui a anterior, de 25 de maio de 2026, e passa a descrever á
 
 **Controlador**
 
-- MelonMundi Global Solutions
+- Luis Angel Alvarez Hermoso — empresário individual
 - CNPJ nº 34.222.730/0001-59
+- Mossoró, Rio Grande do Norte, Brasil
+
+MelonMundi é o nome pelo qual a empresa se apresenta ao público. A razão social é o nome do empresário individual, como consta na inscrição do CNPJ acima.
 
 **Encarregado pelo tratamento de dados pessoais (DPO)**
 
 - Luis Angel Alvarez Hermoso
 - E-mail: **administrativo@melonmundi.com**
 
-O encarregado é o canal para dúvidas, solicitações de titulares e comunicações da Autoridade Nacional de Proteção de Dados (ANPD), conforme o art. 41 da LGPD.
+Por se tratar de empresário individual, o controlador e o encarregado são a mesma pessoa. O e-mail acima é o canal para dúvidas, solicitações de titulares e comunicações da Autoridade Nacional de Proteção de Dados (ANPD), conforme o art. 41 da LGPD.
 
 ## 2. Abrangência desta Política
 

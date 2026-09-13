@@ -24,7 +24,7 @@ anchor-sections: false
 <aside class="legal-toc" data-legal-toc aria-label="Nesta página"></aside>
 <div class="legal-panel">
 
-Estes Termos de Uso regulam o acesso e a utilização do ecossistema MelonMundi, operado por **MelonMundi Global Solutions**, CNPJ nº 34.222.730/0001-59.
+Estes Termos de Uso regulam o acesso e a utilização do ecossistema MelonMundi, operado por **Luis Angel Alvarez Hermoso**, empresário individual inscrito no CNPJ nº 34.222.730/0001-59, que atua sob o nome MelonMundi.
 
 Ao acessar ou utilizar qualquer ambiente MelonMundi, você declara que leu, compreendeu e concorda com estes Termos.
 
