@@ -889,6 +889,12 @@ h1, h2, h3 {
   font-weight: 600;
 }
 
+.feature-tags li.feature-tag-soon {
+  background: #fff9e8;
+  color: #6a5314;
+  border: 1px dashed #e0c46f;
+}
+
 /* ---- 6.4 Biblioteca ---- */
 .library-grid {
   display: grid;
@@ -1301,6 +1307,17 @@ h1, h2, h3 {
   line-height: 1.4;
   color: var(--text-body);
   transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.course-modules.course-programs li {
+  padding: 18px 20px;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.course-modules.course-programs span {
+  width: 40px;
+  height: 40px;
 }
 
 .course-modules li:hover {

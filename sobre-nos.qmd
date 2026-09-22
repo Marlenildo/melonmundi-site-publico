@@ -196,7 +196,7 @@ anchor-sections: false
 
 <div class="final-cta reveal">
 <h3>Conheça o Acervo MelonMundi</h3>
-<p>Biblioteca técnica, simuladores, cursos e aplicativos reunidos em um único login.</p>
+<p>Biblioteca técnica, simuladores, aplicativos e capacitação reunidos em um único login.</p>
 <div class="final-cta-actions">
 <a class="btn btn-mm btn-mm-amber" href="https://acervo.melonmundi.com"><i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i> Entrar no Acervo</a>
 <a class="btn btn-mm btn-mm-outline-light" href="index.qmd"><i class="fa-solid fa-house" aria-hidden="true"></i> Voltar à página inicial</a>
