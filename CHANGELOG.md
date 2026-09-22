@@ -21,6 +21,12 @@ Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
   AgroFerti", e o card genérico "Novos simuladores" de "O que vem por aí" passa
   a nomear os dois.
 
+### Fixed
+- Logomarca da página Quem Somos aparecia esticada na vertical: o CSS fixava a
+  largura em 280 px, mas a altura vinha do atributo `height` do HTML. Agora a
+  altura acompanha a largura (`height: auto`) e os atributos refletem o tamanho
+  real da imagem (438 × 394).
+
 ## [1.4.1] - 2026-09-13
 ### Changed
 - Identificação do controlador corrigida nos três documentos legais. A razão

@@ -1632,6 +1632,7 @@ h1, h2, h3 {
 .identity-logo {
   width: 280px;
   max-width: 100%;
+  height: auto;
   margin: 0 auto;
   display: block;
 }
