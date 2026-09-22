@@ -89,7 +89,7 @@ website:
     right: |
       <div class="footer-cta">
         <p class="footer-heading">Acervo MelonMundi</p>
-        <p class="footer-cta-text">Biblioteca técnica, simuladores, cursos e aplicativos reunidos em um único login.</p>
+        <p class="footer-cta-text">Biblioteca técnica, simuladores, aplicativos e capacitação reunidos em um único login.</p>
         <a class="footer-cta-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i> Entrar no Acervo</a>
       </div>
 

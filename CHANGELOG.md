@@ -2,6 +2,31 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.5.0] - 2026-09-22
+### Changed
+- Home: "Cursos" passa a se chamar **Capacitação técnica**, deixando claro que a
+  MelonMundi treina equipes nas próprias fazendas e emite certificado — não
+  vende cursos avulsos. Termo ajustado também na descrição de SEO, no destaque
+  do topo, no passo de acesso, no rodapé e no fecho de Quem Somos.
+- Seção de capacitação enxuta: sai a grade com carga horária e os 8 módulos da
+  imersão; ficam só os dois programas atuais (Formação de Monitores em MIPD e
+  Imersão no manejo de melão e melancia) e a regra do certificado.
+- Faixa de números: "8 módulos no curso de imersão" vira "2 programas de
+  capacitação técnica", e o "24/7" passa a explicar que o Acervo fica
+  disponível 24 horas por dia, 7 dias por semana.
+- Cards do ecossistema reordenados: Biblioteca, Simuladores, Aplicativos,
+  Painel analítico, Capacitação técnica e Certificados. O destaque do topo segue
+  a mesma ordem.
+- O card de Simuladores ganha a etiqueta "Em desenvolvimento: AgroMix e
+  AgroFerti", e o card genérico "Novos simuladores" de "O que vem por aí" passa
+  a nomear os dois.
+
+### Fixed
+- Logomarca da página Quem Somos aparecia esticada na vertical: o CSS fixava a
+  largura em 280 px, mas a altura vinha do atributo `height` do HTML. Agora a
+  altura acompanha a largura (`height: auto`) e os atributos refletem o tamanho
+  real da imagem (438 × 394).
+
 ## [1.4.1] - 2026-09-13
 ### Changed
 - Identificação do controlador corrigida nos três documentos legais. A razão
