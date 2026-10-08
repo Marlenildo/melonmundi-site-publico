@@ -10,6 +10,7 @@ Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
   (`assets/img/logo_marlenildo_online.svg`), com o texto em curvas e tinta
   escura para o rodapé claro. A altura desce de 28 para 22 px, porque o SVG é
   recortado rente ao desenho.
+- O crédito passa a levar a `https://marlenildo.online`, e não mais ao GitHub.
 - `assets/img/logo_marlenildo.png` sai do repositório e de `resources`.
 
 ## [1.5.0] - 2026-09-22
