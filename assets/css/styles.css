@@ -2207,7 +2207,7 @@ h1, h2, h3 {
    aqui é a altura real da marca, sem a margem que o PNG antigo trazia. */
 .footer .footer-credit-logo {
   display: block;
-  height: 22px;
+  height: 16px;
   width: auto;
   opacity: 0.85;
   transition: opacity 0.2s ease;
