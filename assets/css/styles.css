@@ -2203,9 +2203,11 @@ h1, h2, h3 {
   align-items: center;
 }
 
+/* A assinatura Marlenildo.online é um SVG recortado rente ao desenho: a altura
+   aqui é a altura real da marca, sem a margem que o PNG antigo trazia. */
 .footer .footer-credit-logo {
   display: block;
-  height: 28px;
+  height: 22px;
   width: auto;
   opacity: 0.85;
   transition: opacity 0.2s ease;

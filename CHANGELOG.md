@@ -2,6 +2,17 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.5.1] - 2026-10-08
+### Changed
+- Rodapé: o crédito "Desenvolvido por" passa a mostrar a marca
+  **Marlenildo.online** no lugar da antiga "Marlenildo - Soluções em Curso". O
+  símbolo e o nome vêm de `site-marlenildo` e chegam como um SVG só
+  (`assets/img/logo_marlenildo_online.svg`), com o texto em curvas e tinta
+  escura para o rodapé claro. A altura desce de 28 para 22 px, porque o SVG é
+  recortado rente ao desenho.
+- O crédito passa a levar a `https://marlenildo.online`, e não mais ao GitHub.
+- `assets/img/logo_marlenildo.png` sai do repositório e de `resources`.
+
 ## [1.5.0] - 2026-09-22
 ### Changed
 - Home: "Cursos" passa a se chamar **Capacitação técnica**, deixando claro que a

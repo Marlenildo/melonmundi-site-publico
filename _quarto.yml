@@ -11,7 +11,7 @@ project:
     - licenca.qmd
     - CHANGELOG.md
   resources:
-    - assets/img/logo_marlenildo.png
+    - assets/img/logo_marlenildo_online.svg
 lang: pt-BR
 
 website:
@@ -125,8 +125,8 @@ format:
               <p class="footer-copyright">&copy; 2026 MelonMundi &ndash; Global Solutions. Todos os direitos reservados.</p>
               <span class="footer-credit-dev">
                 <span class="footer-credit-text">Desenvolvido por</span>
-                <a href="https://github.com/Marlenildo" class="footer-credit-link" aria-label="GitHub de Marlenildo">
-                  <img src="/assets/img/logo_marlenildo.png" alt="Marlenildo - Soluções em Curso" class="footer-credit-logo">
+                <a href="https://marlenildo.online" class="footer-credit-link" aria-label="Site Marlenildo.online">
+                  <img src="/assets/img/logo_marlenildo_online.svg" alt="Marlenildo.online" class="footer-credit-logo">
                 </a>
               </span>
             </div>

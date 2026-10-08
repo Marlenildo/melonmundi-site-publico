@@ -25,7 +25,10 @@ vira página.
 
 ## Estado atual
 
-- Versão: ver `VERSION` e `CHANGELOG.md` (1.5.0 em `dev`; a `main` ainda está
-  na 1.0.31).
-- Último trabalho: capacitação técnica na home e revisão dos documentos legais.
+- Versão: ver `VERSION` e `CHANGELOG.md` (1.5.1 em `dev`; a `main` ainda está
+  na 1.0.31 — `dev` não foi promovida porque há pendências nela).
+- Último trabalho: o crédito "Desenvolvido por" do rodapé passou a usar a marca
+  Marlenildo.online (`assets/img/logo_marlenildo_online.svg`, SVG com o texto em
+  curvas, montado a partir de `site-marlenildo`). O link do crédito leva a
+  `https://marlenildo.online`. Conferido no build em desktop e celular, sem 404.
 - Próximos passos: (preencher)
