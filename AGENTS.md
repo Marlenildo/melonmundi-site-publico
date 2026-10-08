@@ -1,4 +1,4 @@
-# melonmundi-site-publico - Regras Locais para Codex
+# melonmundi-site-publico - Regras Locais para Agentes
 
 Este repo gera o site institucional publico da MelonMundi em Quarto. O site e
 publico, sem senha, e publicado na Vercel a partir de `docs/`.
@@ -17,8 +17,6 @@ publico, sem senha, e publicado na Vercel a partir de `docs/`.
 - Preservar o carater publico: conteudo livre para qualquer visitante.
 - Como `docs/` e o diretorio publicado pela Vercel, conferir artefatos gerados
   quando rodar `quarto render`.
-- Se o README mencionar GitHub Pages, considerar Vercel como publicacao atual
-  salvo pedido contrario.
 
 ## Armadilhas conhecidas
 
