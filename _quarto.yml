@@ -15,8 +15,8 @@ project:
 lang: pt-BR
 
 website:
-  title: "MelonMundi Global Solutions | Soluções inovadoras em melão, melancia e abóbora"
-  description: "Plataforma institucional de gestão agrícola em produção de cucurbitáceas e rastreabilidade técnica baseada em dados."
+  title: "MelonMundi Global Solutions | Soluções inovadoras em melão e melancia"
+  description: "Consultoria, pesquisa e tecnologia para a produção de melão e melancia: biblioteca técnica, simuladores, aplicativos e capacitação de equipes no campo."
   site-url: "https://melonmundi.com"
   favicon: assets/img/favicon.ico
   search: false
@@ -73,7 +73,7 @@ website:
     left: |
       <div class="footer-brand">
         <img src="/assets/img/nova_logomm.png" alt="MelonMundi - Global Solutions" class="footer-logo" width="120" height="108">
-        <p class="footer-tagline">Grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora — do planejamento da fazenda à pós-colheita.</p>
+        <p class="footer-tagline">Grupo multidisciplinar com dedicação exclusiva ao melão e à melancia — do planejamento da fazenda à pós-colheita.</p>
       </div>
     center:
       - text: "Página Inicial"
