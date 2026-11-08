@@ -1,6 +1,6 @@
 ---
 pagetitle: "Quem Somos | MelonMundi Global Solutions"
-description-meta: "Grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora: missão, valores, identidade visual e time da MelonMundi."
+description-meta: "Grupo multidisciplinar com dedicação exclusiva ao melão e à melancia: missão, valores, identidade visual e time da MelonMundi."
 title-block: false
 body-classes: about-page
 toc: false
@@ -12,8 +12,8 @@ anchor-sections: false
 
 <div class="about-hero-panel reveal">
 <p class="section-kicker">Quem somos</p>
-<h1>Um grupo multidisciplinar com dedicação exclusiva às cucurbitáceas</h1>
-<p>Atuamos de forma integrada em toda a cadeia produtiva de melão, melancia e abóbora, unindo ciência, experiência de campo e tomada de decisão baseada em dados — do planejamento da fazenda ao transporte e à pós-colheita.</p>
+<h1>Um grupo multidisciplinar com dedicação exclusiva ao melão e à melancia</h1>
+<p>Atuamos de forma integrada em toda a cadeia produtiva de melão e melancia, unindo ciência, experiência de campo e tomada de decisão baseada em dados — do planejamento da fazenda ao transporte e à pós-colheita.</p>
 </div>
 
 :::
@@ -23,7 +23,7 @@ anchor-sections: false
 ::: {.column-body}
 
 <div class="stat-band reveal" role="list">
-<div class="stat-item" role="listitem"><span class="stat-value">3</span><span class="stat-label">culturas de cucurbitáceas</span></div>
+<div class="stat-item" role="listitem"><span class="stat-value">2</span><span class="stat-label">culturas com dedicação exclusiva</span></div>
 <div class="stat-item" role="listitem"><span class="stat-value">5</span><span class="stat-label">profissionais no time</span></div>
 <div class="stat-item" role="listitem"><span class="stat-value">100%</span><span class="stat-label">foco em melão e melancia</span></div>
 <div class="stat-item" role="listitem"><span class="stat-value">P&D</span><span class="stat-label">pesquisa aplicada em campo</span></div>
@@ -44,7 +44,7 @@ anchor-sections: false
 <article class="value-card">
 <div class="feature-icon" aria-hidden="true"><i class="fa-solid fa-seedling"></i></div>
 <h3>Especialização</h3>
-<p>Dedicação exclusiva às culturas de melão, melancia e abóbora — e não a um portfólio genérico de culturas.</p>
+<p>Dedicação exclusiva ao melão e à melancia — e não a um portfólio genérico de culturas.</p>
 </article>
 
 <article class="value-card">
@@ -93,13 +93,13 @@ anchor-sections: false
 <article class="essence-card">
 <div class="essence-icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></div>
 <h3>Missão</h3>
-<p>Promover o desenvolvimento de projetos em cucurbitáceas mais competitivos, humanos, saudáveis e rentáveis, transformando conhecimento em resultados concretos.</p>
+<p>Promover o desenvolvimento de projetos de melão e melancia mais competitivos, humanos, saudáveis e rentáveis, transformando conhecimento em resultados concretos.</p>
 </article>
 
 <article class="essence-card">
 <div class="essence-icon" aria-hidden="true"><i class="fa-solid fa-eye"></i></div>
 <h3>Visão</h3>
-<p>Ser referência em pesquisa, consultoria e desenvolvimento de tecnologias para a produção de cucurbitáceas, gerando valor contínuo aos nossos clientes.</p>
+<p>Ser referência em pesquisa, consultoria e desenvolvimento de tecnologias para a produção de melão e melancia, gerando valor contínuo aos nossos clientes.</p>
 </article>
 
 <article class="essence-card">

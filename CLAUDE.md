@@ -25,9 +25,20 @@ vira página.
 
 ## Estado atual
 
-- Versão: ver `VERSION` e `CHANGELOG.md` (1.5.1 em `dev` e na `main`; a `dev`
-  foi promovida para a `main` em 2026-11-08, saindo da 1.0.31).
-- Último trabalho: o crédito "Desenvolvido por" do rodapé passou a usar a marca
+- Versão: ver `VERSION` e `CHANGELOG.md` (1.6.0 na `dev`, aguardando o ok do
+  usuário para a `main`, que segue na 1.5.1).
+- 1.6.0 (2026-11-08), a pedido do usuário: conteúdo da home e de Quem Somos
+  alinhado ao Acervo (7 simuladores, AgroJornal publicado, temas da Biblioteca,
+  programas de capacitação) e só melão e melancia, sem abóbora. As imagens
+  `sim-agro*-logo.webp` e `sim-agro*-tela.webp` são cópias byte a byte de
+  `app-agro*-vertical.webp` e `app-agro*-gallery.webp` do Acervo: simulador
+  novo, copiar de lá. A tela do AgroJornal não entrou (mostra nomes comerciais
+  de defensivos). Validado: `quarto render` (1.9.37) e Chrome em 1366 e 375 px
+  (sem rolagem horizontal, sem 404, imagens carregando). Sem teste: ícones Font
+  Awesome e Matomo (bloqueados na nuvem). Pendente com o usuário: a Política de
+  Privacidade (4.3 e prazos) ainda diz que nenhum simulador usa `localStorage`
+  e lista só quatro, o que não vale para AgroFerti, AgroMix e AgroMeta.
+- Antes:  o crédito "Desenvolvido por" do rodapé passou a usar a marca
   Marlenildo.online (`assets/img/logo_marlenildo_online.svg`, SVG com o texto em
   curvas, montado a partir de `site-marlenildo`). O link do crédito leva a
   `https://marlenildo.online`. Conferido no build em desktop e celular, sem 404.

@@ -1339,71 +1339,7 @@ h1, h2, h3 {
   background: var(--primary);
 }
 
-/* ---- 6.8 Roadmap ---- */
-.roadmap-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  margin-top: clamp(30px, 4vw, 48px);
-}
-
-.roadmap-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 26px 24px;
-  background: #ffffff;
-  border: 1px dashed #c8dcb4;
-  border-radius: var(--radius-md);
-}
-
-.roadmap-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 14px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  color: var(--primary-dark);
-  background: var(--primary-soft);
-  margin-bottom: 14px;
-}
-
-.roadmap-card h3 {
-  margin: 0 0 8px;
-  font-size: 1.25rem;
-}
-
-.roadmap-card p {
-  margin: 0 0 14px;
-  color: var(--text-body);
-  line-height: 1.6;
-  flex: 1 1 auto;
-}
-
-.roadmap-status {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  background: #fff9e8;
-  color: #7a5f14;
-  border: 1px solid #f2e2b4;
-  border-radius: 999px;
-  padding: 5px 13px;
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-.roadmap-status::before {
-  content: "";
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--secondary-dark);
-}
-
-/* ---- 6.9 Jornada de acesso e CTA final ---- */
+/* ---- 6.8 Jornada de acesso e CTA final ---- */
 .journey-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
