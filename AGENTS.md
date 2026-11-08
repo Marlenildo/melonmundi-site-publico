@@ -1,4 +1,4 @@
-# melonmundi-site-publico - Regras Locais para Codex
+# melonmundi-site-publico - Regras Locais para Agentes
 
 Este repo gera o site institucional publico da MelonMundi em Quarto. O site e
 publico, sem senha, e publicado na Vercel a partir de `docs/`.
@@ -17,8 +17,27 @@ publico, sem senha, e publicado na Vercel a partir de `docs/`.
 - Preservar o carater publico: conteudo livre para qualquer visitante.
 - Como `docs/` e o diretorio publicado pela Vercel, conferir artefatos gerados
   quando rodar `quarto render`.
-- Se o README mencionar GitHub Pages, considerar Vercel como publicacao atual
-  salvo pedido contrario.
+
+## Armadilhas conhecidas
+
+- Nao salvar `.qmd` nem `_quarto.yml` com BOM (UTF-8 com marca de ordem de
+  bytes). Com BOM o Quarto ignora `body-classes`, a classe `home-page` so chega
+  pelo JavaScript no fim do `<body>` e o bloco de titulo (com a descricao de
+  SEO) pisca antes de sumir.
+- O Quarto marca os `div` aninhados com `page-columns` e aplica a grade de
+  pagina por `body.fullcontent:not(.floating):not(.docked) .page-columns`
+  (especificidade 0-4-1), prendendo os filhos a coluna de leitura (~800 px).
+  O CSS desfaz essa grade em `.column-screen > .column-body` e em
+  `.legal-layout` com `!important` — e limpa tambem o `grid-column` e o `gap`
+  que os filhos herdam, senao o navegador cria trilhas implicitas. Ao criar um
+  wrapper novo dentro de `.column-screen`, conferir a largura real no
+  navegador.
+- O atalho "Entrar" do celular vem de `navbar.tools`, que o Quarto renderiza em
+  `.quarto-navbar-tools`, fora de `.navbar-collapse`. O rotulo e desenhado por
+  CSS (`::after`), porque `tools` so gera icone. No desktop ele fica oculto e
+  vale o item de `navbar.right`.
+- `project.render` e uma lista explicita: arquivos novos na raiz so viram pagina
+  publicada se forem adicionados ali.
 
 ## Arquivos de maior impacto
 

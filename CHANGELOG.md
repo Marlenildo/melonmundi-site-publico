@@ -2,6 +2,185 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.5.1] - 2026-10-08
+### Changed
+- Rodapé: o crédito "Desenvolvido por" passa a mostrar a marca
+  **Marlenildo.online** no lugar da antiga "Marlenildo - Soluções em Curso". O
+  símbolo e o nome vêm de `site-marlenildo` e chegam como um SVG só
+  (`assets/img/logo_marlenildo_online.svg`), com o texto em curvas e o nome em
+  cinza claro (`#868e96`), para o rodapé claro. A altura desce de 28 para 16 px, porque o SVG é
+  recortado rente ao desenho.
+- A marca fica discreta: 16 px de altura, no mesmo peso visual do texto
+  "Desenvolvido por" ao lado.
+- O crédito passa a levar a `https://marlenildo.online`, e não mais ao GitHub.
+- `assets/img/logo_marlenildo.png` sai do repositório e de `resources`.
+
+## [1.5.0] - 2026-09-22
+### Changed
+- Home: "Cursos" passa a se chamar **Capacitação técnica**, deixando claro que a
+  MelonMundi treina equipes nas próprias fazendas e emite certificado — não
+  vende cursos avulsos. Termo ajustado também na descrição de SEO, no destaque
+  do topo, no passo de acesso, no rodapé e no fecho de Quem Somos.
+- Seção de capacitação enxuta: sai a grade com carga horária e os 8 módulos da
+  imersão; ficam só os dois programas atuais (Formação de Monitores em MIPD e
+  Imersão no manejo de melão e melancia) e a regra do certificado.
+- Faixa de números: "8 módulos no curso de imersão" vira "2 programas de
+  capacitação técnica", e o "24/7" passa a explicar que o Acervo fica
+  disponível 24 horas por dia, 7 dias por semana.
+- Cards do ecossistema reordenados: Biblioteca, Simuladores, Aplicativos,
+  Painel analítico, Capacitação técnica e Certificados. O destaque do topo segue
+  a mesma ordem.
+- O card de Simuladores ganha a etiqueta "Em desenvolvimento: AgroMix e
+  AgroFerti", e o card genérico "Novos simuladores" de "O que vem por aí" passa
+  a nomear os dois.
+
+### Fixed
+- Logomarca da página Quem Somos aparecia esticada na vertical: o CSS fixava a
+  largura em 280 px, mas a altura vinha do atributo `height` do HTML. Agora a
+  altura acompanha a largura (`height: auto`) e os atributos refletem o tamanho
+  real da imagem (438 × 394).
+
+## [1.4.1] - 2026-09-13
+### Changed
+- Identificação do controlador corrigida nos três documentos legais. A razão
+  social é **Luis Angel Alvarez Hermoso**, empresário individual (natureza
+  jurídica 213-5), e não "MelonMundi Global Solutions" — este é o nome pelo
+  qual a empresa se apresenta ao público. A Política passa a explicar essa
+  distinção e a registrar a praça (Mossoró/RN).
+- Por ser empresário individual, controlador e encarregado são a mesma pessoa.
+  A Política passa a dizer isso, em vez de apresentá-los como partes distintas.
+- Licenças: a titularidade da marca passa a apontar para o titular do CNPJ, já
+  que "MelonMundi Global Solutions" é nome de marca, não pessoa jurídica.
+
+## [1.4.0] - 2026-09-13
+### Added
+- Política e Termos passam a cobrir **aplicativos instaláveis**, que operam com
+  arquivos no equipamento do usuário — modelo diferente dos simuladores (só
+  sessão) e da formação (registro permanente). Cobre o AgroJornal e os próximos.
+- Seção "Recursos novos e em desenvolvimento" nos dois documentos: um recurso
+  que se encaixe em um modelo já descrito entra coberto desde o lançamento; se
+  tratar dados de forma diferente, o documento é atualizado antes.
+- Licenças: licença de uso dos aplicativos instaláveis e titularidade dos
+  arquivos locais.
+
+### Changed
+- Os documentos deixam de depender de lista fixa de produtos. Os simuladores
+  são descritos por categoria, com os nomes atuais como exemplo — assim novos
+  simuladores não deixam o texto desatualizado.
+- Referências cruzadas passam a citar as seções pelo nome, não pelo número, para
+  não quebrarem a cada inclusão.
+
+***
+
+## [1.3.0] - 2026-09-13
+### Added
+- Política de Privacidade v2.0: identificação do controlador (CNPJ) e do
+  encarregado, matriz controlador/operador para o portal empresarial, seções
+  sobre cursos, matrícula, progresso, avaliação prática, certificados e vínculo
+  empresarial, divulgação da validação pública de certificado, tabela de
+  finalidades e bases legais, tabela de prazos de retenção, direitos do titular
+  completos (incluindo petição à ANPD) e regra de aviso prévio para alterações.
+- Termos de Uso v2.0: encerramento de conta e destino dos dados, cursos e
+  requisitos de conclusão, certificados com validação pública e hipóteses de
+  revogação, deveres da empresa que usa a autonomia do portal empresarial, e
+  aviso prévio para alterações relevantes.
+- Licenças e Créditos v2.0: seções de infraestrutura e distribuição
+  (DigitalOcean, Vercel e Cloudflare/cdnjs) e de marcas de terceiros.
+- `assets/js/cookie-consent-text.js`, que corrige os textos do banner de
+  consentimento.
+
+### Changed
+- Páginas legais passam a exibir a versão do documento no cabeçalho.
+- Tabelas das páginas legais ganham estilo próprio e rolagem horizontal
+  isolada, sem arrastar a página no celular.
+
+### Fixed
+- O banner de cookies afirmava que o site mostra "conteúdo personalizado,
+  anúncios direcionados" — texto embutido na biblioteca do Quarto, que não
+  repassa `title`/`description` de `website.cookie-consent` para o
+  `cookieconsent.run()`. O site não faz publicidade; informar finalidade
+  incorreta compromete o consentimento (LGPD, art. 9º).
+- Política e Termos afirmavam que nenhum dado do usuário era armazenado. Isso
+  vale para os simuladores, mas não para matrículas, progresso, avaliação
+  prática, certificados, vínculo empresarial e trilhas de auditoria, que são
+  persistentes. O texto passa a distinguir as duas situações.
+- Link "Cookie Preferences" no rodapé aparecia em inglês em um site pt-BR.
+
+***
+
+## [1.2.0] - 2026-09-13
+### Added
+- Páginas legais (Política de Privacidade, Termos de Uso, Licenças e Créditos)
+  ganharam faixa de abertura própria, com título, resumo e a data de publicação
+  em destaque, no lugar do bloco de título padrão do Quarto.
+- Índice lateral fixo (`legal-toc.js`) nas páginas legais em telas largas, com
+  destaque da seção em leitura. Em telas estreitas ele não é gerado e o texto
+  ocupa a largura toda.
+- Rodapé reorganizado em três colunas — marca e apresentação, navegação e
+  chamada para o Acervo — sobre faixa clara com fio de destaque no topo, e
+  barra inferior com direitos reservados e a assinatura do desenvolvedor.
+
+### Changed
+- Texto das páginas legais deixou de ficar num cartão estreito: agora é uma
+  coluna de leitura larga, com hierarquia de títulos, listas e trechos de
+  código próprios. No celular usa a largura inteira da tela.
+
+### Fixed
+- O Quarto marca os `div` aninhados com `page-columns` e aplica a grade de
+  página por `body.fullcontent:not(.floating):not(.docked) .page-columns`
+  (especificidade 0-4-1), prendendo o conteúdo à coluna de leitura (~800 px).
+  Era a causa de os textos legais aparecerem espremidos no meio da tela, no
+  desktop e principalmente no celular. A grade agora é desfeita nos wrappers
+  próprios, junto com o `grid-column` e o `gap` herdados.
+- Ordem do rodapé no celular: o Quarto joga a coluna do meio para o fim
+  (`order: 10`), o que deixava a navegação depois da chamada do Acervo.
+- Faixa branca que o Quarto pintava em `.nav-footer`, destoando do resto do
+  rodapé.
+
+***
+
+## [1.1.0] - 2026-09-13
+### Added
+- Home reconstruída para apresentar todo o ecossistema MelonMundi: grade do
+  ecossistema (Biblioteca, Simuladores, Cursos, Aplicativos, Painel Analítico e
+  Certificados), seção da biblioteca técnica (artigos, protocolos e fichas),
+  vitrine dos quatro simuladores, carrossel com telas reais, seção do curso
+  "Do Campo à Decisão", roadmap do que está em desenvolvimento e CTA final.
+- Faixa de números (`.stat-band`) na home e em Quem Somos.
+- Logomarcas e capturas de tela dos simuladores AgroFito, AgroFruta, AgroSolo e
+  AgroIrriga em `assets/img/sim-*`.
+- Atalho "Entrar" fora do menu sanfonado no celular, via `navbar.tools`, ao lado
+  do botão hambúrguer.
+- Quem Somos reformulada: hero próprio, grade de valores, essência, identidade
+  visual e cards do time com foto em proporção fixa.
+- Lista explícita de `project.render` no `_quarto.yml`, evitando que arquivos
+  internos do repositório (AGENTS.md, README.md) virem páginas publicadas.
+- Fallback `<noscript>` para os blocos `.reveal`, garantindo o conteúdo visível
+  sem JavaScript.
+
+### Changed
+- Carrossel (`home-carousel.js`) reescrito: navegação por teclado, arraste
+  touch/mouse, pausa em hover/foco/aba oculta, `aria` nos slides e respeito a
+  `prefers-reduced-motion`.
+- `scroll-reveal.js` passa a usar `rootMargin` (blocos mais altos que a tela
+  também são revelados) e revela tudo de imediato com movimento reduzido.
+- `home-navbar-scroll.js` deixou de duplicar as classes do `<body>`: agora só
+  mede o deslocamento do cabeçalho e alterna `home-at-top`.
+- Folha de estilo reorganizada em seções, com tokens de raio, sombra e
+  espaçamento, botões `.btn-mm` e componentes documentados.
+
+### Fixed
+- Removido o BOM de `index.qmd` e `_quarto.yml`, que impedia o Quarto de aplicar
+  `body-classes`. Era a causa do bloco de título e da descrição de SEO
+  aparecerem por um instante antes de o JavaScript escondê-los.
+- `.column-screen > .column-body` volta a ocupar a largura da tela: o Quarto o
+  prendia à coluna de leitura (~800 px), espremendo as seções institucionais.
+- Eliminada a rolagem horizontal em telas de 360 px em todas as páginas
+  (rodapé do Quarto e quebra de e-mails longos nas páginas legais).
+- Removida a régua que o Bootstrap desenha sob os `h2` das seções.
+
+***
+
 ## [1.0.31] - 2026-05-25
 ### Changed
 - Páginas legais: removidos fechamentos redundantes sobre versão vigente, mantendo a indicação de publicação e vigência no início dos documentos.

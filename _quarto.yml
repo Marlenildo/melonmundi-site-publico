@@ -1,8 +1,17 @@
-﻿project:
+project:
   type: website
   output-dir: docs
+  # Lista explícita: evita que arquivos internos do repositório (AGENTS.md,
+  # README.md) virem páginas publicadas na Vercel.
+  render:
+    - index.qmd
+    - sobre-nos.qmd
+    - politica-de-privacidade.qmd
+    - termos-de-uso.qmd
+    - licenca.qmd
+    - CHANGELOG.md
   resources:
-    - assets/img/logo_marlenildo.png
+    - assets/img/logo_marlenildo_online.svg
 lang: pt-BR
 
 website:
@@ -12,12 +21,16 @@ website:
   favicon: assets/img/favicon.ico
   search: false
   page-navigation: true
+  # Atenção: o Quarto NÃO repassa title/description/labels para a biblioteca de
+  # consentimento — o `cookieconsent.run()` gerado recebe só `language` e
+  # `website_name`. Os textos visíveis vêm de `assets/js/cookie-consent-text.js`.
+  # Manter as chaves abaixo em sincronia com aquele arquivo.
   cookie-consent:
     type: express
     style: simple
     language: pt
     title: "Cookies e privacidade"
-    description: "Este site utiliza cookies essenciais para garantir o funcionamento adequado e melhorar a sua experiência de navegação."
+    description: "Usamos cookies essenciais para manter a sua sessão e o funcionamento do site. Com o seu consentimento, usamos também cookies de medição (Matomo). Não exibimos publicidade."
     accept-label: "Aceitar"
     decline-label: "Recusar"
     learn-more-label: "Saiba mais"
@@ -45,16 +58,23 @@ website:
             href: termos-de-uso.qmd
           - text: "Licenças e Créditos"
             href: licenca.qmd
+    # Atalho "Entrar" exibido fora do menu sanfonado no celular.
+    # No desktop ele fica oculto por CSS e vale o item de `right:`.
+    tools:
+      - text: "Entrar"
+        icon: box-arrow-in-right
+        href: https://acervo.melonmundi.com
     right:
       - text: "Entrar"
-        # href: acervo.qmd
-        # href: http://acervo.melonmundi.local:8000/oauth2/start
         href: https://acervo.melonmundi.com
         icon: box-arrow-in-right
 
   page-footer:
-    right: "Copyright &copy; 2026 MelonMundi - Global Solutions. Todos os direitos reservados."
-    left: "![](assets/img/nova_logomm.png){width=80px}"
+    left: |
+      <div class="footer-brand">
+        <img src="/assets/img/nova_logomm.png" alt="MelonMundi - Global Solutions" class="footer-logo" width="120" height="108">
+        <p class="footer-tagline">Grupo multidisciplinar com dedicação exclusiva às culturas de melão, melancia e abóbora — do planejamento da fazenda à pós-colheita.</p>
+      </div>
     center:
       - text: "Página Inicial"
         href: /index.html
@@ -66,6 +86,12 @@ website:
         href: /termos-de-uso.html
       - text: "Licenças e Créditos"
         href: /licenca.html
+    right: |
+      <div class="footer-cta">
+        <p class="footer-heading">Acervo MelonMundi</p>
+        <p class="footer-cta-text">Biblioteca técnica, simuladores, aplicativos e capacitação reunidos em um único login.</p>
+        <a class="footer-cta-btn" href="https://acervo.melonmundi.com"><i class="fa-solid fa-arrow-right-to-bracket" aria-hidden="true"></i> Entrar no Acervo</a>
+      </div>
 
 format:
   html:
@@ -84,18 +110,25 @@ format:
     page-navigation: true
     include-after-body:
       - text: |
+          <script src="assets/js/cookie-consent-text.js"></script>
+      - text: |
           <script src="assets/js/scroll-reveal.js"></script>
       - text: |
           <script src="assets/js/home-navbar-scroll.js"></script>
       - text: |
           <script src="assets/js/home-carousel.js"></script>
       - text: |
+          <script src="assets/js/legal-toc.js"></script>
+      - text: |
           <template id="footer-credit-template">
             <div class="footer-credit-line">
-              <span class="footer-credit-text">Desenvolvido por</span>
-              <a href="https://github.com/Marlenildo" class="footer-credit-link" aria-label="GitHub de Marlenildo">
-                <img src="assets/img/logo_marlenildo.png" alt="Logo Marlenildo" class="footer-credit-logo">
-              </a>
+              <p class="footer-copyright">&copy; 2026 MelonMundi &ndash; Global Solutions. Todos os direitos reservados.</p>
+              <span class="footer-credit-dev">
+                <span class="footer-credit-text">Desenvolvido por</span>
+                <a href="https://marlenildo.online" class="footer-credit-link" aria-label="Site Marlenildo.online">
+                  <img src="/assets/img/logo_marlenildo_online.svg" alt="Marlenildo.online" class="footer-credit-logo">
+                </a>
+              </span>
             </div>
           </template>
       - text: |
@@ -119,3 +152,5 @@ format:
           <!-- End Matomo Code -->
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      - text: |
+          <noscript><style>.reveal{opacity:1 !important;transform:none !important}</style></noscript>
