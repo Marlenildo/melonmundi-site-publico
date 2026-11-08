@@ -13,7 +13,7 @@ anchor-sections: false
 <p class="section-kicker">Informações</p>
 <h1>Termos de Uso</h1>
 <p class="legal-hero-lead">Condições que regulam o acesso e a utilização do ecossistema MelonMundi: site público, acervo, simuladores, cursos e certificados, portal empresarial, materiais técnicos e serviços de suporte.</p>
-<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Versão 2.0 &mdash; publicada e vigente desde 13 de setembro de 2026</p>
+<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Versão 2.1 &mdash; publicada e vigente desde 8 de novembro de 2026</p>
 </div>
 </div>
 </section>
@@ -28,7 +28,7 @@ Estes Termos de Uso regulam o acesso e a utilização do ecossistema MelonMundi,
 
 Ao acessar ou utilizar qualquer ambiente MelonMundi, você declara que leu, compreendeu e concorda com estes Termos.
 
-Esta versão substitui a de 25 de maio de 2026 e passa a tratar de áreas que não existiam naquela data: cursos, certificados, portal empresarial e aplicativos instaláveis.
+Esta versão substitui a 2.0, de 13 de setembro de 2026, e corrige a descrição dos dados dos simuladores. A 2.0 havia substituído a de 25 de maio de 2026 e passado a tratar de cursos, certificados, portal empresarial e aplicativos instaláveis.
 
 ## 1. Ambientes abrangidos
 
@@ -98,7 +98,7 @@ O usuário pode utilizar os ambientes MelonMundi para consulta, navegação, est
 
 Os simuladores pedem dados técnicos para cálculos, consultas, estimativas ou relatórios.
 
-**Os dados digitados nos simuladores são usados apenas durante a sessão ativa** e não são armazenados pela MelonMundi em banco de dados, arquivos, cookies ou armazenamento do navegador. Relatórios gerados ficam com o usuário.
+**Os dados digitados nos simuladores não são enviados nem armazenados pela MelonMundi.** Em alguns simuladores eles valem só durante a sessão; em outros, como AgroFerti, AgroMix e AgroMeta, ficam guardados no navegador do próprio aparelho do usuário, para ele continuar depois, e só ele tem acesso a eles. Cabe ao usuário apagá-los quando quiser, inclusive em aparelho compartilhado. Relatórios gerados ficam com o usuário. Os detalhes estão na Política de Privacidade.
 
 Alguns simuladores possuem campos de identificação, como empresa, fazenda, local, agrônomo e técnico. Ao preencher esses campos com dados de outras pessoas, o usuário declara ter base legal para isso e assume a responsabilidade correspondente.
 
@@ -236,7 +236,7 @@ Quando um recurso novo exigir condições próprias — por exemplo, licença es
 
 ## 22. Vigência e alterações destes Termos
 
-Esta é a **versão 2.0**, publicada e vigente desde 13 de setembro de 2026. Cada versão indica a data em que passou a valer, no topo da página.
+Esta é a **versão 2.1**, publicada e vigente desde 8 de novembro de 2026, e corrige a descrição dos dados dos simuladores. Substitui a versão 2.0, de 13 de setembro de 2026. Cada versão indica a data em que passou a valer, no topo da página.
 
 Estes Termos podem ser atualizados para refletir mudanças técnicas, legais, operacionais ou comerciais.
 
