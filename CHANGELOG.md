@@ -2,6 +2,23 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.6.0] - 2026-11-08
+### Changed
+- Site só de melão e melancia: a abóbora sai do título, da descrição de SEO, do
+  topo, do rodapé e de Quem Somos, e "cucurbitáceas" vira "melão e melancia".
+  Faixas de números com 2 culturas.
+- Home atualizada com o que já está no Acervo: 7 simuladores (entram AgroFerti,
+  AgroMix e AgroMeta na grade, no carrossel e nos números, com marca e tela
+  copiadas do Acervo); AgroJornal descrito como o aplicativo de comandas
+  eletrônicas que é; Biblioteca com os temas dos artigos, os protocolos além do
+  MIPD, as fichas com planilhas e o Banco de fotos; capacitação com os nomes dos
+  dois programas (MIPD em três níveis e Do Campo à Decisão, em oito módulos).
+- O texto dos simuladores deixa de dizer que nada fica armazenado: AgroFerti,
+  AgroMix e AgroMeta guardam o trabalho no próprio navegador.
+- Sai a seção "O que vem por aí" (AgroJornal, AgroMix e AgroFerti já estão no
+  ar); o Painel analítico, ainda em construção, fica marcado no card do
+  ecossistema. O CSS do roadmap sai junto.
+
 ## [1.5.1] - 2026-10-08
 ### Changed
 - Rodapé: o crédito "Desenvolvido por" passa a mostrar a marca
