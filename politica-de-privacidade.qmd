@@ -13,7 +13,7 @@ anchor-sections: false
 <p class="section-kicker">Informações</p>
 <h1>Política de Privacidade</h1>
 <p class="legal-hero-lead">Como a MelonMundi trata dados pessoais e informações técnicas no site público, no acervo, nos simuladores, nos cursos e certificados, no portal empresarial e nos serviços de autenticação, segurança e analytics.</p>
-<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Versão 2.0 &mdash; publicada e vigente desde 13 de setembro de 2026</p>
+<p class="legal-hero-meta"><i class="fa-regular fa-circle-check" aria-hidden="true"></i> Versão 2.1 &mdash; publicada e vigente desde 8 de novembro de 2026</p>
 </div>
 </div>
 </section>
@@ -28,7 +28,7 @@ Esta Política de Privacidade explica como a MelonMundi trata dados pessoais e i
 
 A MelonMundi adota como referência a Lei Geral de Proteção de Dados Pessoais (LGPD, Lei nº 13.709/2018) e trata dados de forma limitada, proporcional, transparente e compatível com as finalidades informadas aqui.
 
-Esta versão substitui a anterior, de 25 de maio de 2026, e passa a descrever áreas que não existiam naquela data: cursos, matrículas, progresso, avaliação prática, certificados, validação pública de certificado, portal empresarial e aplicativos instaláveis.
+Esta versão substitui a 2.0, de 13 de setembro de 2026, e passa a descrever os simuladores que guardam o trabalho no próprio aparelho de quem usa. A 2.0 havia substituído a de 25 de maio de 2026 e passado a descrever cursos, matrículas, progresso, avaliação prática, certificados, validação pública de certificado, portal empresarial e aplicativos instaláveis.
 
 ## 1. Quem trata os seus dados
 
@@ -98,11 +98,14 @@ A autenticação é operada por infraestrutura baseada em Keycloak, OAuth2 Proxy
 
 ### 4.3. Dados informados nos simuladores
 
-Os simuladores rodam no navegador e pedem dados técnicos para realizar consultas, cálculos, estimativas e relatórios. Hoje são AgroFito, AgroFruta, AgroSolo e AgroIrriga; outros podem ser acrescentados, e esta seção vale para todos eles.
+Os simuladores rodam no navegador e pedem dados técnicos para realizar consultas, cálculos, estimativas e relatórios. Os dados digitados **não são enviados nem gravados nos servidores da MelonMundi**. Conforme o simulador, eles seguem um de dois modelos, e o próprio simulador informa qual é o seu:
 
-**Esses dados são usados apenas durante a sessão ativa.** A MelonMundi não os grava em banco de dados, arquivos, cookies, `localStorage` ou `sessionStorage`. Ao atualizar, fechar ou sair da página, as informações digitadas são descartadas. Relatórios gerados na sessão ficam com você.
+- **Só durante a sessão** — AgroFito, AgroFruta, AgroSolo e AgroIrriga. Os dados são usados enquanto a página está aberta e não são gravados em lugar nenhum, nem no seu navegador. Ao atualizar, fechar ou sair da página, as informações digitadas são descartadas.
+- **Guardados no seu aparelho** — AgroFerti, AgroMix e AgroMeta. Para você continuar o trabalho depois, o que você digita fica salvo no armazenamento do próprio navegador (`localStorage`), **somente no aparelho em que você está usando**. A MelonMundi não recebe esses dados, não tem cópia deles e não consegue lê-los nem recuperá-los. Eles não passam para outro aparelho nem para outro navegador, e outras pessoas da sua empresa não os veem. Você pode apagá-los quando quiser limpando os dados do site no navegador, o que os elimina por completo; os simuladores também têm opções para limpar o que foi preenchido. Trocar de aparelho ou de navegador deixa esses dados para trás no aparelho antigo.
 
-Alguns simuladores possuem campos de identificação, como empresa, fazenda, local, agrônomo e técnico responsável. Se você preencher esses campos com nome de outra pessoa, você é responsável por ter base legal para isso. Como esses dados não são armazenados pela MelonMundi, eles desaparecem ao fim da sessão, permanecendo apenas no relatório que você mesmo baixar.
+Novos simuladores seguem um desses dois modelos. Relatórios e arquivos que você gerar ou baixar ficam com você.
+
+Alguns simuladores possuem campos de identificação, como empresa, fazenda, local, agrônomo e técnico responsável. Se você preencher esses campos com nome de outra pessoa, você é responsável por ter base legal para isso. Esses dados também não são enviados à MelonMundi: desaparecem ao fim da sessão ou ficam apenas no seu aparelho, conforme o modelo do simulador, além do relatório que você mesmo baixar. Em aparelho compartilhado, limpe os dados do site no navegador ao terminar.
 
 ### 4.4. Aplicativos instaláveis
 
@@ -209,6 +212,8 @@ Os cookies essenciais são necessários para o funcionamento do login e do acerv
 
 Você pode bloquear ou apagar cookies no navegador, mas isso pode afetar login, navegação e acesso a áreas protegidas.
 
+Além dos cookies, os simuladores AgroFerti, AgroMix e AgroMeta usam o armazenamento local do navegador para guardar o seu trabalho no seu aparelho, como descrito na seção sobre dados informados nos simuladores. Esse armazenamento não serve para medição nem é lido pela MelonMundi.
+
 ## 7. Validação pública de certificados
 
 Cada certificado emitido recebe um **código de verificação**. Quem possuir esse código pode conferir o certificado em uma página pública, sem precisar de login.
@@ -258,7 +263,8 @@ Nenhum sistema é completamente imune a falhas, ataques ou indisponibilidades. E
 ::: {.legal-table}
 | Categoria | Prazo de retenção |
 |---|---|
-| Dados informados nos simuladores | Apenas durante a sessão; descartados ao sair, atualizar ou fechar a página |
+| Dados informados nos simuladores que funcionam só na sessão | Apenas durante a sessão; descartados ao sair, atualizar ou fechar a página |
+| Dados informados nos simuladores que guardam no seu aparelho | Sob o seu controle, no seu navegador, até você apagar; a MelonMundi não tem acesso nem cópia |
 | Dados guardados no seu dispositivo pelos aplicativos instaláveis | Sob o seu controle; a MelonMundi não tem acesso nem cópia |
 | Dados de conta e autenticação | Enquanto a conta estiver ativa e por até 6 meses após o encerramento, para permitir reativação |
 | Registros de acesso a aplicação | 6 meses, conforme o art. 15 do Marco Civil da Internet (Lei nº 12.965/2014) |
@@ -312,15 +318,15 @@ A MelonMundi não controla as práticas de privacidade desses terceiros. Consult
 
 O ecossistema está em expansão contínua. Novos simuladores, aplicativos, painéis e programas de formação entram em operação periodicamente.
 
-Como regra, um recurso novo se encaixa em um dos modelos já descritos nesta Política — dados apenas de sessão nos simuladores, dados no dispositivo nos aplicativos instaláveis, ou registro permanente na formação e no vínculo empresarial — e passa a ser coberto por ela desde o lançamento, sem necessidade de aviso específico.
+Como regra, um recurso novo se encaixa em um dos modelos já descritos nesta Política — dados apenas de sessão ou guardados só no seu aparelho nos simuladores, dados no dispositivo nos aplicativos instaláveis, ou registro permanente na formação e no vínculo empresarial — e passa a ser coberto por ela desde o lançamento, sem necessidade de aviso específico.
 
-Quando um recurso novo tratar dados de forma **diferente** do que está descrito aqui — por exemplo, passando a armazenar no servidor o que hoje é de sessão, coletando uma categoria de dado ainda não prevista, ou enviando dados a um terceiro que não conste da seção sobre compartilhamento de dados — esta Política será atualizada **antes** do lançamento, e a mudança será comunicada na forma da seção sobre vigência, versões e alterações.
+Quando um recurso novo tratar dados de forma **diferente** do que está descrito aqui — por exemplo, passando a armazenar no servidor o que hoje fica só na sessão ou no seu aparelho, coletando uma categoria de dado ainda não prevista, ou enviando dados a um terceiro que não conste da seção sobre compartilhamento de dados — esta Política será atualizada **antes** do lançamento, e a mudança será comunicada na forma da seção sobre vigência, versões e alterações.
 
 Áreas ainda em construção, sinalizadas como tal no Acervo, podem não coletar dado algum enquanto não forem liberadas.
 
 ## 16. Vigência, versões e alterações
 
-Esta é a **versão 2.0**, publicada e vigente desde 13 de setembro de 2026. Substitui a versão de 25 de maio de 2026.
+Esta é a **versão 2.1**, publicada e vigente desde 8 de novembro de 2026. Substitui a versão 2.0, de 13 de setembro de 2026, que por sua vez substituiu a de 25 de maio de 2026. A 2.1 não cria categoria de dado, finalidade nem terceiro novo: descreve com exatidão os simuladores que guardam o trabalho só no aparelho de quem usa.
 
 Esta Política pode ser atualizada para refletir mudanças legais, técnicas, operacionais ou de segurança. Cada versão indica a data em que passou a valer, no topo da página.
 
