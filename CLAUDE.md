@@ -25,8 +25,10 @@ vira página.
 
 ## Estado atual
 
-- Versão: ver `VERSION` e `CHANGELOG.md` (1.6.0 na `dev`, aguardando o ok do
-  usuário para a `main`, que segue na 1.5.1).
+- Versão: ver `VERSION` e `CHANGELOG.md` (1.6.0 na `dev` e na `main`: PR #12
+  para a `dev` e #13 para a `main`, promovido com o ok do usuário em
+  2026-11-08; deploy de produção da Vercel concluído). O site no ar não foi
+  aberto na sessão (melonmundi.com fora da lista de acesso da nuvem).
 - 1.6.0 (2026-11-08), a pedido do usuário: conteúdo da home e de Quem Somos
   alinhado ao Acervo (7 simuladores, AgroJornal publicado, temas da Biblioteca,
   programas de capacitação) e só melão e melancia, sem abóbora. As imagens
