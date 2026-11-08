@@ -2,6 +2,19 @@
 
 Todas as mudancas relevantes deste projeto serao documentadas neste arquivo.
 
+## [1.6.1] - 2026-11-08
+### Changed
+- Política de Privacidade 2.1 e Termos de Uso 2.1: os simuladores seguem dois
+  modelos — só durante a sessão (AgroFito, AgroFruta, AgroSolo, AgroIrriga) ou
+  guardados no navegador do aparelho de quem usa (AgroFerti, AgroMix,
+  AgroMeta), sem envio nem cópia na MelonMundi, e apagáveis limpando os dados
+  do site no navegador. Ajustados a seção de dados dos simuladores, a
+  de cookies (armazenamento local), a tabela de retenção, a de recursos novos
+  e a de vigência. Conferido no código dos três apps: só `localStorage`, e a
+  política de segurança deles só permite conexão com o próprio endereço.
+- Na home, o texto dos simuladores diz que os dados ficam no aparelho e não
+  são enviados à MelonMundi.
+
 ## [1.6.0] - 2026-11-08
 ### Changed
 - Site só de melão e melancia: a abóbora sai do título, da descrição de SEO, do
